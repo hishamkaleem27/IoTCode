@@ -1,0 +1,13 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPathWin": "C:\\Users\\hisha\\esp\\v5.4.1\\esp-idf",
+  "idf.pythonInstallPath": "C:\\Users\\hisha\\.espressif\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.openOcdConfigs": [
+    "interface/ftdi/esp32_devkitj_v1.cfg",
+    "target/esp32s2.cfg"
+  ],
+  "idf.toolsPathWin": "C:\\Users\\hisha\\.espressif",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s2"
+  }
+}
