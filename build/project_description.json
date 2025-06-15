@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "IoTDeviceCode",
-    "project_version":    "086154d-dirty",
+    "project_version":    "27e3bdb-dirty",
     "project_path":       "C:/Users/hisha/SiblingDevice/Software/IoTCode",
     "idf_path":           "C:/Users/hisha/esp/v5.4.1/esp-idf",
     "build_dir":          "C:/Users/hisha/SiblingDevice/Software/IoTCode/build",
