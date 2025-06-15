@@ -1,0 +1,11 @@
+[0/1] Re-running CMake...
+-- ccache will be used for faster recompilation
+-- Building ESP-IDF components for target esp32s2
+NOTICE: Manifest files have changed, solving dependencies.
+...NOTICE: Updating lock file at C:\Users\hisha\SiblingDevice\Software\IoTCode\dependencies.lock
+NOTICE: Processing 2 dependencies:
+NOTICE: [1/2] espressif/esp_lcd_ili9341 (1.0.0)
+NOTICE: [2/2] idf (5.4.1)
+-- Configuring incomplete, errors occurred!
+FAILED: build.ninja 
+C:\Users\hisha\.espressif\tools\cmake\3.30.2\bin\cmake.exe --regenerate-during-build -SC:\Users\hisha\SiblingDevice\Software\IoTCode -BC:\Users\hisha\SiblingDevice\Software\IoTCode\build

@@ -81,4 +81,13 @@ $<TARGET_FILE:__idf_spiffs>
 $<TARGET_FILE:__idf_touch_element>
 $<TARGET_FILE:__idf_usb>
 $<TARGET_FILE:__idf_wifi_provisioning>
+$<TARGET_FILE:__idf_lvgl__lvgl>
+$<TARGET_FILE:__idf_espressif__esp_lcd_ili9341>
+$<TARGET_FILE:__idf_display>
+$<TARGET_FILE:__idf_RFID>
+$<TARGET_FILE:__idf_joystick>
+$<TARGET_FILE:__idf_codec>
+$<TARGET_FILE:__idf_LED>
+$<TARGET_FILE:__idf_tactile>
+$<TARGET_FILE:__idf_SPI>
 $<TARGET_FILE:__idf_main>

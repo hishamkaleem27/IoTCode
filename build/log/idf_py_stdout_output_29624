@@ -1,0 +1,60 @@
+[1/5] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\hisha\SiblingDevice\Software\IoTCode\build\esp-idf\esptool_py && C:\Users\hisha\.espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/Users/hisha/esp/v5.4.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/hisha/SiblingDevice/Software/IoTCode/build/partition_table/partition-table.bin C:/Users/hisha/SiblingDevice/Software/IoTCode/build/IoTDeviceCode.bin"
+IoTDeviceCode.bin binary size 0x89390 bytes. Smallest app partition is 0x100000 bytes. 0x76c70 bytes (46%) free.
+[2/5] Performing build step for 'bootloader'
+[1/1] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\hisha\SiblingDevice\Software\IoTCode\build\bootloader\esp-idf\esptool_py && C:\Users\hisha\.espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/Users/hisha/esp/v5.4.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Users/hisha/SiblingDevice/Software/IoTCode/build/bootloader/bootloader.bin"
+Bootloader binary size 0x5540 bytes. 0x1ac0 bytes (24%) free.
+[3/5] No install step for 'bootloader'
+[4/5] Completed 'bootloader'
+[4/5] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\hisha\esp\v5.4.1\esp-idf\components\esptool_py && C:\Users\hisha\.espressif\tools\cmake\3.30.2\bin\cmake.exe -D IDF_PATH=C:/Users/hisha/esp/v5.4.1/esp-idf -D SERIAL_TOOL=C:/Users/hisha/.espressif/python_env/idf5.4_py3.11_env/Scripts/python.exe;;C:/Users/hisha/esp/v5.4.1/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32s2 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=no_reset;write_flash;@flash_args -D WORKING_DIRECTORY=C:/Users/hisha/SiblingDevice/Software/IoTCode/build -P C:/Users/hisha/esp/v5.4.1/esp-idf/components/esptool_py/run_serial_tool.cmake"
+esptool.py --chip esp32s2 -p COM8 -b 460800 --before=default_reset --after=no_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 IoTDeviceCode.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.8.1
+Serial port COM8
+Connecting.....
+Chip is ESP32-S2R2 (revision v0.0)
+Features: WiFi, No Embedded Flash, Embedded PSRAM 2MB, ADC and temperature sensor calibration in BLK2 of efuse V2
+Crystal is 40MHz
+MAC: c0:4e:30:44:f1:ee
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00006fff...
+Flash will be erased from 0x00010000 to 0x00099fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+SHA digest in image updated
+Compressed 21824 bytes to 13801...
+Writing at 0x00001000... (100 %)
+Wrote 21824 bytes (13801 compressed) at 0x00001000 in 0.7 seconds (effective 238.7 kbit/s)...
+Hash of data verified.
+Compressed 562064 bytes to 321296...
+Writing at 0x00010000... (5 %)
+Writing at 0x0001b607... (10 %)
+Writing at 0x00025d23... (15 %)
+Writing at 0x0002fba3... (20 %)
+Writing at 0x00035f80... (25 %)
+Writing at 0x0003c0bc... (30 %)
+Writing at 0x00042868... (35 %)
+Writing at 0x0004ae68... (40 %)
+Writing at 0x00050e10... (45 %)
+Writing at 0x00056877... (50 %)
+Writing at 0x0005cb76... (55 %)
+Writing at 0x00062477... (60 %)
+Writing at 0x00068d26... (65 %)
+Writing at 0x0006e473... (70 %)
+Writing at 0x00073dbb... (75 %)
+Writing at 0x00079e39... (80 %)
+Writing at 0x00080466... (85 %)
+Writing at 0x000861f9... (90 %)
+Writing at 0x0008e84e... (95 %)
+Writing at 0x000953ed... (100 %)
+Wrote 562064 bytes (321296 compressed) at 0x00010000 in 7.5 seconds (effective 602.7 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 306.1 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Staying in bootloader.

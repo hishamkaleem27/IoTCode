@@ -1,0 +1,85 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\hisha\SiblingDevice\Software\IoTCode\build\bootloader\esp-idf\esptool_py && C:\Users\hisha\.espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/Users/hisha/esp/v5.4.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Users/hisha/SiblingDevice/Software/IoTCode/build/bootloader/bootloader.bin"
+Bootloader binary size 0x5540 bytes. 0x1ac0 bytes (24%) free.
+[2/10] No install step for 'bootloader'
+[3/10] Completed 'bootloader'
+[4/10] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj
+C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp: In function 'void app_main()':
+C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:94:5: warning: missing initializer for member 'spi_bus_config_t::data4_io_num' [-Wmissing-field-initializers]
+   94 |     };
+      |     ^
+C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:94:5: warning: missing initializer for member 'spi_bus_config_t::data5_io_num' [-Wmissing-field-initializers]
+C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:94:5: warning: missing initializer for member 'spi_bus_config_t::data6_io_num' [-Wmissing-field-initializers]
+C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:94:5: warning: missing initializer for member 'spi_bus_config_t::data7_io_num' [-Wmissing-field-initializers]
+C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:94:5: warning: missing initializer for member 'spi_bus_config_t::data_io_default_level' [-Wmissing-field-initializers]
+C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:94:5: warning: missing initializer for member 'spi_bus_config_t::flags' [-Wmissing-field-initializers]
+C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:94:5: warning: missing initializer for member 'spi_bus_config_t::isr_cpu_id' [-Wmissing-field-initializers]
+C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:94:5: warning: missing initializer for member 'spi_bus_config_t::intr_flags' [-Wmissing-field-initializers]
+C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:126:5: warning: missing initializer for member 'esp_lcd_panel_dev_config_t::data_endian' [-Wmissing-field-initializers]
+  126 |     };
+      |     ^
+C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:126:5: warning: missing initializer for member 'esp_lcd_panel_dev_config_t::flags' [-Wmissing-field-initializers]
+C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:158:5: warning: missing initializer for member 'esp_timer_create_args_t::arg' [-Wmissing-field-initializers]
+  158 |     };
+      |     ^
+C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:158:5: warning: missing initializer for member 'esp_timer_create_args_t::dispatch_method' [-Wmissing-field-initializers]
+C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:158:5: warning: missing initializer for member 'esp_timer_create_args_t::skip_unhandled_events' [-Wmissing-field-initializers]
+[5/10] Linking C static library esp-idf\main\libmain.a
+[6/10] Generating ld/sections.ld
+[7/10] Linking CXX executable IoTDeviceCode.elf
+[8/10] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32s2 image...
+Merged 2 ELF sections
+Successfully created esp32s2 image.
+Generated C:/Users/hisha/SiblingDevice/Software/IoTCode/build/IoTDeviceCode.bin
+[9/10] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\hisha\SiblingDevice\Software\IoTCode\build\esp-idf\esptool_py && C:\Users\hisha\.espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/Users/hisha/esp/v5.4.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/hisha/SiblingDevice/Software/IoTCode/build/partition_table/partition-table.bin C:/Users/hisha/SiblingDevice/Software/IoTCode/build/IoTDeviceCode.bin"
+IoTDeviceCode.bin binary size 0x63b30 bytes. Smallest app partition is 0x100000 bytes. 0x9c4d0 bytes (61%) free.
+[9/10] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\hisha\esp\v5.4.1\esp-idf\components\esptool_py && C:\Users\hisha\.espressif\tools\cmake\3.30.2\bin\cmake.exe -D IDF_PATH=C:/Users/hisha/esp/v5.4.1/esp-idf -D SERIAL_TOOL=C:/Users/hisha/.espressif/python_env/idf5.4_py3.11_env/Scripts/python.exe;;C:/Users/hisha/esp/v5.4.1/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32s2 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=no_reset;write_flash;@flash_args -D WORKING_DIRECTORY=C:/Users/hisha/SiblingDevice/Software/IoTCode/build -P C:/Users/hisha/esp/v5.4.1/esp-idf/components/esptool_py/run_serial_tool.cmake"
+esptool.py --chip esp32s2 -p COM8 -b 460800 --before=default_reset --after=no_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 IoTDeviceCode.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.8.1
+Serial port COM8
+Connecting....
+Chip is ESP32-S2R2 (revision v0.0)
+Features: WiFi, No Embedded Flash, Embedded PSRAM 2MB, ADC and temperature sensor calibration in BLK2 of efuse V2
+Crystal is 40MHz
+MAC: c0:4e:30:44:f1:ee
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00006fff...
+Flash will be erased from 0x00010000 to 0x00073fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+SHA digest in image updated
+Compressed 21824 bytes to 13801...
+Writing at 0x00001000... (100 %)
+Wrote 21824 bytes (13801 compressed) at 0x00001000 in 0.7 seconds (effective 236.4 kbit/s)...
+Hash of data verified.
+Compressed 408368 bytes to 245077...
+Writing at 0x00010000... (6 %)
+Writing at 0x0001af39... (13 %)
+Writing at 0x0002389a... (20 %)
+Writing at 0x000294e7... (26 %)
+Writing at 0x0002fda7... (33 %)
+Writing at 0x00035923... (40 %)
+Writing at 0x0003bcbf... (46 %)
+Writing at 0x00041504... (53 %)
+Writing at 0x0004756f... (60 %)
+Writing at 0x0004d48c... (66 %)
+Writing at 0x00052e3b... (73 %)
+Writing at 0x00058d79... (80 %)
+Writing at 0x0005ef1e... (86 %)
+Writing at 0x00065217... (93 %)
+Writing at 0x0006c6c9... (100 %)
+Wrote 408368 bytes (245077 compressed) at 0x00010000 in 5.8 seconds (effective 566.7 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 378.6 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Staying in bootloader.

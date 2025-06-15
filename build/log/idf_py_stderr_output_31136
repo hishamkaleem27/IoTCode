@@ -1,0 +1,462 @@
+[0;33m--- Warning: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM8 instead...[0m
+[0;33m--- esp-idf-monitor 1.6.2 on \\.\COM8 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/widgets/label/lv_label.c:85
+--- 0x40087b37: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28 (discriminator 1)
+--- 0x400c28ff: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1992: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b1d78: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4008ce32: _lv_inv_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_refr.c:257
+--- 0x400888f9: lv_obj_invalidate_area at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:813 (discriminator 1)
+--- 0x40088931: lv_obj_invalidate at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c:829
+--- 0x400a636d: lv_obj_refresh_ext_draw_size at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_draw.c:308 (discriminator 1)
+--- 0x4008afa6: lv_obj_refresh_style at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_style.c:312
+--- 0x400a59a5: lv_obj_class_init_obj at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/core/lv_obj_class.c:105
+--- 0x4009dcaf: lv_label_create at C:/Users/hisha/SiblingDevice/Software/

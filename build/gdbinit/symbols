@@ -13,8 +13,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file C:/Users/hisha/OneDrive/Documents/SiblingDevice/Software/IoTDeviceCode/build/bootloader/bootloader.elf
+    add-symbol-file C:/Users/hisha/SiblingDevice/Software/IoTCode/build/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file C:/Users/hisha/OneDrive/Documents/SiblingDevice/Software/IoTDeviceCode/build/IoTDeviceCode.elf
+file C:/Users/hisha/SiblingDevice/Software/IoTCode/build/IoTDeviceCode.elf

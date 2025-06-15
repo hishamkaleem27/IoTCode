@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/hisha/OneDrive/Documents/SiblingDevice/Software/IoTDeviceCode/main
+# Install script for directory: C:/Users/hisha/SiblingDevice/Software/IoTCode/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

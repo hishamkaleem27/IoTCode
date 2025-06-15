@@ -1,0 +1,23 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\hisha\SiblingDevice\Software\IoTCode\build\bootloader\esp-idf\esptool_py && C:\Users\hisha\.espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/Users/hisha/esp/v5.4.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Users/hisha/SiblingDevice/Software/IoTCode/build/bootloader/bootloader.bin"
+Bootloader binary size 0x5540 bytes. 0x1ac0 bytes (24%) free.
+[2/9] No install step for 'bootloader'
+[3/9] Completed 'bootloader'
+[4/9] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj
+C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp: In function 'void app_main()':
+C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:53:5: warning: missing initializer for member 'esp_timer_create_args_t::arg' [-Wmissing-field-initializers]
+   53 |     };
+      |     ^
+C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:53:5: warning: missing initializer for member 'esp_timer_create_args_t::dispatch_method' [-Wmissing-field-initializers]
+C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:53:5: warning: missing initializer for member 'esp_timer_create_args_t::skip_unhandled_events' [-Wmissing-field-initializers]
+[5/9] Linking C static library esp-idf\main\libmain.a
+[6/9] Generating ld/sections.ld
+[7/9] Linking CXX executable IoTDeviceCode.elf
+[8/9] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32s2 image...
+Merged 2 ELF sections
+Successfully created esp32s2 image.
+Generated C:/Users/hisha/SiblingDevice/Software/IoTCode/build/IoTDeviceCode.bin
+[9/9] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\hisha\SiblingDevice\Software\IoTCode\build\esp-idf\esptool_py && C:\Users\hisha\.espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/Users/hisha/esp/v5.4.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/hisha/SiblingDevice/Software/IoTCode/build/partition_table/partition-table.bin C:/Users/hisha/SiblingDevice/Software/IoTCode/build/IoTDeviceCode.bin"
+IoTDeviceCode.bin binary size 0x63b70 bytes. Smallest app partition is 0x100000 bytes. 0x9c490 bytes (61%) free.

@@ -10,18 +10,18 @@ if(NOT EXISTS "C:/Users/hisha/esp/v5.4.1/esp-idf/components/bootloader/subprojec
   file(MAKE_DIRECTORY "C:/Users/hisha/esp/v5.4.1/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "C:/Users/hisha/OneDrive/Documents/SiblingDevice/Software/IoTDeviceCode/build/bootloader"
-  "C:/Users/hisha/OneDrive/Documents/SiblingDevice/Software/IoTDeviceCode/build/bootloader-prefix"
-  "C:/Users/hisha/OneDrive/Documents/SiblingDevice/Software/IoTDeviceCode/build/bootloader-prefix/tmp"
-  "C:/Users/hisha/OneDrive/Documents/SiblingDevice/Software/IoTDeviceCode/build/bootloader-prefix/src/bootloader-stamp"
-  "C:/Users/hisha/OneDrive/Documents/SiblingDevice/Software/IoTDeviceCode/build/bootloader-prefix/src"
-  "C:/Users/hisha/OneDrive/Documents/SiblingDevice/Software/IoTDeviceCode/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/hisha/SiblingDevice/Software/IoTCode/build/bootloader"
+  "C:/Users/hisha/SiblingDevice/Software/IoTCode/build/bootloader-prefix"
+  "C:/Users/hisha/SiblingDevice/Software/IoTCode/build/bootloader-prefix/tmp"
+  "C:/Users/hisha/SiblingDevice/Software/IoTCode/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/hisha/SiblingDevice/Software/IoTCode/build/bootloader-prefix/src"
+  "C:/Users/hisha/SiblingDevice/Software/IoTCode/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/hisha/OneDrive/Documents/SiblingDevice/Software/IoTDeviceCode/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/hisha/SiblingDevice/Software/IoTCode/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/hisha/OneDrive/Documents/SiblingDevice/Software/IoTDeviceCode/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Users/hisha/SiblingDevice/Software/IoTCode/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

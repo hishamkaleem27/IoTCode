@@ -1,0 +1,18 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\hisha\SiblingDevice\Software\IoTCode\build\bootloader\esp-idf\esptool_py && C:\Users\hisha\.espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/Users/hisha/esp/v5.4.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Users/hisha/SiblingDevice/Software/IoTCode/build/bootloader/bootloader.bin"
+Bootloader binary size 0x5540 bytes. 0x1ac0 bytes (24%) free.
+[2/10] No install step for 'bootloader'
+[3/10] Completed 'bootloader'
+[4/10] Building C object esp-idf/display/CMakeFiles/__idf_display.dir/toronto.c.obj
+[5/10] Building C object esp-idf/display/CMakeFiles/__idf_display.dir/display.c.obj
+[6/10] Linking C static library esp-idf\display\libdisplay.a
+[7/10] Generating ld/sections.ld
+[8/10] Linking CXX executable IoTDeviceCode.elf
+[9/10] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32s2 image...
+Merged 2 ELF sections
+Successfully created esp32s2 image.
+Generated C:/Users/hisha/SiblingDevice/Software/IoTCode/build/IoTDeviceCode.bin
+[10/10] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\hisha\SiblingDevice\Software\IoTCode\build\esp-idf\esptool_py && C:\Users\hisha\.espressif\python_env\idf5.4_py3.11_env\Scripts\python.exe C:/Users/hisha/esp/v5.4.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/hisha/SiblingDevice/Software/IoTCode/build/partition_table/partition-table.bin C:/Users/hisha/SiblingDevice/Software/IoTCode/build/IoTDeviceCode.bin"
+IoTDeviceCode.bin binary size 0x89360 bytes. Smallest app partition is 0x100000 bytes. 0x76ca0 bytes (46%) free.
