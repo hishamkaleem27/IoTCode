@@ -16,8 +16,8 @@
 
 #define TAG "main"
 
-#define EXAMPLE_LCD_H_RES      320
-#define EXAMPLE_LCD_V_RES      240
+#define LCD_H_RES 320
+#define LCD_V_RES 240
 #define CLOCK_HZ (40 * 1000 * 1000)
 #define LCD_DC GPIO_NUM_15
 #define LCD_RST GPIO_NUM_16
@@ -93,8 +93,8 @@ lv_display_t *init_full_display(void) {
     esp_lcd_panel_disp_on_off(panel_handle, true);
 
     lv_init();
-    lv_display_t *disp = lv_display_create(EXAMPLE_LCD_H_RES, EXAMPLE_LCD_V_RES);
-    size_t buf_size = EXAMPLE_LCD_H_RES * 40 * sizeof(lv_color16_t);
+    lv_display_t *disp = lv_display_create(LCD_H_RES, LCD_V_RES);
+    size_t buf_size = LCD_H_RES * 40 * sizeof(lv_color16_t);
     void *buf1 = heap_caps_malloc(buf_size, MALLOC_CAP_DMA);
     void *buf2 = heap_caps_malloc(buf_size, MALLOC_CAP_DMA);
     memset(buf1, 0, buf_size);
