@@ -853,6 +853,13 @@ C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/espressif__esp_lcd_i
 C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/espressif__esp_lcd_ili9341/CMakeFiles/install.dir
 C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/espressif__esp_lcd_ili9341/CMakeFiles/install/local.dir
 C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/espressif__esp_lcd_ili9341/CMakeFiles/install/strip.dir
+C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/SPI/CMakeFiles/__idf_SPI.dir
+C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/SPI/CMakeFiles/edit_cache.dir
+C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/SPI/CMakeFiles/rebuild_cache.dir
+C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/SPI/CMakeFiles/list_install_components.dir
+C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/SPI/CMakeFiles/install.dir
+C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/SPI/CMakeFiles/install/local.dir
+C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/SPI/CMakeFiles/install/strip.dir
 C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/display/CMakeFiles/__idf_display.dir
 C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/display/CMakeFiles/edit_cache.dir
 C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/display/CMakeFiles/rebuild_cache.dir
@@ -895,13 +902,6 @@ C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/tactile/CMakeFiles/l
 C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/tactile/CMakeFiles/install.dir
 C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/tactile/CMakeFiles/install/local.dir
 C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/tactile/CMakeFiles/install/strip.dir
-C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/SPI/CMakeFiles/__idf_SPI.dir
-C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/SPI/CMakeFiles/edit_cache.dir
-C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/SPI/CMakeFiles/rebuild_cache.dir
-C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/SPI/CMakeFiles/list_install_components.dir
-C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/SPI/CMakeFiles/install.dir
-C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/SPI/CMakeFiles/install/local.dir
-C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/SPI/CMakeFiles/install/strip.dir
 C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/main/CMakeFiles/__idf_main.dir
 C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/main/CMakeFiles/edit_cache.dir
 C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/main/CMakeFiles/rebuild_cache.dir

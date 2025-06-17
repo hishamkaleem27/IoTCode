@@ -1,0 +1,231 @@
+[0;33m--- Warning: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM8 instead...[0m
+[0;33m--- esp-idf-monitor 1.6.2 on \\.\COM8 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x400b1faa: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b2390: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c053: vTaskDelay at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:1588 (discriminator 1)
+--- 0x40087ad5: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:33 (discriminator 1)
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1faa: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b2390: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c053: vTaskDelay at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:1588 (discriminator 1)
+--- 0x40087ad5: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:33 (discriminator 1)
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1faa: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b2390: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c053: vTaskDelay at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:1588 (discriminator 1)
+--- 0x40087ad5: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:33 (discriminator 1)
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1faa: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b2390: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c053: vTaskDelay at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:1588 (discriminator 1)
+--- 0x40087ad5: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:33 (discriminator 1)
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1faa: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b2390: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c053: vTaskDelay at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:1588 (discriminator 1)
+--- 0x40087ad5: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:33 (discriminator 1)
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1faa: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b2390: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c053: vTaskDelay at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:1588 (discriminator 1)
+--- 0x40087ad5: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:33 (discriminator 1)
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1faa: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b2390: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c053: vTaskDelay at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:1588 (discriminator 1)
+--- 0x40087ad5: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:33 (discriminator 1)
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1faa: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b2390: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c053: vTaskDelay at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:1588 (discriminator 1)
+--- 0x40087ad5: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:33 (discriminator 1)
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1faa: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b2390: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c053: vTaskDelay at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:1588 (discriminator 1)
+--- 0x40087ad5: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:33 (discriminator 1)
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1faa: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b2390: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c053: vTaskDelay at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:1588 (discriminator 1)
+--- 0x40087ad5: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:33 (discriminator 1)
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1faa: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b2390: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c053: vTaskDelay at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:1588 (discriminator 1)
+--- 0x40087ad5: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:33 (discriminator 1)
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1faa: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b2390: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c3e6: xTaskGetSchedulerState at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5012
+--- 0x4002634b: lock_acquire_generic at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:126
+--- 0x4002648d: _lock_acquire at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:157
+--- 0x40087ac6: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:30
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1faa: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b2390: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c053: vTaskDelay at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:1588 (discriminator 1)
+--- 0x40087ad5: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:33 (discriminator 1)
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1faa: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b2390: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c053: vTaskDelay at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:1588 (discriminator 1)
+--- 0x40087ad5: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:33 (discriminator 1)
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1faa: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b2390: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c053: vTaskDelay at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:1588 (discriminator 1)
+--- 0x40087ad5: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:33 (discriminator 1)
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1faa: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b2390: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4001a8d1: _xtos_set_intlevel in ROM
+--- 0x4002b27b: vPortClearInterruptMaskFromISR at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40025fec: vPortExitCriticalSafe at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+---  (inlined by) esp_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c:874
+--- 0x40028481: spi_bus_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:675
+--- 0x400b2c56: bg_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:334
+---  (inlined by) req_core at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:360
+--- 0x400b2db5: spi_bus_lock_bg_request at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:783
+--- 0x400b4b92: spi_device_queue_trans at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1235
+--- 0x400b4c4d: spi_device_transmit at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1279
+--- 0x400afa4f: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:77
+--- 0x400afcf4: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:197
+--- 0x400afda9: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:178
+--- 0x400afde5: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:170
+--- 0x400afe1e: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:161
+--- 0x400afe5d: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:156
+--- 0x400aff0d: RFID_InitRead at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:251
+--- 0x40087bfd: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c61d3: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1faa: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b2390: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c053: vTaskDelay at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:1588 (discriminator 1)
+--- 0x40087ad5: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:33 (discriminator 1)
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1faa: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b2390: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c053: vTaskDelay at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:1588 (discriminator 1)
+--- 0x40087ad5: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:33 (discriminator 1)
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1faa: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b2390: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c053: vTaskDelay at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:1588 (discriminator 1)
+--- 0x40087ad5: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:33 (discriminator 1)
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1faa: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b2390: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c053: vTaskDelay at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:1588 (discriminator 1)
+--- 0x40087ad5: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:33 (discriminator 1)
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1faa: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b2390: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c053: vTaskDelay at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:1588 (discriminator 1)
+--- 0x40087ad5: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:33 (discriminator 1)
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1faa: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b2390: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c053: vTaskDelay at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:1588 (discriminator 1)
+--- 0x40087ad5: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:33 (discriminator 1)
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1faa: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b2390: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4001a8d1: _xtos_set_intlevel in ROM
+--- 0x4002b27b: vPortClearInterruptMaskFromISR at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40025fec: vPortExitCriticalSafe at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+---  (inlined by) esp_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c:874
+--- 0x40028481: spi_bus_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:675
+--- 0x400b2c56: bg_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:334
+---  (inlined by) req_core at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:360
+--- 0x400b2db5: spi_bus_lock_bg_request at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:783
+--- 0x400b4b92: spi_device_queue_trans at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1235
+--- 0x400b4c4d: spi_device_transmit at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1279
+--- 0x400afa4f: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:77
+--- 0x400afcf4: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:197
+--- 0x400afda9: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:178
+--- 0x400afde5: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:170
+--- 0x400afe1e: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:161
+--- 0x400afe5d: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:156
+--- 0x400aff0d: RFID_InitRead at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:251
+--- 0x40087bfd: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c61d3: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1faa: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b2390: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4001a8d1: _xtos_set_intlevel in ROM
+--- 0x4002b27b: vPortClearInterruptMaskFromISR at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40025fec: vPortExitCriticalSafe at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+---  (inlined by) esp_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c:874
+--- 0x40028481: spi_bus_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:675
+--- 0x400b2c56: bg_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:334
+---  (inlined by) req_core at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:360
+--- 0x400b2db5: spi_bus_lock_bg_request at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:783
+--- 0x400b4b92: spi_device_queue_trans at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1235
+--- 0x400b4c4d: spi_device_transmit at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1279
+--- 0x400afa4f: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:77
+--- 0x400afcf4: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:197
+--- 0x400afda9: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:178
+--- 0x400afde5: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:170
+--- 0x400afe1e: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:161
+--- 0x400afe5d: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:156
+--- 0x400aff0d: RFID_InitRead at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:251
+--- 0x40087bfd: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c61d3: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1faa: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b2390: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users

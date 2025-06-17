@@ -83,11 +83,11 @@ C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/usb/libusb.a
 C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
 C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/lvgl__lvgl/liblvgl__lvgl.a
 C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/espressif__esp_lcd_ili9341/libespressif__esp_lcd_ili9341.a
+C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/SPI/libSPI.a
 C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/display/libdisplay.a
 C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/RFID/libRFID.a
 C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/joystick/libjoystick.a
 C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/codec/libcodec.a
 C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/LED/libLED.a
 C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/tactile/libtactile.a
-C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/SPI/libSPI.a
 C:/Users/hisha/SiblingDevice/Software/IoTCode/build/esp-idf/main/libmain.a

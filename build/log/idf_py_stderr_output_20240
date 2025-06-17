@@ -1,0 +1,1648 @@
+[0;33m--- Warning: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM8 instead...[0m
+[0;33m--- esp-idf-monitor 1.6.2 on \\.\COM8 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[1;31m--- Error: ClearCommError failed (PermissionError(13, 'Access is denied.', None, 5))[0m
+[0;33m--- Waiting for the device to reconnect[0m[0;33m.[0m[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m.[0m[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m.[0m[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afb75: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:88 (discriminator 1)
+--- 0x400afba8: PCD_Version at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:17
+--- 0x400afcf1: PCD_Init at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:136
+--- 0x40087c19: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:69
+--- 0x400c622b: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;3

@@ -11,6 +11,7 @@ extern "C" {
 #include "esp_log.h"
 
 #include "SPI_Conf.h"
+#include "RFID.h"
 #include "display.h"
 
 static const char *TAG = "main";
@@ -38,6 +39,10 @@ void app_main(void) {
 
     spi_init();
 
+    spi_device_interface_config_t RFIDspi = RFID_SPI();
+    spi_device_handle_t rfid_handle;
+    esp_err_t ret = spi_bus_add_device(SPI_HOST, &RFIDspi, &rfid_handle);
+  
     lv_display_t *disp = init_full_display();
     if (disp == NULL) {
         ESP_LOGE(TAG, "Display initialization failed");
@@ -48,7 +53,7 @@ void app_main(void) {
         .callback = lvgl_tick_inc_cb,
         .name = "lvgl_tick"
     };
-    esp_err_t ret = esp_timer_create(&tick_args, &tick_timer);
+    ret = esp_timer_create(&tick_args, &tick_timer);
     if (ret != ESP_OK) {
         ESP_LOGE(TAG, "Failed to create tick timer: %s", esp_err_to_name(ret));
     }
@@ -61,5 +66,7 @@ void app_main(void) {
     _lock_acquire(&lvgl_api_lock);
     sib_create_image();
     _lock_release(&lvgl_api_lock);
+
+    RFID_InitRead(rfid_handle, TAG);
 } 
 }

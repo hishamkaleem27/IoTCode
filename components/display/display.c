@@ -47,6 +47,7 @@ void sib_create_image(void) {
     lv_obj_align(img, LV_ALIGN_CENTER, 0, 0);
 }
 
+
 lv_display_t *init_full_display(void) {
     ESP_LOGI(TAG, "Initializing display...");
 
@@ -117,5 +118,14 @@ lv_display_t *init_full_display(void) {
     gpio_set_level(BK_LIGHT, 1);
 
     return disp;
+}
+spi_device_interface_config_t LCD_SPI() {
+    spi_device_interface_config_t LCDcfg = {
+        .clock_speed_hz = 40000000,
+        .mode = 0,
+        .spics_io_num = LCD_CS,
+        .queue_size = 7,
+    };
+    return LCDcfg;
 }
 

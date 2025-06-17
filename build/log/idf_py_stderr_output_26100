@@ -1,0 +1,1144 @@
+[0;33m--- Warning: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM8 instead...[0m
+[0;33m--- esp-idf-monitor 1.6.2 on \\.\COM8 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afc55: PCD_ReadRegisterMany at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:114 (discriminator 1)
+--- 0x400afe62: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:289
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afc55: PCD_ReadRegisterMany at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:114 (discriminator 1)
+--- 0x400afe62: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:289
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afc55: PCD_ReadRegisterMany at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:114 (discriminator 1)
+--- 0x400afe62: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:289
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afc55: PCD_ReadRegisterMany at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:114 (discriminator 1)
+--- 0x400afe62: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:289
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afc55: PCD_ReadRegisterMany at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:114 (discriminator 1)
+--- 0x400afe62: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:289
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afc55: PCD_ReadRegisterMany at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:114 (discriminator 1)
+--- 0x400afe62: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:289
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afc55: PCD_ReadRegisterMany at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:114 (discriminator 1)
+--- 0x400afe62: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:289
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afc55: PCD_ReadRegisterMany at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:114 (discriminator 1)
+--- 0x400afe62: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:289
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afc55: PCD_ReadRegisterMany at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:114 (discriminator 1)
+--- 0x400afe62: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:289
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x40025515: panic_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/panic.c:454
+--- 0x4002a419: esp_system_abort at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/esp_system_chip.c:87
+--- 0x40030f49: __assert_func at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/assert.c:80
+--- 0x400afc55: PCD_ReadRegisterMany at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:114 (discriminator 1)
+--- 0x400afe62: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:289
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40025502: esp_restart_noos at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/port/soc/esp32s2/system_internal.c:119
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x40098971: lv_tick_get at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/tick/lv_tick.c:62 (discriminator 1)
+--- 0x40087ad9: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:31
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002648a: _lock_acquire at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:157
+--- 0x40087ad6: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:30
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002648a: _lock_acquire at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:157
+--- 0x40087ad6: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:30
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x40095201: lv_timer_handler at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/misc/lv_timer.c:129 (discriminator 1)
+--- 0x40087ad9: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:31
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4001a8d1: _xtos_set_intlevel in ROM
+--- 0x4002b27b: vPortClearInterruptMaskFromISR at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40025fec: vPortExitCriticalSafe at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+---  (inlined by) esp_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c:874
+--- 0x40028481: spi_bus_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:675
+--- 0x400b2caa: bg_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:334
+---  (inlined by) req_core at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:360
+--- 0x400b2e09: spi_bus_lock_bg_request at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:783
+--- 0x400b4be6: spi_device_queue_trans at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1235
+--- 0x400b4ca1: spi_device_transmit at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1279
+--- 0x400afb83: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:90
+--- 0x400afe00: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:260
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4009894a: lv_tick_get at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/tick/lv_tick.c:50
+--- 0x40098977: lv_tick_elaps at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/tick/lv_tick.c:69
+--- 0x4009520a: lv_timer_handler at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/misc/lv_timer.c:130
+--- 0x40087ad9: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:31
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c053: vTaskDelay at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:1588 (discriminator 1)
+--- 0x40087ae5: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:33 (discriminator 1)
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4001a8d1: _xtos_set_intlevel in ROM
+--- 0x4002b27b: vPortClearInterruptMaskFromISR at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40025fec: vPortExitCriticalSafe at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+---  (inlined by) esp_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c:874
+--- 0x40028481: spi_bus_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:675
+--- 0x400b2caa: bg_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:334
+---  (inlined by) req_core at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:360
+--- 0x400b2e09: spi_bus_lock_bg_request at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:783
+--- 0x400b4be6: spi_device_queue_trans at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1235
+--- 0x400b4ca1: spi_device_transmit at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1279
+--- 0x400afb83: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:90
+--- 0x400afe00: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:260
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002648a: _lock_acquire at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:157
+--- 0x40087ad6: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:30
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c3dc: xTaskGetSchedulerState at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4997
+--- 0x400263c7: lock_release_generic at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:180
+--- 0x400264cd: _lock_release at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:206
+--- 0x40087adf: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:32
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4001a8d1: _xtos_set_intlevel in ROM
+--- 0x4002b27b: vPortClearInterruptMaskFromISR at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40025fec: vPortExitCriticalSafe at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+---  (inlined by) esp_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c:874
+--- 0x40028481: spi_bus_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:675
+--- 0x400b2caa: bg_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:334
+---  (inlined by) req_core at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:360
+--- 0x400b2e09: spi_bus_lock_bg_request at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:783
+--- 0x400b4be6: spi_device_queue_trans at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1235
+--- 0x400b4ca1: spi_device_transmit at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1279
+--- 0x400afb83: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:90
+--- 0x400afe00: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:260
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c3dc: xTaskGetSchedulerState at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4997
+--- 0x400263c7: lock_release_generic at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:180
+--- 0x400264cd: _lock_release at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:206
+--- 0x40087adf: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:32
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x40087ad0: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4001a8d1: _xtos_set_intlevel in ROM
+--- 0x4002b27b: vPortClearInterruptMaskFromISR at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40025fec: vPortExitCriticalSafe at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+---  (inlined by) esp_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c:874
+--- 0x40028481: spi_bus_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:675
+--- 0x400b2caa: bg_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:334
+---  (inlined by) req_core at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:360
+--- 0x400b2e09: spi_bus_lock_bg_request at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:783
+--- 0x400b4be6: spi_device_queue_trans at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1235
+--- 0x400b4ca1: spi_device_transmit at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1279
+--- 0x400afb83: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:90
+--- 0x400afe00: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:260
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002648a: _lock_acquire at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:157
+--- 0x40087ad6: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:30
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x40095201: lv_timer_handler at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/misc/lv_timer.c:129 (discriminator 1)
+--- 0x40087ad9: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:31
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4001a8d1: _xtos_set_intlevel in ROM
+--- 0x4002b27b: vPortClearInterruptMaskFromISR at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40025fec: vPortExitCriticalSafe at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+---  (inlined by) esp_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c:874
+--- 0x40028481: spi_bus_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:675
+--- 0x400b2caa: bg_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:334
+---  (inlined by) req_core at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:360
+--- 0x400b2e09: spi_bus_lock_bg_request at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:783
+--- 0x400b4be6: spi_device_queue_trans at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1235
+--- 0x400b4ca1: spi_device_transmit at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1279
+--- 0x400afb83: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:90
+--- 0x400afe00: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:260
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4009894a: lv_tick_get at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/tick/lv_tick.c:50
+--- 0x40098977: lv_tick_elaps at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/tick/lv_tick.c:69
+--- 0x4009520a: lv_timer_handler at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/misc/lv_timer.c:130
+--- 0x40087ad9: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:31
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4009520a: lv_timer_handler at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/misc/lv_timer.c:130
+--- 0x40087ad9: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:31
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4001a8d1: _xtos_set_intlevel in ROM
+--- 0x4002b27b: vPortClearInterruptMaskFromISR at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40025fec: vPortExitCriticalSafe at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+---  (inlined by) esp_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c:874
+--- 0x40028481: spi_bus_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:675
+--- 0x400b2caa: bg_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:334
+---  (inlined by) req_core at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:360
+--- 0x400b2e09: spi_bus_lock_bg_request at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:783
+--- 0x400b4be6: spi_device_queue_trans at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1235
+--- 0x400b4ca1: spi_device_transmit at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1279
+--- 0x400afb83: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:90
+--- 0x400afe00: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:260
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4009894a: lv_tick_get at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/tick/lv_tick.c:50
+--- 0x40098977: lv_tick_elaps at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/tick/lv_tick.c:69
+--- 0x4009520a: lv_timer_handler at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/misc/lv_timer.c:130
+--- 0x40087ad9: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:31
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4009520a: lv_timer_handler at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/misc/lv_timer.c:130
+--- 0x40087ad9: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:31
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4001a8d1: _xtos_set_intlevel in ROM
+--- 0x4002b27b: vPortClearInterruptMaskFromISR at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40025fec: vPortExitCriticalSafe at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+---  (inlined by) esp_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c:874
+--- 0x40028481: spi_bus_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:675
+--- 0x400b2caa: bg_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:334
+---  (inlined by) req_core at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:360
+--- 0x400b2e09: spi_bus_lock_bg_request at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:783
+--- 0x400b4be6: spi_device_queue_trans at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1235
+--- 0x400b4ca1: spi_device_transmit at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1279
+--- 0x400afb83: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:90
+--- 0x400afe00: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:260
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x40026481: _lock_close at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:106
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c053: vTaskDelay at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:1588 (discriminator 1)
+--- 0x40087ae5: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:33 (discriminator 1)
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4001a8d1: _xtos_set_intlevel in ROM
+--- 0x4002b27b: vPortClearInterruptMaskFromISR at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40025fec: vPortExitCriticalSafe at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+---  (inlined by) esp_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c:874
+--- 0x40028481: spi_bus_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:675
+--- 0x400b2caa: bg_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:334
+---  (inlined by) req_core at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:360
+--- 0x400b2e09: spi_bus_lock_bg_request at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:783
+--- 0x400b4be6: spi_device_queue_trans at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1235
+--- 0x400b4ca1: spi_device_transmit at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1279
+--- 0x400afb83: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:90
+--- 0x400afe00: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:260
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4009894a: lv_tick_get at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/tick/lv_tick.c:50
+--- 0x40098977: lv_tick_elaps at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/tick/lv_tick.c:69
+--- 0x4009520a: lv_timer_handler at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/misc/lv_timer.c:130
+--- 0x40087ad9: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:31
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c3dc: xTaskGetSchedulerState at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4997
+--- 0x400263c7: lock_release_generic at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:180
+--- 0x400264cd: _lock_release at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:206
+--- 0x40087adf: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:32
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4001a8d1: _xtos_set_intlevel in ROM
+--- 0x4002b27b: vPortClearInterruptMaskFromISR at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40025fec: vPortExitCriticalSafe at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+---  (inlined by) esp_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c:874
+--- 0x40028481: spi_bus_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:675
+--- 0x400b2caa: bg_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:334
+---  (inlined by) req_core at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:360
+--- 0x400b2e09: spi_bus_lock_bg_request at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:783
+--- 0x400b4be6: spi_device_queue_trans at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1235
+--- 0x400b4ca1: spi_device_transmit at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1279
+--- 0x400afb83: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:90
+--- 0x400afe00: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:260
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002648a: _lock_acquire at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:157
+--- 0x40087ad6: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:30
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x40098971: lv_tick_get at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/tick/lv_tick.c:62 (discriminator 1)
+--- 0x40087ad9: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:31
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4001a8d1: _xtos_set_intlevel in ROM
+--- 0x4002b27b: vPortClearInterruptMaskFromISR at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40025fec: vPortExitCriticalSafe at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+---  (inlined by) esp_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c:874
+--- 0x40028481: spi_bus_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:675
+--- 0x400b2caa: bg_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:334
+---  (inlined by) req_core at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:360
+--- 0x400b2e09: spi_bus_lock_bg_request at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:783
+--- 0x400b4be6: spi_device_queue_trans at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1235
+--- 0x400b4ca1: spi_device_transmit at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1279
+--- 0x400afb83: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:90
+--- 0x400afe00: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:260
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002648a: _lock_acquire at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:157
+--- 0x40087ad6: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:30
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x40087ae5: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:33 (discriminator 1)
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4001a8d1: _xtos_set_intlevel in ROM
+--- 0x4002b27b: vPortClearInterruptMaskFromISR at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40025fec: vPortExitCriticalSafe at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+---  (inlined by) esp_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c:874
+--- 0x40028481: spi_bus_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:675
+--- 0x400b2caa: bg_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:334
+---  (inlined by) req_core at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:360
+--- 0x400b2e09: spi_bus_lock_bg_request at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:783
+--- 0x400b4be6: spi_device_queue_trans at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1235
+--- 0x400b4ca1: spi_device_transmit at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1279
+--- 0x400afb83: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:90
+--- 0x400afe00: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:260
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002648a: _lock_acquire at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:157
+--- 0x40087ad6: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:30
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x40087ad0: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4001a8d1: _xtos_set_intlevel in ROM
+--- 0x4002b27b: vPortClearInterruptMaskFromISR at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40025fec: vPortExitCriticalSafe at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+---  (inlined by) esp_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c:874
+--- 0x40028481: spi_bus_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:675
+--- 0x400b2caa: bg_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:334
+---  (inlined by) req_core at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:360
+--- 0x400b2e09: spi_bus_lock_bg_request at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:783
+--- 0x400b4be6: spi_device_queue_trans at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1235
+--- 0x400b4ca1: spi_device_transmit at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1279
+--- 0x400afb83: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:90
+--- 0x400afe00: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:260
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x40087ad0: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:28
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c3dc: xTaskGetSchedulerState at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4997
+--- 0x400263c7: lock_release_generic at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:180
+--- 0x400264cd: _lock_release at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:206
+--- 0x40087adf: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:32
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4001a8d1: _xtos_set_intlevel in ROM
+--- 0x4002b27b: vPortClearInterruptMaskFromISR at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40025fec: vPortExitCriticalSafe at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+---  (inlined by) esp_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c:874
+--- 0x40028481: spi_bus_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:675
+--- 0x400b2caa: bg_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:334
+---  (inlined by) req_core at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:360
+--- 0x400b2e09: spi_bus_lock_bg_request at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:783
+--- 0x400b4be6: spi_device_queue_trans at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1235
+--- 0x400b4ca1: spi_device_transmit at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1279
+--- 0x400afb83: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:90
+--- 0x400afe00: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:260
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x40026481: _lock_close at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:106
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c053: vTaskDelay at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:1588 (discriminator 1)
+--- 0x40087ae5: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:33 (discriminator 1)
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4001a8d1: _xtos_set_intlevel in ROM
+--- 0x4002b27b: vPortClearInterruptMaskFromISR at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40025fec: vPortExitCriticalSafe at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+---  (inlined by) esp_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c:874
+--- 0x40028481: spi_bus_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:675
+--- 0x400b2caa: bg_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:334
+---  (inlined by) req_core at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:360
+--- 0x400b2e09: spi_bus_lock_bg_request at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:783
+--- 0x400b4be6: spi_device_queue_trans at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1235
+--- 0x400b4ca1: spi_device_transmit at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1279
+--- 0x400afb83: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:90
+--- 0x400afe00: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:260
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002648a: _lock_acquire at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:157
+--- 0x40087ad6: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:30
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x40026481: _lock_close at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:106
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4001a8d1: _xtos_set_intlevel in ROM
+--- 0x4002b27b: vPortClearInterruptMaskFromISR at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40025fec: vPortExitCriticalSafe at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+---  (inlined by) esp_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c:874
+--- 0x40028481: spi_bus_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:675
+--- 0x400b2caa: bg_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:334
+---  (inlined by) req_core at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:360
+--- 0x400b2e09: spi_bus_lock_bg_request at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:783
+--- 0x400b4be6: spi_device_queue_trans at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1235
+--- 0x400b4ca1: spi_device_transmit at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1279
+--- 0x400afb83: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:90
+--- 0x400afe00: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:260
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x40026481: _lock_close at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:106
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x40098971: lv_tick_get at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/tick/lv_tick.c:62 (discriminator 1)
+--- 0x40087ad9: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:31
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4001a8d1: _xtos_set_intlevel in ROM
+--- 0x4002b27b: vPortClearInterruptMaskFromISR at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40025fec: vPortExitCriticalSafe at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+---  (inlined by) esp_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c:874
+--- 0x40028481: spi_bus_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:675
+--- 0x400b2caa: bg_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:334
+---  (inlined by) req_core at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:360
+--- 0x400b2e09: spi_bus_lock_bg_request at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:783
+--- 0x400b4be6: spi_device_queue_trans at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1235
+--- 0x400b4ca1: spi_device_transmit at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1279
+--- 0x400afb83: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:90
+--- 0x400afe00: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:260
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x40026481: _lock_close at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:106
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4009894a: lv_tick_get at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/tick/lv_tick.c:50
+--- 0x40098977: lv_tick_elaps at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/tick/lv_tick.c:69
+--- 0x4009520a: lv_timer_handler at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/misc/lv_timer.c:130
+--- 0x40087ad9: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:31
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4001a8d1: _xtos_set_intlevel in ROM
+--- 0x4002b27b: vPortClearInterruptMaskFromISR at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40025fec: vPortExitCriticalSafe at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+---  (inlined by) esp_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c:874
+--- 0x40028481: spi_bus_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:675
+--- 0x400b2caa: bg_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:334
+---  (inlined by) req_core at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:360
+--- 0x400b2e09: spi_bus_lock_bg_request at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:783
+--- 0x400b4be6: spi_device_queue_trans at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1235
+--- 0x400b4ca1: spi_device_transmit at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1279
+--- 0x400afb83: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:90
+--- 0x400afe00: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:260
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002648a: _lock_acquire at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:157
+--- 0x40087ad6: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:30
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4009520d: lv_timer_handler at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/misc/lv_timer.c:131
+--- 0x40087ad9: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:31
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4001a8d1: _xtos_set_intlevel in ROM
+--- 0x4002b27b: vPortClearInterruptMaskFromISR at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40025fec: vPortExitCriticalSafe at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+---  (inlined by) esp_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c:874
+--- 0x40028481: spi_bus_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:675
+--- 0x400b2caa: bg_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:334
+---  (inlined by) req_core at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:360
+--- 0x400b2e09: spi_bus_lock_bg_request at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:783
+--- 0x400b4be6: spi_device_queue_trans at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1235
+--- 0x400b4ca1: spi_device_transmit at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1279
+--- 0x400afb83: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:90
+--- 0x400afe00: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:260
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002648a: _lock_acquire at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:157
+--- 0x40087ad6: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:30
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4009894a: lv_tick_get at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/tick/lv_tick.c:50
+--- 0x40098977: lv_tick_elaps at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/tick/lv_tick.c:69
+--- 0x4009520a: lv_timer_handler at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/misc/lv_timer.c:130
+--- 0x40087ad9: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:31
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4001a8d1: _xtos_set_intlevel in ROM
+--- 0x4002b27b: vPortClearInterruptMaskFromISR at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40025fec: vPortExitCriticalSafe at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+---  (inlined by) esp_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c:874
+--- 0x40028481: spi_bus_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:675
+--- 0x400b2caa: bg_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:334
+---  (inlined by) req_core at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:360
+--- 0x400b2e09: spi_bus_lock_bg_request at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:783
+--- 0x400b4be6: spi_device_queue_trans at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1235
+--- 0x400b4ca1: spi_device_transmit at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1279
+--- 0x400afb83: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:90
+--- 0x400afe00: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:260
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x40026481: _lock_close at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:106
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x40098971: lv_tick_get at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/tick/lv_tick.c:62 (discriminator 1)
+--- 0x40087ad9: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:31
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4001a8d1: _xtos_set_intlevel in ROM
+--- 0x4002b27b: vPortClearInterruptMaskFromISR at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40025fec: vPortExitCriticalSafe at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+---  (inlined by) esp_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c:874
+--- 0x40028481: spi_bus_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:675
+--- 0x400b2caa: bg_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:334
+---  (inlined by) req_core at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:360
+--- 0x400b2e09: spi_bus_lock_bg_request at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:783
+--- 0x400b4be6: spi_device_queue_trans at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1235
+--- 0x400b4ca1: spi_device_transmit at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1279
+--- 0x400afb83: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:90
+--- 0x400afe00: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:260
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002648a: _lock_acquire at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:157
+--- 0x40087ad6: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:30
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c3dc: xTaskGetSchedulerState at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4997
+--- 0x400263c7: lock_release_generic at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:180
+--- 0x400264cd: _lock_release at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:206
+--- 0x40087adf: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:32
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4001a8d1: _xtos_set_intlevel in ROM
+--- 0x4002b27b: vPortClearInterruptMaskFromISR at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40025fec: vPortExitCriticalSafe at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+---  (inlined by) esp_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c:874
+--- 0x40028481: spi_bus_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:675
+--- 0x400b2caa: bg_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:334
+---  (inlined by) req_core at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:360
+--- 0x400b2e09: spi_bus_lock_bg_request at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:783
+--- 0x400b4be6: spi_device_queue_trans at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1235
+--- 0x400b4ca1: spi_device_transmit at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1279
+--- 0x400afb83: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:90
+--- 0x400afe00: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:260
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002648a: _lock_acquire at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:157
+--- 0x40087ad6: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:30
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4009894a: lv_tick_get at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/tick/lv_tick.c:50
+--- 0x40098977: lv_tick_elaps at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/tick/lv_tick.c:69
+--- 0x4009520a: lv_timer_handler at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/misc/lv_timer.c:130
+--- 0x40087ad9: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:31
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4001a8d1: _xtos_set_intlevel in ROM
+--- 0x4002b27b: vPortClearInterruptMaskFromISR at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40025fec: vPortExitCriticalSafe at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+---  (inlined by) esp_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c:874
+--- 0x40028481: spi_bus_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:675
+--- 0x400b2caa: bg_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:334
+---  (inlined by) req_core at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:360
+--- 0x400b2e09: spi_bus_lock_bg_request at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:783
+--- 0x400b4be6: spi_device_queue_trans at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1235
+--- 0x400b4ca1: spi_device_transmit at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1279
+--- 0x400afb83: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:90
+--- 0x400afe00: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:260
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c3dc: xTaskGetSchedulerState at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4997
+--- 0x400263c7: lock_release_generic at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:180
+--- 0x400264cd: _lock_release at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:206
+--- 0x40087adf: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:32
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4002c3dc: xTaskGetSchedulerState at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4997
+--- 0x400263c7: lock_release_generic at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:180
+--- 0x400264cd: _lock_release at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:206
+--- 0x40087adf: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:32
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4001a8d1: _xtos_set_intlevel in ROM
+--- 0x4002b27b: vPortClearInterruptMaskFromISR at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40025fec: vPortExitCriticalSafe at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+---  (inlined by) esp_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c:874
+--- 0x40028481: spi_bus_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:675
+--- 0x400b2caa: bg_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:334
+---  (inlined by) req_core at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:360
+--- 0x400b2e09: spi_bus_lock_bg_request at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:783
+--- 0x400b4be6: spi_device_queue_trans at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1235
+--- 0x400b4ca1: spi_device_transmit at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1279
+--- 0x400afb83: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:90
+--- 0x400afe00: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:260
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x40026481: _lock_close at C:/Users/hisha/esp/v5.4.1/esp-idf/components/newlib/locks.c:106
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4009894a: lv_tick_get at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/tick/lv_tick.c:50
+--- 0x40098977: lv_tick_elaps at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/tick/lv_tick.c:69
+--- 0x4009520a: lv_timer_handler at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/misc/lv_timer.c:130
+--- 0x40087ad9: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:31
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4001a8d1: _xtos_set_intlevel in ROM
+--- 0x4002b27b: vPortClearInterruptMaskFromISR at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40025fec: vPortExitCriticalSafe at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+---  (inlined by) esp_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c:874
+--- 0x40028481: spi_bus_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:675
+--- 0x400b2caa: bg_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:334
+---  (inlined by) req_core at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:360
+--- 0x400b2e09: spi_bus_lock_bg_request at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:783
+--- 0x400b4be6: spi_device_queue_trans at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1235
+--- 0x400b4ca1: spi_device_transmit at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1279
+--- 0x400afb83: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:90
+--- 0x400afe00: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:260
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x40098941: lv_tick_inc at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/tick/lv_tick.c:43
+--- 0x4009520a: lv_timer_handler at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/misc/lv_timer.c:130
+--- 0x40087ad9: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:31
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4009894a: lv_tick_get at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/tick/lv_tick.c:50
+--- 0x40098977: lv_tick_elaps at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/tick/lv_tick.c:69
+--- 0x4009520a: lv_timer_handler at C:/Users/hisha/SiblingDevice/Software/IoTCode/managed_components/lvgl__lvgl/src/misc/lv_timer.c:130
+--- 0x40087ad9: lvgl_task at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:31
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/components/xtensa/xtensa_vectors.S:1240
+--- 0x4001a8d1: _xtos_set_intlevel in ROM
+--- 0x4002b27b: vPortClearInterruptMaskFromISR at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:560
+---  (inlined by) vPortExitCritical at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:514
+--- 0x40025fec: vPortExitCriticalSafe at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:596
+---  (inlined by) esp_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/intr_alloc.c:874
+--- 0x40028481: spi_bus_intr_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:675
+--- 0x400b2caa: bg_enable at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:334
+---  (inlined by) req_core at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:360
+--- 0x400b2e09: spi_bus_lock_bg_request at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_hw_support/spi_bus_lock.c:783
+--- 0x400b4be6: spi_device_queue_trans at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1235
+--- 0x400b4ca1: spi_device_transmit at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c:1279
+--- 0x400afb83: PCD_ReadRegister at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:90
+--- 0x400afe00: PCD_CommunicateWithPICC at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:260
+--- 0x400afec1: PCD_TransceiveData at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:218
+--- 0x400afefd: PICC_REQA_or_WUPA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:198
+--- 0x400aff36: PICC_RequestA at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:187
+--- 0x400aff6a: PICC_IsNewCardPresent at C:/Users/hisha/SiblingDevice/Software/IoTCode/components/RFID/RFID.c:182
+--- 0x40087c31: app_main at C:/Users/hisha/SiblingDevice/Software/IoTCode/main/main.cpp:72
+--- 0x400c6227: main_task at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/app_startup.c:208
+--- 0x4002b0cd: vPortTaskWrapper at C:/Users/hisha/esp/v5.4.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400b1ffe: task_wdt_timeout_handling at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+--- 0x400b23e4: task_wdt_isr at C:/Users/hisha/esp/v5.4.1/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+--- 0x400268a5: _xt_lowint1 at C:/Users/hisha/esp/v5.4.1/esp-idf/comp

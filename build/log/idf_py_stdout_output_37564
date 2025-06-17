@@ -1,0 +1,268 @@
+ESP-ROM:esp32s2-rc4-20191025
+Build:Oct 25 2019
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3ffe5110,len:0x1664
+load:0x4004a000,len:0x4
+load:0x4004a004,len:0xb18
+load:0x4004e000,len:0x335c
+entry 0x4004a1c8
+[0;32mI (23) boot: ESP-IDF v5.4.1 2nd stage bootloader[0m
+[0;32mI (24) boot: compile time Jun 12 2025 18:30:20[0m
+[0;32mI (24) boot: chip revision: v0.0[0m
+[0;32mI (24) boot: efuse block revision: v0.2[0m
+[0;32mI (28) boot.esp32s2: SPI Speed      : 80MHz[0m
+[0;32mI (32) boot.esp32s2: SPI Mode       : DIO[0m
+[0;32mI (35) boot.esp32s2: SPI Flash Size : 2MB[0m
+[0;32mI (39) boot: Enabling RNG early entropy source...[0m
+[0;32mI (44) boot: Partition Table:[0m
+[0;32mI (46) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (53) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (59) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (66) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (72) boot: End of partition table[0m
+[0;32mI (75) esp_image: segment 0: paddr=00010020 vaddr=3f000020 size=35e70h (220784) map[0m
+[0;32mI (126) esp_image: segment 1: paddr=00045e98 vaddr=3ff9e010 size=0001ch (    28) load[0m
+[0;32mI (127) esp_image: segment 2: paddr=00045ebc vaddr=3ffc2610 size=01dach (  7596) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00047c70 vaddr=40024000 size=083a8h ( 33704) load[0m
+[0;32mI (146) esp_image: segment 4: paddr=00050020 vaddr=40080020 size=43008h (274440) map[0m
+[0;32mI (200) esp_image: segment 5: paddr=00093030 vaddr=4002c3a8 size=06260h ( 25184) load[0m
+[0;32mI (213) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (213) boot: Disabling RNG early entropy source...[0m
+[0;32mI (223) cache: Instruction cache 	: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (223) cache: Data cache 		: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (238) cpu_start: Unicore app[0m
+[0;32mI (246) cpu_start: Pro cpu start user code[0m
+[0;32mI (246) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (246) app_init: Application information:[0m
+[0;32mI (246) app_init: Project name:     IoTDeviceCode[0m
+[0;32mI (250) app_init: App version:      980c6e5-dirty[0m
+[0;32mI (255) app_init: Compile time:     Jun 15 2025 00:11:13[0m
+[0;32mI (260) app_init: ELF file SHA256:  d33d2e663...[0m
+[0;32mI (264) app_init: ESP-IDF:          v5.4.1-dirty[0m
+[0;32mI (268) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (272) efuse_init: Max chip rev:     v1.99 [0m
+[0;32mI (276) efuse_init: Chip rev:         v0.0[0m
+[0;32mI (280) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (286) heap_init: At 3FFD4DE8 len 00027218 (156 KiB): RAM[0m
+[0;32mI (291) heap_init: At 3FFFC000 len 00003A10 (14 KiB): RAM[0m
+[0;32mI (296) heap_init: At 3FF9E02C len 00001FBC (7 KiB): RTCRAM[0m
+[0;32mI (303) spi_flash: detected chip: generic[0m
+[0;32mI (305) spi_flash: flash io: dio[0m
+[0;33mW (308) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (321) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) main: Starting app_main[0m
+[0;32mI (321) display: Initializing display...[0m
+[0;32mI (331) gpio: GPIO[7]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (341) gpio: GPIO[15]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (341) gpio: GPIO[16]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (351) ili9341: LCD panel create success, version: 2.0.0[0m
+[0;32mI (531) main: Creating LVGL label[0m
+[0;32mI (531) main_task: Returned from app_main()[0m
+[0;32mI (731) main: LVGL Tick: 100[0m
+[0;32mI (931) main: LVGL Tick: 200[0m
+[0;32mI (1131) main: LVGL Tick: 300[0m
+[0;32mI (1331) main: LVGL Tick: 400[0m
+[0;32mI (1531) main: LVGL Tick: 500[0m
+[0;32mI (1731) main: LVGL Tick: 600[0m
+[0;32mI (1931) main: LVGL Tick: 700[0m
+[0;32mI (2131) main: LVGL Tick: 800[0m
+[0;32mI (2331) main: LVGL Tick: 900[0m
+[0;32mI (2531) main: LVGL Tick: 1000[0m
+[0;32mI (2731) main: LVGL Tick: 1100[0m
+[0;32mI (2931) main: LVGL Tick: 1200[0m
+[0;32mI (3131) main: LVGL Tick: 1300[0m
+[0;32mI (3331) main: LVGL Tick: 1400[0m
+[0;32mI (3531) main: LVGL Tick: 1500[0m
+[0;32mI (3731) main: LVGL Tick: 1600[0m
+ESP-ROM:esp32s2-rc4-20191025
+Build:Oct 25 2019
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3ffe5110,len:0x1664
+load:0x4004a000,len:0x4
+load:0x4004a004,len:0xb18
+load:0x4004e000,len:0x335c
+entry 0x4004a1c8
+[0;32mI (23) boot: ESP-IDF v5.4.1 2nd stage bootloader[0m
+[0;32mI (24) boot: compile time Jun 12 2025 18:30:20[0m
+[0;32mI (24) boot: chip revision: v0.0[0m
+[0;32mI (24) boot: efuse block revision: v0.2[0m
+[0;32mI (28) boot.esp32s2: SPI Speed      : 80MHz[0m
+[0;32mI (32) boot.esp32s2: SPI Mode       : DIO[0m
+[0;32mI (35) boot.esp32s2: SPI Flash Size : 2MB[0m
+[0;32mI (39) boot: Enabling RNG early entropy source...[0m
+[0;32mI (44) boot: Partition Table:[0m
+[0;32mI (46) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (53) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (59) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (66) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (72) boot: End of partition table[0m
+[0;32mI (75) esp_image: segment 0: paddr=00010020 vaddr=3f000020 size=35e70h (220784) map[0m
+[0;32mI (126) esp_image: segment 1: paddr=00045e98 vaddr=3ff9e010 size=0001ch (    28) load[0m
+[0;32mI (127) esp_image: segment 2: paddr=00045ebc vaddr=3ffc2610 size=01dach (  7596) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00047c70 vaddr=40024000 size=083a8h ( 33704) load[0m
+[0;32mI (146) esp_image: segment 4: paddr=00050020 vaddr=40080020 size=43008h (274440) map[0m
+[0;32mI (200) esp_image: segment 5: paddr=00093030 vaddr=4002c3a8 size=06260h ( 25184) load[0m
+[0;32mI (213) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (213) boot: Disabling RNG early entropy source...[0m
+[0;32mI (223) cache: Instruction cache 	: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (223) cache: Data cache 		: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (238) cpu_start: Unicore app[0m
+[0;32mI (246) cpu_start: Pro cpu start user code[0m
+[0;32mI (246) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (246) app_init: Application information:[0m
+[0;32mI (246) app_init: Project name:     IoTDeviceCode[0m
+[0;32mI (250) app_init: App version:      980c6e5-dirty[0m
+[0;32mI (255) app_init: Compile time:     Jun 15 2025 00:11:13[0m
+[0;32mI (260) app_init: ELF file SHA256:  d33d2e663...[0m
+[0;32mI (264) app_init: ESP-IDF:          v5.4.1-dirty[0m
+[0;32mI (268) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (272) efuse_init: Max chip rev:     v1.99 [0m
+[0;32mI (276) efuse_init: Chip rev:         v0.0[0m
+[0;32mI (280) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (286) heap_init: At 3FFD4DE8 len 00027218 (156 KiB): RAM[0m
+[0;32mI (291) heap_init: At 3FFFC000 len 00003A10 (14 KiB): RAM[0m
+[0;32mI (296) heap_init: At 3FF9E02C len 00001FBC (7 KiB): RTCRAM[0m
+[0;32mI (303) spi_flash: detected chip: generic[0m
+[0;32mI (306) spi_flash: flash io: dio[0m
+[0;33mW (308) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (321) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) main: Starting app_main[0m
+[0;32mI (321) display: Initializing display...[0m
+[0;32mI (331) gpio: GPIO[7]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (341) gpio: GPIO[15]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (341) gpio: GPIO[16]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (351) ili9341: LCD panel create success, version: 2.0.0[0m
+[0;32mI (531) main: Creating LVGL label[0m
+[0;32mI (531) main_task: Returned from app_main()[0m
+[0;32mI (731) main: LVGL Tick: 100[0m
+ESP-ROM:esp32s2-rc4-20191025
+Build:Oct 25 2019
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3ffe5110,len:0x1664
+load:0x4004a000,len:0x4
+load:0x4004a004,len:0xb18
+load:0x4004e000,len:0x335c
+entry 0x4004a1c8
+[0;32mI (23) boot: ESP-IDF v5.4.1 2nd stage bootloader[0m
+[0;32mI (24) boot: compile time Jun 12 2025 18:30:20[0m
+[0;32mI (24) boot: chip revision: v0.0[0m
+[0;32mI (24) boot: efuse block revision: v0.2[0m
+[0;32mI (28) boot.esp32s2: SPI Speed      : 80MHz[0m
+[0;32mI (32) boot.esp32s2: SPI Mode       : DIO[0m
+[0;32mI (35) boot.esp32s2: SPI Flash Size : 2MB[0m
+[0;32mI (39) boot: Enabling RNG early entropy source...[0m
+[0;32mI (44) boot: Partition Table:[0m
+[0;32mI (46) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (53) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (59) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (66) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (72) boot: End of partition table[0m
+[0;32mI (75) esp_image: segment 0: paddr=00010020 vaddr=3f000020 size=35e70h (220784) map[0m
+[0;32mI (126) esp_image: segment 1: paddr=00045e98 vaddr=3ff9e010 size=0001ch (    28) load[0m
+[0;32mI (127) esp_image: segment 2: paddr=00045ebc vaddr=3ffc2610 size=01dach (  7596) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00047c70 vaddr=40024000 size=083a8h ( 33704) load[0m
+[0;32mI (146) esp_image: segment 4: paddr=00050020 vaddr=40080020 size=43008h (274440) map[0m
+[0;32mI (200) esp_image: segment 5: paddr=00093030 vaddr=4002c3a8 size=06260h ( 25184) load[0m
+[0;32mI (213) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (213) boot: Disabling RNG early entropy source...[0m
+[0;32mI (223) cache: Instruction cache 	: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (223) cache: Data cache 		: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (238) cpu_start: Unicore app[0m
+[0;32mI (246) cpu_start: Pro cpu start user code[0m
+[0;32mI (246) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (246) app_init: Application information:[0m
+[0;32mI (246) app_init: Project name:     IoTDeviceCode[0m
+[0;32mI (250) app_init: App version:      980c6e5-dirty[0m
+[0;32mI (255) app_init: Compile time:     Jun 15 2025 00:11:13[0m
+[0;32mI (260) app_init: ELF file SHA256:  d33d2e663...[0m
+[0;32mI (264) app_init: ESP-IDF:          v5.4.1-dirty[0m
+[0;32mI (268) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (272) efuse_init: Max chip rev:     v1.99 [0m
+[0;32mI (276) efuse_init: Chip rev:         v0.0[0m
+[0;32mI (280) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (286) heap_init: At 3FFD4DE8 len 00027218 (156 KiB): RAM[0m
+[0;32mI (291) heap_init: At 3FFFC000 len 00003A10 (14 KiB): RAM[0m
+[0;32mI (296) heap_init: At 3FF9E02C len 00001FBC (7 KiB): RTCRAM[0m
+[0;32mI (303) spi_flash: detected chip: generic[0m
+[0;32mI (306) spi_flash: flash io: dio[0m
+[0;33mW (308) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (321) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) main: Starting app_main[0m
+[0;32mI (321) display: Initializing display...[0m
+[0;32mI (331) gpio: GPIO[7]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (341) gpio: GPIO[15]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (341) gpio: GPIO[16]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (351) ili9341: LCD panel create success, version: 2.0.0[0m
+[0;32mI (531) main: Creating LVGL label[0m
+[0;32mI (531) main_task: Returned from app_main()[0m
+[0;32mI (731) main: LVGL Tick: 100[0m
+[0;32mI (931) main: LVGL Tick: 200[0m
+ESP-ROM:esp32s2-rc4-20191025
+Build:Oct 25 2019
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3ffe5110,len:0x1664
+load:0x4004a000,len:0x4
+load:0x4004a004,len:0xb18
+load:0x4004e000,len:0x335c
+entry 0x4004a1c8
+[0;32mI (23) boot: ESP-IDF v5.4.1 2nd stage bootloader[0m
+[0;32mI (24) boot: compile time Jun 12 2025 18:30:20[0m
+[0;32mI (24) boot: chip revision: v0.0[0m
+[0;32mI (24) boot: efuse block revision: v0.2[0m
+[0;32mI (28) boot.esp32s2: SPI Speed      : 80MHz[0m
+[0;32mI (32) boot.esp32s2: SPI Mode       : DIO[0m
+[0;32mI (35) boot.esp32s2: SPI Flash Size : 2MB[0m
+[0;32mI (39) boot: Enabling RNG early entropy source...[0m
+[0;32mI (44) boot: Partition Table:[0m
+[0;32mI (46) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (53) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (59) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (66) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (72) boot: End of partition table[0m
+[0;32mI (75) esp_image: segment 0: paddr=00010020 vaddr=3f000020 size=35e70h (220784) map[0m
+[0;32mI (126) esp_image: segment 1: paddr=00045e98 vaddr=3ff9e010 size=0001ch (    28) load[0m
+[0;32mI (127) esp_image: segment 2: paddr=00045ebc vaddr=3ffc2610 size=01dach (  7596) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00047c70 vaddr=40024000 size=083a8h ( 33704) load[0m
+[0;32mI (146) esp_image: segment 4: paddr=00050020 vaddr=40080020 size=43008h (274440) map[0m
+[0;32mI (200) esp_image: segment 5: paddr=00093030 vaddr=4002c3a8 size=06260h ( 25184) load[0m
+[0;32mI (213) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (213) boot: Disabling RNG early entropy source...[0m
+[0;32mI (223) cache: Instruction cache 	: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (223) cache: Data cache 		: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (238) cpu_start: Unicore app[0m
+[0;32mI (246) cpu_start: Pro cpu start user code[0m
+[0;32mI (246) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (246) app_init: Application information:[0m
+[0;32mI (246) app_init: Project name:     IoTDeviceCode[0m
+[0;32mI (250) app_init: App version:      980c6e5-dirty[0m
+[0;32mI (255) app_init: Compile time:     Jun 15 2025 00:11:13[0m
+[0;32mI (260) app_init: ELF file SHA256:  d33d2e663...[0m
+[0;32mI (264) app_init: ESP-IDF:          v5.4.1-dirty[0m
+[0;32mI (268) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (272) efuse_init: Max chip rev:     v1.99 [0m
+[0;32mI (276) efuse_init: Chip rev:         v0.0[0m
+[0;32mI (280) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (286) heap_init: At 3FFD4DE8 len 00027218 (156 KiB): RAM[0m
+[0;32mI (291) heap_init: At 3FFFC000 len 00003A10 (14 KiB): RAM[0m
+[0;32mI (296) heap_init: At 3FF9E02C len 00001FBC (7 KiB): RTCRAM[0m
+[0;32mI (303) spi_flash: detected chip: generic[0m
+[0;32mI (306) spi_flash: flash io: dio[0m
+[0;33mW (308) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (321) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) main: Starting app_main[0m
+[0;32mI (321) display: Initializing display...[0m
+[0;32mI (331) gpio: GPIO[7]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (341) gpio: GPIO[15]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (341) gpio: GPIO[16]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pu

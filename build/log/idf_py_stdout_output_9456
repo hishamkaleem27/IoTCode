@@ -1,0 +1,1110 @@
+ESP-ROM:esp32s2-rc4-20191025
+Build:Oct 25 2019
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3ffe5110,len:0x1664
+load:0x4004a000,len:0x4
+load:0x4004a004,len:0xb18
+load:0x4004e000,len:0x335c
+entry 0x4004a1c8
+[0;32mI (23) boot: ESP-IDF v5.4.1 2nd stage bootloader[0m
+[0;32mI (24) boot: compile time Jun 12 2025 18:30:20[0m
+[0;32mI (24) boot: chip revision: v0.0[0m
+[0;32mI (24) boot: efuse block revision: v0.2[0m
+[0;32mI (28) boot.esp32s2: SPI Speed      : 80MHz[0m
+[0;32mI (32) boot.esp32s2: SPI Mode       : DIO[0m
+[0;32mI (35) boot.esp32s2: SPI Flash Size : 2MB[0m
+[0;32mI (39) boot: Enabling RNG early entropy source...[0m
+[0;32mI (44) boot: Partition Table:[0m
+[0;32mI (46) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (53) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (59) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (66) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (72) boot: End of partition table[0m
+[0;32mI (75) esp_image: segment 0: paddr=00010020 vaddr=3f000020 size=36290h (221840) map[0m
+[0;32mI (126) esp_image: segment 1: paddr=000462b8 vaddr=3ff9e010 size=0001ch (    28) load[0m
+[0;32mI (127) esp_image: segment 2: paddr=000462dc vaddr=3ffc2610 size=01dach (  7596) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00048090 vaddr=40024000 size=07f88h ( 32648) load[0m
+[0;32mI (146) esp_image: segment 4: paddr=00050020 vaddr=40080020 size=468f8h (289016) map[0m
+[0;32mI (203) esp_image: segment 5: paddr=00096920 vaddr=4002bf88 size=06680h ( 26240) load[0m
+[0;32mI (216) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (216) boot: Disabling RNG early entropy source...[0m
+[0;32mI (226) cache: Instruction cache 	: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (226) cache: Data cache 		: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (241) cpu_start: Unicore app[0m
+[0;32mI (249) cpu_start: Pro cpu start user code[0m
+[0;32mI (249) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (249) app_init: Application information:[0m
+[0;32mI (249) app_init: Project name:     IoTDeviceCode[0m
+[0;32mI (253) app_init: App version:      980c6e5-dirty[0m
+[0;32mI (258) app_init: Compile time:     Jun 15 2025 00:11:13[0m
+[0;32mI (263) app_init: ELF file SHA256:  8e6c1d05a...[0m
+[0;32mI (267) app_init: ESP-IDF:          v5.4.1-dirty[0m
+[0;32mI (271) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (275) efuse_init: Max chip rev:     v1.99 [0m
+[0;32mI (279) efuse_init: Chip rev:         v0.0[0m
+[0;32mI (283) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (289) heap_init: At 3FFD4DE8 len 00027218 (156 KiB): RAM[0m
+[0;32mI (294) heap_init: At 3FFFC000 len 00003A10 (14 KiB): RAM[0m
+[0;32mI (300) heap_init: At 3FF9E02C len 00001FBC (7 KiB): RTCRAM[0m
+[0;32mI (306) spi_flash: detected chip: generic[0m
+[0;32mI (309) spi_flash: flash io: dio[0m
+[0;33mW (312) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (324) main_task: Started on CPU0[0m
+[0;32mI (324) main_task: Calling app_main()[0m
+[0;32mI (324) main: Starting app_main[0m
+[0;32mI (324) display: Initializing display...[0m
+[0;32mI (334) gpio: GPIO[7]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (344) gpio: GPIO[15]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (344) gpio: GPIO[16]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (354) ili9341: LCD panel create success, version: 2.0.0[0m
+[0;32mI (534) main: Creating LVGL label[0m
+MFRC522 Version 2 detected.
+Antenna turned on.
+Initialization successful.
+[0;32mI (634) main: RFID initialized[0m
+[0;32mI (734) main: LVGL Tick: 100[0m
+[0;32mI (934) main: LVGL Tick: 200[0m
+[0;32mI (1134) main: LVGL Tick: 300[0m
+[0;32mI (1334) main: LVGL Tick: 400[0m
+[0;32mI (1534) main: LVGL Tick: 500[0m
+[0;32mI (1734) main: LVGL Tick: 600[0m
+[0;32mI (1934) main: LVGL Tick: 700[0m
+[0;32mI (2134) main: LVGL Tick: 800[0m
+[0;32mI (2334) main: LVGL Tick: 900[0m
+[0;32mI (2534) main: LVGL Tick: 1000[0m
+[0;32mI (2734) main: LVGL Tick: 1100[0m
+[0;32mI (2934) main: LVGL Tick: 1200[0m
+[0;32mI (3134) main: LVGL Tick: 1300[0m
+[0;32mI (3334) main: LVGL Tick: 1400[0m
+[0;32mI (3534) main: LVGL Tick: 1500[0m
+[0;32mI (3734) main: LVGL Tick: 1600[0m
+[0;32mI (3934) main: LVGL Tick: 1700[0m
+[0;32mI (4134) main: LVGL Tick: 1800[0m
+[0;32mI (4134) main: Card UID: B600000000[0m
+[0;32mI (4334) main: LVGL Tick: 1900[0m
+[0;32mI (4534) main: LVGL Tick: 2000[0m
+[0;32mI (4734) main: LVGL Tick: 2100[0m
+[0;32mI (4934) main: LVGL Tick: 2200[0m
+[0;32mI (5134) main: LVGL Tick: 2300[0m
+[0;32mI (5334) main: LVGL Tick: 2400[0m
+[1;31mE (5524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (5524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (5524) task_wdt: Tasks currently running:[0m
+[1;31mE (5524) task_wdt: CPU 0: lvgl_task[0m
+[1;31mE (5524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4002ADF2:0x3FFE6520 0x400263A4:0x3FFE6560 0x4002648D:0x3FFE6590 0x40087ACA:0x3FFE65B0 0x4002B0CD:0x3FFE65D0
+
+[0;32mI (5564) main: LVGL Tick: 2500[0m
+[0;32mI (5734) main: LVGL Tick: 2600[0m
+[0;32mI (5934) main: LVGL Tick: 2700[0m
+[0;32mI (6134) main: LVGL Tick: 2800[0m
+[0;32mI (6334) main: LVGL Tick: 2900[0m
+[0;32mI (6534) main: LVGL Tick: 3000[0m
+[0;32mI (6734) main: LVGL Tick: 3100[0m
+[0;32mI (6934) main: LVGL Tick: 3200[0m
+[0;32mI (7134) main: LVGL Tick: 3300[0m
+[0;32mI (7334) main: LVGL Tick: 3400[0m
+[0;32mI (7534) main: LVGL Tick: 3500[0m
+[0;32mI (7734) main: LVGL Tick: 3600[0m
+[0;32mI (7934) main: LVGL Tick: 3700[0m
+[0;32mI (8134) main: LVGL Tick: 3800[0m
+[0;32mI (8334) main: LVGL Tick: 3900[0m
+[0;32mI (8534) main: LVGL Tick: 4000[0m
+[0;32mI (8734) main: LVGL Tick: 4100[0m
+[0;32mI (8934) main: LVGL Tick: 4200[0m
+[0;32mI (9134) main: LVGL Tick: 4300[0m
+[0;32mI (9334) main: LVGL Tick: 4400[0m
+[0;32mI (9534) main: LVGL Tick: 4500[0m
+[0;32mI (9734) main: LVGL Tick: 4600[0m
+[0;32mI (9934) main: LVGL Tick: 4700[0m
+[0;32mI (10134) main: LVGL Tick: 4800[0m
+[0;32mI (10334) main: LVGL Tick: 4900[0m
+[1;31mE (10524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (10524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (10524) task_wdt: Tasks currently running:[0m
+[1;31mE (10524) task_wdt: CPU 0: lvgl_task[0m
+[1;31mE (10524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4001A8D1:0x3FFE64F0 0x4002B27B:0x3FFE6500 0x4002AE84:0x3FFE6520 0x400263A4:0x3FFE6560 0x4002648D:0x3FFE6590 0x40087ACA:0x3FFE65B0 0x4002B0CD:0x3FFE65D0
+
+[0;32mI (10564) main: LVGL Tick: 5000[0m
+[0;32mI (10734) main: LVGL Tick: 5100[0m
+[0;32mI (10934) main: LVGL Tick: 5200[0m
+[0;32mI (11134) main: LVGL Tick: 5300[0m
+[0;32mI (11334) main: LVGL Tick: 5400[0m
+[0;32mI (11534) main: LVGL Tick: 5500[0m
+[0;32mI (11734) main: LVGL Tick: 5600[0m
+[0;32mI (11934) main: LVGL Tick: 5700[0m
+[0;32mI (12134) main: LVGL Tick: 5800[0m
+[0;32mI (12334) main: LVGL Tick: 5900[0m
+[0;32mI (12534) main: LVGL Tick: 6000[0m
+[0;32mI (12734) main: LVGL Tick: 6100[0m
+[0;32mI (12824) main: Card UID: B600000000[0m
+[0;32mI (12934) main: LVGL Tick: 6200[0m
+[0;32mI (13134) main: LVGL Tick: 6300[0m
+[0;32mI (13334) main: LVGL Tick: 6400[0m
+[0;32mI (13534) main: LVGL Tick: 6500[0m
+[0;32mI (13734) main: LVGL Tick: 6600[0m
+[0;32mI (13934) main: LVGL Tick: 6700[0m
+[0;32mI (14134) main: LVGL Tick: 6800[0m
+[0;32mI (14334) main: LVGL Tick: 6900[0m
+[0;32mI (14464) main: Card UID: B600000000[0m
+[0;32mI (14534) main: LVGL Tick: 7000[0m
+[0;32mI (14734) main: LVGL Tick: 7100[0m
+[0;32mI (14934) main: LVGL Tick: 7200[0m
+[0;32mI (15134) main: LVGL Tick: 7300[0m
+[0;32mI (15334) main: LVGL Tick: 7400[0m
+[1;31mE (15524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (15524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (15524) task_wdt: Tasks currently running:[0m
+[1;31mE (15524) task_wdt: CPU 0: lvgl_task[0m
+[1;31mE (15524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4001A8D1:0x3FFE64F0 0x4002B27B:0x3FFE6500 0x4002AE84:0x3FFE6520 0x400263A4:0x3FFE6560 0x4002648D:0x3FFE6590 0x40087ACA:0x3FFE65B0 0x4002B0CD:0x3FFE65D0
+
+[0;32mI (15564) main: LVGL Tick: 7500[0m
+[0;32mI (15664) main: Card UID: B600000000[0m
+[0;32mI (15734) main: LVGL Tick: 7600[0m
+[0;32mI (15934) main: LVGL Tick: 7700[0m
+[0;32mI (16134) main: LVGL Tick: 7800[0m
+[0;32mI (16334) main: LVGL Tick: 7900[0m
+[0;32mI (16534) main: LVGL Tick: 8000[0m
+[0;32mI (16734) main: LVGL Tick: 8100[0m
+[0;32mI (16934) main: LVGL Tick: 8200[0m
+[0;32mI (17134) main: LVGL Tick: 8300[0m
+[0;32mI (17334) main: LVGL Tick: 8400[0m
+[0;32mI (17534) main: LVGL Tick: 8500[0m
+[0;32mI (17734) main: LVGL Tick: 8600[0m
+[0;32mI (17934) main: LVGL Tick: 8700[0m
+[0;32mI (18134) main: LVGL Tick: 8800[0m
+[0;32mI (18334) main: LVGL Tick: 8900[0m
+[0;32mI (18534) main: LVGL Tick: 9000[0m
+[0;32mI (18734) main: LVGL Tick: 9100[0m
+[0;32mI (18934) main: LVGL Tick: 9200[0m
+[0;32mI (19134) main: LVGL Tick: 9300[0m
+[0;32mI (19334) main: LVGL Tick: 9400[0m
+[0;32mI (19534) main: LVGL Tick: 9500[0m
+[0;32mI (19734) main: LVGL Tick: 9600[0m
+[0;32mI (19934) main: LVGL Tick: 9700[0m
+[0;32mI (20134) main: LVGL Tick: 9800[0m
+[0;32mI (20334) main: LVGL Tick: 9900[0m
+[1;31mE (20524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (20524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (20524) task_wdt: Tasks currently running:[0m
+[1;31mE (20524) task_wdt: CPU 0: lvgl_task[0m
+[1;31mE (20524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4002C3D9:0x3FFE6560 0x4002648D:0x3FFE6590 0x40087ACA:0x3FFE65B0 0x4002B0CD:0x3FFE65D0
+
+[0;32mI (20554) main: LVGL Tick: 10000[0m
+[0;32mI (20734) main: LVGL Tick: 10100[0m
+[0;32mI (20934) main: LVGL Tick: 10200[0m
+[0;32mI (21134) main: LVGL Tick: 10300[0m
+[0;32mI (21334) main: LVGL Tick: 10400[0m
+[0;32mI (21534) main: LVGL Tick: 10500[0m
+[0;32mI (21734) main: LVGL Tick: 10600[0m
+[0;32mI (21934) main: LVGL Tick: 10700[0m
+[0;32mI (22134) main: LVGL Tick: 10800[0m
+[0;32mI (22334) main: LVGL Tick: 10900[0m
+[0;32mI (22534) main: LVGL Tick: 11000[0m
+[0;32mI (22734) main: LVGL Tick: 11100[0m
+[0;32mI (22934) main: LVGL Tick: 11200[0m
+[0;32mI (23134) main: LVGL Tick: 11300[0m
+[0;32mI (23334) main: LVGL Tick: 11400[0m
+[0;32mI (23534) main: LVGL Tick: 11500[0m
+[0;32mI (23734) main: LVGL Tick: 11600[0m
+[0;32mI (23934) main: LVGL Tick: 11700[0m
+[0;32mI (24134) main: LVGL Tick: 11800[0m
+[0;32mI (24334) main: LVGL Tick: 11900[0m
+[0;32mI (24534) main: LVGL Tick: 12000[0m
+[0;32mI (24734) main: LVGL Tick: 12100[0m
+[0;32mI (24934) main: LVGL Tick: 12200[0m
+[0;32mI (25134) main: LVGL Tick: 12300[0m
+[0;32mI (25334) main: LVGL Tick: 12400[0m
+[1;31mE (25524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (25524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (25524) task_wdt: Tasks currently running:[0m
+[1;31mE (25524) task_wdt: CPU 0: lvgl_task[0m
+[1;31mE (25524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4001A8D1:0x3FFE64F0 0x4002B27B:0x3FFE6500 0x4002AE84:0x3FFE6520 0x400263A4:0x3FFE6560 0x4002648D:0x3FFE6590 0x40087ACA:0x3FFE65B0 0x4002B0CD:0x3FFE65D0
+
+[0;32mI (25564) main: LVGL Tick: 12500[0m
+[0;32mI (25734) main: LVGL Tick: 12600[0m
+[0;32mI (25934) main: LVGL Tick: 12700[0m
+[0;32mI (26134) main: LVGL Tick: 12800[0m
+[0;32mI (26334) main: LVGL Tick: 12900[0m
+[0;32mI (26534) main: LVGL Tick: 13000[0m
+[0;32mI (26734) main: LVGL Tick: 13100[0m
+[0;32mI (26934) main: LVGL Tick: 13200[0m
+[0;32mI (27134) main: LVGL Tick: 13300[0m
+[0;32mI (27334) main: LVGL Tick: 13400[0m
+[0;32mI (27534) main: LVGL Tick: 13500[0m
+[0;32mI (27734) main: LVGL Tick: 13600[0m
+[0;32mI (27934) main: LVGL Tick: 13700[0m
+[0;32mI (28134) main: LVGL Tick: 13800[0m
+[0;32mI (28334) main: LVGL Tick: 13900[0m
+[0;32mI (28534) main: LVGL Tick: 14000[0m
+[0;32mI (28734) main: LVGL Tick: 14100[0m
+[0;32mI (28934) main: LVGL Tick: 14200[0m
+[0;32mI (29134) main: LVGL Tick: 14300[0m
+[0;32mI (29334) main: LVGL Tick: 14400[0m
+[0;32mI (29404) main: Card UID: 1E00000000[0m
+[0;32mI (29534) main: LVGL Tick: 14500[0m
+[0;32mI (29734) main: LVGL Tick: 14600[0m
+[0;32mI (29934) main: LVGL Tick: 14700[0m
+[0;32mI (30134) main: LVGL Tick: 14800[0m
+[0;32mI (30334) main: LVGL Tick: 14900[0m
+[1;31mE (30524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (30524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (30524) task_wdt: Tasks currently running:[0m
+[1;31mE (30524) task_wdt: CPU 0: lvgl_task[0m
+[1;31mE (30524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4002C3D9:0x3FFE6520 0x4002641D:0x3FFE6560 0x400264CD:0x3FFE6590 0x40087AD3:0x3FFE65B0 0x4002B0CD:0x3FFE65D0
+
+[0;32mI (30564) main: LVGL Tick: 15000[0m
+[0;32mI (30734) main: LVGL Tick: 15100[0m
+[0;32mI (30934) main: LVGL Tick: 15200[0m
+[0;32mI (31134) main: LVGL Tick: 15300[0m
+[0;32mI (31334) main: LVGL Tick: 15400[0m
+[0;32mI (31534) main: LVGL Tick: 15500[0m
+[0;32mI (31734) main: LVGL Tick: 15600[0m
+[0;32mI (31934) main: LVGL Tick: 15700[0m
+[0;32mI (32134) main: LVGL Tick: 15800[0m
+[0;32mI (32334) main: LVGL Tick: 15900[0m
+[0;32mI (32534) main: LVGL Tick: 16000[0m
+[0;32mI (32734) main: LVGL Tick: 16100[0m
+[0;32mI (32934) main: LVGL Tick: 16200[0m
+[0;32mI (33134) main: LVGL Tick: 16300[0m
+[0;32mI (33334) main: LVGL Tick: 16400[0m
+[0;32mI (33534) main: LVGL Tick: 16500[0m
+[0;32mI (33734) main: LVGL Tick: 16600[0m
+[0;32mI (33934) main: LVGL Tick: 16700[0m
+[0;32mI (34134) main: LVGL Tick: 16800[0m
+[0;32mI (34334) main: LVGL Tick: 16900[0m
+[0;32mI (34534) main: LVGL Tick: 17000[0m
+[0;32mI (34734) main: LVGL Tick: 17100[0m
+[0;32mI (34934) main: LVGL Tick: 17200[0m
+[0;32mI (35134) main: LVGL Tick: 17300[0m
+[0;32mI (35334) main: LVGL Tick: 17400[0m
+[1;31mE (35524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (35524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (35524) task_wdt: Tasks currently running:[0m
+[1;31mE (35524) task_wdt: CPU 0: lvgl_task[0m
+[1;31mE (35524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4001A8D1:0x3FFE64F0 0x4002B27B:0x3FFE6500 0x4002AE84:0x3FFE6520 0x400263A4:0x3FFE6560 0x4002648D:0x3FFE6590 0x40087ACA:0x3FFE65B0 0x4002B0CD:0x3FFE65D0
+
+[0;32mI (35564) main: LVGL Tick: 17500[0m
+[0;32mI (35734) main: LVGL Tick: 17600[0m
+[0;32mI (35934) main: LVGL Tick: 17700[0m
+[0;32mI (36134) main: LVGL Tick: 17800[0m
+[0;32mI (36334) main: LVGL Tick: 17900[0m
+[0;32mI (36534) main: LVGL Tick: 18000[0m
+[0;32mI (36734) main: LVGL Tick: 18100[0m
+[0;32mI (36934) main: LVGL Tick: 18200[0m
+[0;32mI (37134) main: LVGL Tick: 18300[0m
+[0;32mI (37334) main: LVGL Tick: 18400[0m
+[0;32mI (37534) main: LVGL Tick: 18500[0m
+[0;32mI (37734) main: LVGL Tick: 18600[0m
+[0;32mI (37934) main: LVGL Tick: 18700[0m
+[0;32mI (38134) main: LVGL Tick: 18800[0m
+[0;32mI (38334) main: LVGL Tick: 18900[0m
+[0;32mI (38534) main: LVGL Tick: 19000[0m
+[0;32mI (38734) main: LVGL Tick: 19100[0m
+[0;32mI (38934) main: LVGL Tick: 19200[0m
+[0;32mI (39134) main: LVGL Tick: 19300[0m
+[0;32mI (39334) main: LVGL Tick: 19400[0m
+[0;32mI (39534) main: LVGL Tick: 19500[0m
+[0;32mI (39734) main: LVGL Tick: 19600[0m
+[0;32mI (39934) main: LVGL Tick: 19700[0m
+[0;32mI (40134) main: LVGL Tick: 19800[0m
+[0;32mI (40334) main: LVGL Tick: 19900[0m
+[1;31mE (40524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (40524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (40524) task_wdt: Tasks currently running:[0m
+[1;31mE (40524) task_wdt: CPU 0: lvgl_task[0m
+[1;31mE (40524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4002A860:0x3FFE6520 0x4002641D:0x3FFE6560 0x400264CD:0x3FFE6590 0x40087AD3:0x3FFE65B0 0x4002B0CD:0x3FFE65D0
+
+[0;32mI (40564) main: LVGL Tick: 20000[0m
+[0;32mI (40734) main: LVGL Tick: 20100[0m
+[0;32mI (40934) main: LVGL Tick: 20200[0m
+[0;32mI (41134) main: LVGL Tick: 20300[0m
+[0;32mI (41334) main: LVGL Tick: 20400[0m
+[0;32mI (41534) main: LVGL Tick: 20500[0m
+[0;32mI (41734) main: LVGL Tick: 20600[0m
+[0;32mI (41934) main: LVGL Tick: 20700[0m
+[0;32mI (42134) main: LVGL Tick: 20800[0m
+[0;32mI (42334) main: LVGL Tick: 20900[0m
+[0;32mI (42534) main: LVGL Tick: 21000[0m
+[0;32mI (42734) main: LVGL Tick: 21100[0m
+[0;32mI (42934) main: LVGL Tick: 21200[0m
+[0;32mI (43134) main: LVGL Tick: 21300[0m
+[0;32mI (43334) main: LVGL Tick: 21400[0m
+[0;32mI (43534) main: LVGL Tick: 21500[0m
+[0;32mI (43734) main: LVGL Tick: 21600[0m
+[0;32mI (43934) main: LVGL Tick: 21700[0m
+[0;32mI (44134) main: LVGL Tick: 21800[0m
+[0;32mI (44334) main: LVGL Tick: 21900[0m
+[0;32mI (44534) main: LVGL Tick: 22000[0m
+[0;32mI (44734) main: LVGL Tick: 22100[0m
+[0;32mI (44934) main: LVGL Tick: 22200[0m
+[0;32mI (45134) main: LVGL Tick: 22300[0m
+[0;32mI (45334) main: LVGL Tick: 22400[0m
+[1;31mE (45524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (45524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (45524) task_wdt: Tasks currently running:[0m
+[1;31mE (45524) task_wdt: CPU 0: lvgl_task[0m
+[1;31mE (45524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4002C3D9:0x3FFE6560 0x4002648D:0x3FFE6590 0x40087ACA:0x3FFE65B0 0x4002B0CD:0x3FFE65D0
+
+[0;32mI (45554) main: LVGL Tick: 22500[0m
+[0;32mI (45734) main: LVGL Tick: 22600[0m
+[0;32mI (45934) main: LVGL Tick: 22700[0m
+[0;32mI (46134) main: LVGL Tick: 22800[0m
+[0;32mI (46334) main: LVGL Tick: 22900[0m
+[0;32mI (46534) main: LVGL Tick: 23000[0m
+[0;32mI (46734) main: LVGL Tick: 23100[0m
+[0;32mI (46934) main: LVGL Tick: 23200[0m
+[0;32mI (47134) main: LVGL Tick: 23300[0m
+[0;32mI (47334) main: LVGL Tick: 23400[0m
+[0;32mI (47534) main: LVGL Tick: 23500[0m
+[0;32mI (47734) main: LVGL Tick: 23600[0m
+[0;32mI (47934) main: LVGL Tick: 23700[0m
+[0;32mI (48134) main: LVGL Tick: 23800[0m
+[0;32mI (48334) main: LVGL Tick: 23900[0m
+[0;32mI (48534) main: LVGL Tick: 24000[0m
+[0;32mI (48734) main: LVGL Tick: 24100[0m
+[0;32mI (48934) main: LVGL Tick: 24200[0m
+[0;32mI (49134) main: LVGL Tick: 24300[0m
+[0;32mI (49334) main: LVGL Tick: 24400[0m
+[0;32mI (49534) main: LVGL Tick: 24500[0m
+[0;32mI (49734) main: LVGL Tick: 24600[0m
+[0;32mI (49934) main: LVGL Tick: 24700[0m
+[0;32mI (50134) main: LVGL Tick: 24800[0m
+[0;32mI (50334) main: LVGL Tick: 24900[0m
+[1;31mE (50524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (50524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (50524) task_wdt: Tasks currently running:[0m
+[1;31mE (50524) task_wdt: CPU 0: lvgl_task[0m
+[1;31mE (50524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4001A8D1:0x3FFE64F0 0x4002B27B:0x3FFE6500 0x4002A93B:0x3FFE6520 0x4002641D:0x3FFE6560 0x400264CD:0x3FFE6590 0x40087AD3:0x3FFE65B0 0x4002B0CD:0x3FFE65D0
+
+[0;32mI (50564) main: LVGL Tick: 25000[0m
+[0;32mI (50734) main: LVGL Tick: 25100[0m
+[0;32mI (50934) main: LVGL Tick: 25200[0m
+[0;32mI (51134) main: LVGL Tick: 25300[0m
+[0;32mI (51334) main: LVGL Tick: 25400[0m
+[0;32mI (51534) main: LVGL Tick: 25500[0m
+[0;32mI (51734) main: LVGL Tick: 25600[0m
+[0;32mI (51934) main: LVGL Tick: 25700[0m
+[0;32mI (52134) main: LVGL Tick: 25800[0m
+[0;32mI (52334) main: LVGL Tick: 25900[0m
+[0;32mI (52534) main: LVGL Tick: 26000[0m
+[0;32mI (52734) main: LVGL Tick: 26100[0m
+[0;32mI (52934) main: LVGL Tick: 26200[0m
+[0;32mI (53134) main: LVGL Tick: 26300[0m
+[0;32mI (53334) main: LVGL Tick: 26400[0m
+[0;32mI (53534) main: LVGL Tick: 26500[0m
+[0;32mI (53734) main: LVGL Tick: 26600[0m
+[0;32mI (53934) main: LVGL Tick: 26700[0m
+[0;32mI (54134) main: LVGL Tick: 26800[0m
+[0;32mI (54334) main: LVGL Tick: 26900[0m
+[0;32mI (54534) main: LVGL Tick: 27000[0m
+[0;32mI (54734) main: LVGL Tick: 27100[0m
+[0;32mI (54934) main: LVGL Tick: 27200[0m
+[0;32mI (55134) main: LVGL Tick: 27300[0m
+[0;32mI (55334) main: LVGL Tick: 27400[0m
+[1;31mE (55524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (55524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (55524) task_wdt: Tasks currently running:[0m
+[1;31mE (55524) task_wdt: CPU 0: lvgl_task[0m
+[1;31mE (55524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4001A8D1:0x3FFE64F0 0x4002B27B:0x3FFE6500 0x4002A93B:0x3FFE6520 0x4002641D:0x3FFE6560 0x400264CD:0x3FFE6590 0x40087AD3:0x3FFE65B0 0x4002B0CD:0x3FFE65D0
+
+[0;32mI (55564) main: LVGL Tick: 27500[0m
+[0;32mI (55734) main: LVGL Tick: 27600[0m
+[0;32mI (55934) main: LVGL Tick: 27700[0m
+[0;32mI (56134) main: LVGL Tick: 27800[0m
+[0;32mI (56334) main: LVGL Tick: 27900[0m
+[0;32mI (56534) main: LVGL Tick: 28000[0m
+[0;32mI (56734) main: LVGL Tick: 28100[0m
+[0;32mI (56934) main: LVGL Tick: 28200[0m
+[0;32mI (57134) main: LVGL Tick: 28300[0m
+[0;32mI (57334) main: LVGL Tick: 28400[0m
+[0;32mI (57534) main: LVGL Tick: 28500[0m
+[0;32mI (57734) main: LVGL Tick: 28600[0m
+[0;32mI (57934) main: LVGL Tick: 28700[0m
+[0;32mI (58134) main: LVGL Tick: 28800[0m
+[0;32mI (58334) main: LVGL Tick: 28900[0m
+[0;32mI (58534) main: LVGL Tick: 29000[0m
+[0;32mI (58734) main: LVGL Tick: 29100[0m
+[0;32mI (58934) main: LVGL Tick: 29200[0m
+[0;32mI (59134) main: LVGL Tick: 29300[0m
+[0;32mI (59334) main: LVGL Tick: 29400[0m
+[0;32mI (59534) main: LVGL Tick: 29500[0m
+[0;32mI (59734) main: LVGL Tick: 29600[0m
+[0;32mI (59934) main: LVGL Tick: 29700[0m
+[0;32mI (60134) main: LVGL Tick: 29800[0m
+[0;32mI (60334) main: LVGL Tick: 29900[0m
+[1;31mE (60524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (60524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (60524) task_wdt: Tasks currently running:[0m
+[1;31mE (60524) task_wdt: CPU 0: main[0m
+[1;31mE (60524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4001A8D4:0x3FFD7590 0x4002B27B:0x3FFD75A0 0x40025FEC:0x3FFD75C0 0x40028481:0x3FFD75E0 0x400B2C7A:0x3FFD7600 0x400B2DD9:0x3FFD7620 0x400B4BB6:0x3FFD7640 0x400B4C71:0x3FFD7680 0x400AFB2F:0x3FFD76B0 0x400AFDD4:0x3FFD7700 0x400AFE89:0x3FFD7730 0x400AFEC5:0x3FFD7760 0x400AFEFE:0x3FFD77B0 0x400AFF3D:0x3FFD77D0 0x40087C25:0x3FFD7800 0x400C61F7:0x3FFD78B0 0x4002B0CD:0x3FFD78E0
+
+[0;32mI (60584) main: LVGL Tick: 30000[0m
+[0;32mI (60734) main: LVGL Tick: 30100[0m
+[0;32mI (60934) main: LVGL Tick: 30200[0m
+[0;32mI (61134) main: LVGL Tick: 30300[0m
+[0;32mI (61334) main: LVGL Tick: 30400[0m
+[0;32mI (61534) main: LVGL Tick: 30500[0m
+[0;32mI (61734) main: LVGL Tick: 30600[0m
+[0;32mI (61934) main: LVGL Tick: 30700[0m
+[0;32mI (62134) main: LVGL Tick: 30800[0m
+[0;32mI (62334) main: LVGL Tick: 30900[0m
+[0;32mI (62534) main: LVGL Tick: 31000[0m
+[0;32mI (62734) main: LVGL Tick: 31100[0m
+[0;32mI (62934) main: LVGL Tick: 31200[0m
+[0;32mI (63134) main: LVGL Tick: 31300[0m
+[0;32mI (63334) main: LVGL Tick: 31400[0m
+[0;32mI (63534) main: LVGL Tick: 31500[0m
+[0;32mI (63734) main: LVGL Tick: 31600[0m
+[0;32mI (63934) main: LVGL Tick: 31700[0m
+[0;32mI (64134) main: LVGL Tick: 31800[0m
+[0;32mI (64334) main: LVGL Tick: 31900[0m
+[0;32mI (64534) main: LVGL Tick: 32000[0m
+[0;32mI (64734) main: LVGL Tick: 32100[0m
+[0;32mI (64934) main: LVGL Tick: 32200[0m
+[0;32mI (65134) main: LVGL Tick: 32300[0m
+[0;32mI (65334) main: LVGL Tick: 32400[0m
+[1;31mE (65524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (65524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (65524) task_wdt: Tasks currently running:[0m
+[1;31mE (65524) task_wdt: CPU 0: lvgl_task[0m
+[1;31mE (65524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4002C3D9:0x3FFE6520 0x4002641D:0x3FFE6560 0x400264CD:0x3FFE6590 0x40087AD3:0x3FFE65B0 0x4002B0CD:0x3FFE65D0
+
+[0;32mI (65564) main: LVGL Tick: 32500[0m
+[0;32mI (65734) main: LVGL Tick: 32600[0m
+[0;32mI (65934) main: LVGL Tick: 32700[0m
+[0;32mI (66134) main: LVGL Tick: 32800[0m
+[0;32mI (66334) main: LVGL Tick: 32900[0m
+[0;32mI (66534) main: LVGL Tick: 33000[0m
+[0;32mI (66734) main: LVGL Tick: 33100[0m
+[0;32mI (66934) main: LVGL Tick: 33200[0m
+[0;32mI (67134) main: LVGL Tick: 33300[0m
+[0;32mI (67334) main: LVGL Tick: 33400[0m
+[0;32mI (67534) main: LVGL Tick: 33500[0m
+[0;32mI (67734) main: LVGL Tick: 33600[0m
+[0;32mI (67934) main: LVGL Tick: 33700[0m
+[0;32mI (68134) main: LVGL Tick: 33800[0m
+[0;32mI (68334) main: LVGL Tick: 33900[0m
+[0;32mI (68534) main: LVGL Tick: 34000[0m
+[0;32mI (68734) main: LVGL Tick: 34100[0m
+[0;32mI (68934) main: LVGL Tick: 34200[0m
+[0;32mI (69134) main: LVGL Tick: 34300[0m
+[0;32mI (69334) main: LVGL Tick: 34400[0m
+[0;32mI (69534) main: LVGL Tick: 34500[0m
+[0;32mI (69734) main: LVGL Tick: 34600[0m
+[0;32mI (69934) main: LVGL Tick: 34700[0m
+[0;32mI (70134) main: LVGL Tick: 34800[0m
+[0;32mI (70334) main: LVGL Tick: 34900[0m
+[1;31mE (70524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (70524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (70524) task_wdt: Tasks currently running:[0m
+[1;31mE (70524) task_wdt: CPU 0: lvgl_task[0m
+[1;31mE (70524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4002C053:0x3FFE6590 0x40087AD9:0x3FFE65B0 0x4002B0CD:0x3FFE65D0
+
+[0;32mI (70554) main: LVGL Tick: 35000[0m
+[0;32mI (70734) main: LVGL Tick: 35100[0m
+[0;32mI (70934) main: LVGL Tick: 35200[0m
+[0;32mI (71134) main: LVGL Tick: 35300[0m
+[0;32mI (71334) main: LVGL Tick: 35400[0m
+[0;32mI (71534) main: LVGL Tick: 35500[0m
+[0;32mI (71734) main: LVGL Tick: 35600[0m
+[0;32mI (71934) main: LVGL Tick: 35700[0m
+[0;32mI (72134) main: LVGL Tick: 35800[0m
+[0;32mI (72334) main: LVGL Tick: 35900[0m
+[0;32mI (72534) main: LVGL Tick: 36000[0m
+[0;32mI (72734) main: LVGL Tick: 36100[0m
+[0;32mI (72934) main: LVGL Tick: 36200[0m
+[0;32mI (73134) main: LVGL Tick: 36300[0m
+[0;32mI (73334) main: LVGL Tick: 36400[0m
+[0;32mI (73534) main: LVGL Tick: 36500[0m
+[0;32mI (73734) main: LVGL Tick: 36600[0m
+[0;32mI (73934) main: LVGL Tick: 36700[0m
+[0;32mI (74134) main: LVGL Tick: 36800[0m
+[0;32mI (74334) main: LVGL Tick: 36900[0m
+[0;32mI (74534) main: LVGL Tick: 37000[0m
+[0;32mI (74734) main: LVGL Tick: 37100[0m
+[0;32mI (74934) main: LVGL Tick: 37200[0m
+[0;32mI (75134) main: LVGL Tick: 37300[0m
+[0;32mI (75334) main: LVGL Tick: 37400[0m
+[1;31mE (75524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (75524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (75524) task_wdt: Tasks currently running:[0m
+[1;31mE (75524) task_wdt: CPU 0: main[0m
+[1;31mE (75524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4001A8D1:0x3FFD7590 0x4002B27B:0x3FFD75A0 0x40025FEC:0x3FFD75C0 0x40028481:0x3FFD75E0 0x400B2C7A:0x3FFD7600 0x400B2DD9:0x3FFD7620 0x400B4BB6:0x3FFD7640 0x400B4C71:0x3FFD7680 0x400AFB2F:0x3FFD76B0 0x400AFDD4:0x3FFD7700 0x400AFE89:0x3FFD7730 0x400AFEC5:0x3FFD7760 0x400AFEFE:0x3FFD77B0 0x400AFF3D:0x3FFD77D0 0x40087C25:0x3FFD7800 0x400C61F7:0x3FFD78B0 0x4002B0CD:0x3FFD78E0
+
+[0;32mI (75584) main: LVGL Tick: 37500[0m
+[0;32mI (75734) main: LVGL Tick: 37600[0m
+[0;32mI (75934) main: LVGL Tick: 37700[0m
+[0;32mI (76134) main: LVGL Tick: 37800[0m
+[0;32mI (76334) main: LVGL Tick: 37900[0m
+[0;32mI (76534) main: LVGL Tick: 38000[0m
+[0;32mI (76734) main: LVGL Tick: 38100[0m
+[0;32mI (76934) main: LVGL Tick: 38200[0m
+[0;32mI (77134) main: LVGL Tick: 38300[0m
+[0;32mI (77334) main: LVGL Tick: 38400[0m
+[0;32mI (77534) main: LVGL Tick: 38500[0m
+[0;32mI (77734) main: LVGL Tick: 38600[0m
+[0;32mI (77934) main: LVGL Tick: 38700[0m
+[0;32mI (78134) main: LVGL Tick: 38800[0m
+[0;32mI (78334) main: LVGL Tick: 38900[0m
+[0;32mI (78534) main: LVGL Tick: 39000[0m
+[0;32mI (78734) main: LVGL Tick: 39100[0m
+[0;32mI (78934) main: LVGL Tick: 39200[0m
+[0;32mI (79134) main: LVGL Tick: 39300[0m
+[0;32mI (79334) main: LVGL Tick: 39400[0m
+[0;32mI (79534) main: LVGL Tick: 39500[0m
+[0;32mI (79734) main: LVGL Tick: 39600[0m
+[0;32mI (79934) main: LVGL Tick: 39700[0m
+[0;32mI (80134) main: LVGL Tick: 39800[0m
+[0;32mI (80334) main: LVGL Tick: 39900[0m
+[1;31mE (80524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (80524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (80524) task_wdt: Tasks currently running:[0m
+[1;31mE (80524) task_wdt: CPU 0: lvgl_task[0m
+[1;31mE (80524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4001A8D1:0x3FFE64F0 0x4002B27B:0x3FFE6500 0x4002A93B:0x3FFE6520 0x4002641D:0x3FFE6560 0x400264CD:0x3FFE6590 0x40087AD3:0x3FFE65B0 0x4002B0CD:0x3FFE65D0
+
+[0;32mI (80564) main: LVGL Tick: 40000[0m
+[0;32mI (80734) main: LVGL Tick: 40100[0m
+[0;32mI (80934) main: LVGL Tick: 40200[0m
+[0;32mI (81134) main: LVGL Tick: 40300[0m
+[0;32mI (81334) main: LVGL Tick: 40400[0m
+[0;32mI (81534) main: LVGL Tick: 40500[0m
+[0;32mI (81734) main: LVGL Tick: 40600[0m
+[0;32mI (81934) main: LVGL Tick: 40700[0m
+[0;32mI (82134) main: LVGL Tick: 40800[0m
+[0;32mI (82334) main: LVGL Tick: 40900[0m
+[0;32mI (82534) main: LVGL Tick: 41000[0m
+[0;32mI (82734) main: LVGL Tick: 41100[0m
+[0;32mI (82934) main: LVGL Tick: 41200[0m
+[0;32mI (83134) main: LVGL Tick: 41300[0m
+[0;32mI (83334) main: LVGL Tick: 41400[0m
+[0;32mI (83534) main: LVGL Tick: 41500[0m
+[0;32mI (83734) main: LVGL Tick: 41600[0m
+[0;32mI (83934) main: LVGL Tick: 41700[0m
+[0;32mI (84134) main: LVGL Tick: 41800[0m
+[0;32mI (84334) main: LVGL Tick: 41900[0m
+[0;32mI (84534) main: LVGL Tick: 42000[0m
+[0;32mI (84734) main: LVGL Tick: 42100[0m
+[0;32mI (84934) main: LVGL Tick: 42200[0m
+[0;32mI (85134) main: LVGL Tick: 42300[0m
+[0;32mI (85334) main: LVGL Tick: 42400[0m
+[1;31mE (85524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (85524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (85524) task_wdt: Tasks currently running:[0m
+[1;31mE (85524) task_wdt: CPU 0: lvgl_task[0m
+[1;31mE (85524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4002C053:0x3FFE6590 0x40087AD9:0x3FFE65B0 0x4002B0CD:0x3FFE65D0
+
+[0;32mI (85554) main: LVGL Tick: 42500[0m
+[0;32mI (85734) main: LVGL Tick: 42600[0m
+[0;32mI (85934) main: LVGL Tick: 42700[0m
+[0;32mI (86134) main: LVGL Tick: 42800[0m
+[0;32mI (86334) main: LVGL Tick: 42900[0m
+[0;32mI (86534) main: LVGL Tick: 43000[0m
+[0;32mI (86734) main: LVGL Tick: 43100[0m
+[0;32mI (86934) main: LVGL Tick: 43200[0m
+[0;32mI (87134) main: LVGL Tick: 43300[0m
+[0;32mI (87334) main: LVGL Tick: 43400[0m
+[0;32mI (87534) main: LVGL Tick: 43500[0m
+[0;32mI (87734) main: LVGL Tick: 43600[0m
+[0;32mI (87934) main: LVGL Tick: 43700[0m
+[0;32mI (88134) main: LVGL Tick: 43800[0m
+[0;32mI (88334) main: LVGL Tick: 43900[0m
+[0;32mI (88534) main: LVGL Tick: 44000[0m
+[0;32mI (88734) main: LVGL Tick: 44100[0m
+[0;32mI (88934) main: LVGL Tick: 44200[0m
+[0;32mI (89134) main: LVGL Tick: 44300[0m
+[0;32mI (89334) main: LVGL Tick: 44400[0m
+[0;32mI (89534) main: LVGL Tick: 44500[0m
+[0;32mI (89734) main: LVGL Tick: 44600[0m
+[0;32mI (89934) main: LVGL Tick: 44700[0m
+[0;32mI (90134) main: LVGL Tick: 44800[0m
+[0;32mI (90334) main: LVGL Tick: 44900[0m
+[1;31mE (90524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (90524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (90524) task_wdt: Tasks currently running:[0m
+[1;31mE (90524) task_wdt: CPU 0: main[0m
+[1;31mE (90524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4001A8D1:0x3FFD7590 0x4002B27B:0x3FFD75A0 0x40025FEC:0x3FFD75C0 0x40028481:0x3FFD75E0 0x400B2C7A:0x3FFD7600 0x400B2DD9:0x3FFD7620 0x400B4BB6:0x3FFD7640 0x400B4C71:0x3FFD7680 0x400AFB2F:0x3FFD76B0 0x400AFDD4:0x3FFD7700 0x400AFE89:0x3FFD7730 0x400AFEC5:0x3FFD7760 0x400AFEFE:0x3FFD77B0 0x400AFF3D:0x3FFD77D0 0x40087C25:0x3FFD7800 0x400C61F7:0x3FFD78B0 0x4002B0CD:0x3FFD78E0
+
+[0;32mI (90584) main: LVGL Tick: 45000[0m
+[0;32mI (90734) main: LVGL Tick: 45100[0m
+[0;32mI (90934) main: LVGL Tick: 45200[0m
+[0;32mI (91134) main: LVGL Tick: 45300[0m
+[0;32mI (91334) main: LVGL Tick: 45400[0m
+[0;32mI (91534) main: LVGL Tick: 45500[0m
+[0;32mI (91734) main: LVGL Tick: 45600[0m
+[0;32mI (91934) main: LVGL Tick: 45700[0m
+[0;32mI (92134) main: LVGL Tick: 45800[0m
+[0;32mI (92334) main: LVGL Tick: 45900[0m
+[0;32mI (92534) main: LVGL Tick: 46000[0m
+[0;32mI (92734) main: LVGL Tick: 46100[0m
+[0;32mI (92934) main: LVGL Tick: 46200[0m
+[0;32mI (93134) main: LVGL Tick: 46300[0m
+[0;32mI (93334) main: LVGL Tick: 46400[0m
+[0;32mI (93534) main: LVGL Tick: 46500[0m
+[0;32mI (93734) main: LVGL Tick: 46600[0m
+[0;32mI (93934) main: LVGL Tick: 46700[0m
+[0;32mI (94134) main: LVGL Tick: 46800[0m
+[0;32mI (94334) main: LVGL Tick: 46900[0m
+[0;32mI (94534) main: LVGL Tick: 47000[0m
+[0;32mI (94734) main: LVGL Tick: 47100[0m
+[0;32mI (94934) main: LVGL Tick: 47200[0m
+[0;32mI (95134) main: LVGL Tick: 47300[0m
+[0;32mI (95334) main: LVGL Tick: 47400[0m
+[1;31mE (95524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (95524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (95524) task_wdt: Tasks currently running:[0m
+[1;31mE (95524) task_wdt: CPU 0: lvgl_task[0m
+[1;31mE (95524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4001A8D1:0x3FFE64F0 0x4002B27B:0x3FFE6500 0x4002AE84:0x3FFE6520 0x400263A4:0x3FFE6560 0x4002648D:0x3FFE6590 0x40087ACA:0x3FFE65B0 0x4002B0CD:0x3FFE65D0
+
+[0;32mI (95564) main: LVGL Tick: 47500[0m
+[0;32mI (95734) main: LVGL Tick: 47600[0m
+[0;32mI (95934) main: LVGL Tick: 47700[0m
+[0;32mI (96134) main: LVGL Tick: 47800[0m
+[0;32mI (96334) main: LVGL Tick: 47900[0m
+[0;32mI (96534) main: LVGL Tick: 48000[0m
+[0;32mI (96734) main: LVGL Tick: 48100[0m
+[0;32mI (96934) main: LVGL Tick: 48200[0m
+[0;32mI (97134) main: LVGL Tick: 48300[0m
+[0;32mI (97334) main: LVGL Tick: 48400[0m
+[0;32mI (97534) main: LVGL Tick: 48500[0m
+[0;32mI (97734) main: LVGL Tick: 48600[0m
+[0;32mI (97934) main: LVGL Tick: 48700[0m
+[0;32mI (98134) main: LVGL Tick: 48800[0m
+[0;32mI (98334) main: LVGL Tick: 48900[0m
+[0;32mI (98534) main: LVGL Tick: 49000[0m
+[0;32mI (98734) main: LVGL Tick: 49100[0m
+[0;32mI (98934) main: LVGL Tick: 49200[0m
+[0;32mI (99134) main: LVGL Tick: 49300[0m
+[0;32mI (99334) main: LVGL Tick: 49400[0m
+[0;32mI (99534) main: LVGL Tick: 49500[0m
+[0;32mI (99734) main: LVGL Tick: 49600[0m
+[0;32mI (99934) main: LVGL Tick: 49700[0m
+[0;32mI (100134) main: LVGL Tick: 49800[0m
+[0;32mI (100334) main: LVGL Tick: 49900[0m
+[1;31mE (100524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (100524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (100524) task_wdt: Tasks currently running:[0m
+[1;31mE (100524) task_wdt: CPU 0: lvgl_task[0m
+[1;31mE (100524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4001A8D1:0x3FFE64F0 0x4002B27B:0x3FFE6500 0x4002A93B:0x3FFE6520 0x4002641D:0x3FFE6560 0x400264CD:0x3FFE6590 0x40087AD3:0x3FFE65B0 0x4002B0CD:0x3FFE65D0
+
+[0;32mI (100564) main: LVGL Tick: 50000[0m
+[0;32mI (100734) main: LVGL Tick: 50100[0m
+[0;32mI (100934) main: LVGL Tick: 50200[0m
+[0;32mI (101134) main: LVGL Tick: 50300[0m
+[0;32mI (101334) main: LVGL Tick: 50400[0m
+[0;32mI (101534) main: LVGL Tick: 50500[0m
+[0;32mI (101734) main: LVGL Tick: 50600[0m
+[0;32mI (101934) main: LVGL Tick: 50700[0m
+[0;32mI (102134) main: LVGL Tick: 50800[0m
+[0;32mI (102334) main: LVGL Tick: 50900[0m
+[0;32mI (102534) main: LVGL Tick: 51000[0m
+[0;32mI (102734) main: LVGL Tick: 51100[0m
+[0;32mI (102934) main: LVGL Tick: 51200[0m
+[0;32mI (103134) main: LVGL Tick: 51300[0m
+[0;32mI (103334) main: LVGL Tick: 51400[0m
+[0;32mI (103534) main: LVGL Tick: 51500[0m
+[0;32mI (103734) main: LVGL Tick: 51600[0m
+[0;32mI (103934) main: LVGL Tick: 51700[0m
+[0;32mI (104134) main: LVGL Tick: 51800[0m
+[0;32mI (104334) main: LVGL Tick: 51900[0m
+[0;32mI (104534) main: LVGL Tick: 52000[0m
+[0;32mI (104734) main: LVGL Tick: 52100[0m
+[0;32mI (104934) main: LVGL Tick: 52200[0m
+[0;32mI (105134) main: LVGL Tick: 52300[0m
+[0;32mI (105334) main: LVGL Tick: 52400[0m
+[1;31mE (105524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (105524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (105524) task_wdt: Tasks currently running:[0m
+[1;31mE (105524) task_wdt: CPU 0: main[0m
+[1;31mE (105524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4001A8D1:0x3FFD7590 0x4002B27B:0x3FFD75A0 0x40025FEC:0x3FFD75C0 0x40028481:0x3FFD75E0 0x400B2C7A:0x3FFD7600 0x400B2DD9:0x3FFD7620 0x400B4BB6:0x3FFD7640 0x400B4C71:0x3FFD7680 0x400AFB2F:0x3FFD76B0 0x400AFDD4:0x3FFD7700 0x400AFE89:0x3FFD7730 0x400AFEC5:0x3FFD7760 0x400AFEFE:0x3FFD77B0 0x400AFF3D:0x3FFD77D0 0x40087C25:0x3FFD7800 0x400C61F7:0x3FFD78B0 0x4002B0CD:0x3FFD78E0
+
+[0;32mI (105584) main: LVGL Tick: 52500[0m
+[0;32mI (105734) main: LVGL Tick: 52600[0m
+[0;32mI (105934) main: LVGL Tick: 52700[0m
+[0;32mI (106134) main: LVGL Tick: 52800[0m
+[0;32mI (106334) main: LVGL Tick: 52900[0m
+[0;32mI (106534) main: LVGL Tick: 53000[0m
+[0;32mI (106734) main: LVGL Tick: 53100[0m
+[0;32mI (106934) main: LVGL Tick: 53200[0m
+[0;32mI (107134) main: LVGL Tick: 53300[0m
+[0;32mI (107334) main: LVGL Tick: 53400[0m
+[0;32mI (107534) main: LVGL Tick: 53500[0m
+[0;32mI (107734) main: LVGL Tick: 53600[0m
+[0;32mI (107934) main: LVGL Tick: 53700[0m
+[0;32mI (108134) main: LVGL Tick: 53800[0m
+[0;32mI (108334) main: LVGL Tick: 53900[0m
+[0;32mI (108534) main: LVGL Tick: 54000[0m
+[0;32mI (108734) main: LVGL Tick: 54100[0m
+[0;32mI (108934) main: LVGL Tick: 54200[0m
+[0;32mI (109134) main: LVGL Tick: 54300[0m
+[0;32mI (109334) main: LVGL Tick: 54400[0m
+[0;32mI (109534) main: LVGL Tick: 54500[0m
+[0;32mI (109734) main: LVGL Tick: 54600[0m
+[0;32mI (109934) main: LVGL Tick: 54700[0m
+[0;32mI (110134) main: LVGL Tick: 54800[0m
+[0;32mI (110334) main: LVGL Tick: 54900[0m
+[1;31mE (110524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (110524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (110524) task_wdt: Tasks currently running:[0m
+[1;31mE (110524) task_wdt: CPU 0: lvgl_task[0m
+[1;31mE (110524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4001A8D1:0x3FFE64F0 0x4002B27B:0x3FFE6500 0x4002AE84:0x3FFE6520 0x400263A4:0x3FFE6560 0x4002648D:0x3FFE6590 0x40087ACA:0x3FFE65B0 0x4002B0CD:0x3FFE65D0
+
+[0;32mI (110564) main: LVGL Tick: 55000[0m
+[0;32mI (110734) main: LVGL Tick: 55100[0m
+[0;32mI (110934) main: LVGL Tick: 55200[0m
+[0;32mI (111134) main: LVGL Tick: 55300[0m
+[0;32mI (111334) main: LVGL Tick: 55400[0m
+[0;32mI (111534) main: LVGL Tick: 55500[0m
+[0;32mI (111734) main: LVGL Tick: 55600[0m
+[0;32mI (111934) main: LVGL Tick: 55700[0m
+[0;32mI (112134) main: LVGL Tick: 55800[0m
+[0;32mI (112334) main: LVGL Tick: 55900[0m
+[0;32mI (112534) main: LVGL Tick: 56000[0m
+[0;32mI (112734) main: LVGL Tick: 56100[0m
+[0;32mI (112934) main: LVGL Tick: 56200[0m
+[0;32mI (113134) main: LVGL Tick: 56300[0m
+[0;32mI (113334) main: LVGL Tick: 56400[0m
+[0;32mI (113534) main: LVGL Tick: 56500[0m
+[0;32mI (113734) main: LVGL Tick: 56600[0m
+[0;32mI (113934) main: LVGL Tick: 56700[0m
+[0;32mI (114134) main: LVGL Tick: 56800[0m
+[0;32mI (114334) main: LVGL Tick: 56900[0m
+[0;32mI (114534) main: LVGL Tick: 57000[0m
+[0;32mI (114734) main: LVGL Tick: 57100[0m
+[0;32mI (114934) main: LVGL Tick: 57200[0m
+[0;32mI (115134) main: LVGL Tick: 57300[0m
+[0;32mI (115334) main: LVGL Tick: 57400[0m
+[1;31mE (115524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (115524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (115524) task_wdt: Tasks currently running:[0m
+[1;31mE (115524) task_wdt: CPU 0: lvgl_task[0m
+[1;31mE (115524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x40026414:0x3FFE6560 0x400264CD:0x3FFE6590 0x40087AD3:0x3FFE65B0 0x4002B0CD:0x3FFE65D0
+
+[0;32mI (115554) main: LVGL Tick: 57500[0m
+[0;32mI (115734) main: LVGL Tick: 57600[0m
+[0;32mI (115934) main: LVGL Tick: 57700[0m
+[0;32mI (116134) main: LVGL Tick: 57800[0m
+[0;32mI (116334) main: LVGL Tick: 57900[0m
+[0;32mI (116534) main: LVGL Tick: 58000[0m
+[0;32mI (116734) main: LVGL Tick: 58100[0m
+[0;32mI (116934) main: LVGL Tick: 58200[0m
+[0;32mI (117134) main: LVGL Tick: 58300[0m
+[0;32mI (117334) main: LVGL Tick: 58400[0m
+[0;32mI (117534) main: LVGL Tick: 58500[0m
+[0;32mI (117734) main: LVGL Tick: 58600[0m
+[0;32mI (117934) main: LVGL Tick: 58700[0m
+[0;32mI (118134) main: LVGL Tick: 58800[0m
+[0;32mI (118334) main: LVGL Tick: 58900[0m
+[0;32mI (118534) main: LVGL Tick: 59000[0m
+[0;32mI (118734) main: LVGL Tick: 59100[0m
+[0;32mI (118934) main: LVGL Tick: 59200[0m
+[0;32mI (119134) main: LVGL Tick: 59300[0m
+[0;32mI (119334) main: LVGL Tick: 59400[0m
+[0;32mI (119534) main: LVGL Tick: 59500[0m
+[0;32mI (119734) main: LVGL Tick: 59600[0m
+[0;32mI (119934) main: LVGL Tick: 59700[0m
+[0;32mI (120134) main: LVGL Tick: 59800[0m
+[0;32mI (120334) main: LVGL Tick: 59900[0m
+[1;31mE (120524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (120524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (120524) task_wdt: Tasks currently running:[0m
+[1;31mE (120524) task_wdt: CPU 0: main[0m
+[1;31mE (120524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4001A8D1:0x3FFD7590 0x4002B27B:0x3FFD75A0 0x40025FEC:0x3FFD75C0 0x40028481:0x3FFD75E0 0x400B2C7A:0x3FFD7600 0x400B2DD9:0x3FFD7620 0x400B4BB6:0x3FFD7640 0x400B4C71:0x3FFD7680 0x400AFB2F:0x3FFD76B0 0x400AFDD4:0x3FFD7700 0x400AFE89:0x3FFD7730 0x400AFEC5:0x3FFD7760 0x400AFEFE:0x3FFD77B0 0x400AFF3D:0x3FFD77D0 0x40087C25:0x3FFD7800 0x400C61F7:0x3FFD78B0 0x4002B0CD:0x3FFD78E0
+
+[0;32mI (120584) main: LVGL Tick: 60000[0m
+[0;32mI (120734) main: LVGL Tick: 60100[0m
+[0;32mI (120934) main: LVGL Tick: 60200[0m
+[0;32mI (121134) main: LVGL Tick: 60300[0m
+[0;32mI (121334) main: LVGL Tick: 60400[0m
+[0;32mI (121534) main: LVGL Tick: 60500[0m
+[0;32mI (121734) main: LVGL Tick: 60600[0m
+[0;32mI (121934) main: LVGL Tick: 60700[0m
+[0;32mI (122134) main: LVGL Tick: 60800[0m
+[0;32mI (122334) main: LVGL Tick: 60900[0m
+[0;32mI (122534) main: LVGL Tick: 61000[0m
+[0;32mI (122734) main: LVGL Tick: 61100[0m
+[0;32mI (122934) main: LVGL Tick: 61200[0m
+[0;32mI (123134) main: LVGL Tick: 61300[0m
+[0;32mI (123334) main: LVGL Tick: 61400[0m
+[0;32mI (123534) main: LVGL Tick: 61500[0m
+[0;32mI (123734) main: LVGL Tick: 61600[0m
+[0;32mI (123934) main: LVGL Tick: 61700[0m
+[0;32mI (124134) main: LVGL Tick: 61800[0m
+[0;32mI (124334) main: LVGL Tick: 61900[0m
+[0;32mI (124534) main: LVGL Tick: 62000[0m
+[0;32mI (124734) main: LVGL Tick: 62100[0m
+[0;32mI (124934) main: LVGL Tick: 62200[0m
+[0;32mI (125134) main: LVGL Tick: 62300[0m
+[0;32mI (125334) main: LVGL Tick: 62400[0m
+[1;31mE (125524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (125524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (125524) task_wdt: Tasks currently running:[0m
+[1;31mE (125524) task_wdt: CPU 0: lvgl_task[0m
+[1;31mE (125524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4002C053:0x3FFE6590 0x40087AD9:0x3FFE65B0 0x4002B0CD:0x3FFE65D0
+
+[0;32mI (125554) main: LVGL Tick: 62500[0m
+[0;32mI (125734) main: LVGL Tick: 62600[0m
+[0;32mI (125934) main: LVGL Tick: 62700[0m
+[0;32mI (126134) main: LVGL Tick: 62800[0m
+[0;32mI (126334) main: LVGL Tick: 62900[0m
+[0;32mI (126534) main: LVGL Tick: 63000[0m
+[0;32mI (126734) main: LVGL Tick: 63100[0m
+[0;32mI (126934) main: LVGL Tick: 63200[0m
+[0;32mI (127134) main: LVGL Tick: 63300[0m
+[0;32mI (127334) main: LVGL Tick: 63400[0m
+[0;32mI (127534) main: LVGL Tick: 63500[0m
+[0;32mI (127734) main: LVGL Tick: 63600[0m
+[0;32mI (127934) main: LVGL Tick: 63700[0m
+[0;32mI (128134) main: LVGL Tick: 63800[0m
+[0;32mI (128334) main: LVGL Tick: 63900[0m
+[0;32mI (128534) main: LVGL Tick: 64000[0m
+[0;32mI (128734) main: LVGL Tick: 64100[0m
+[0;32mI (128934) main: LVGL Tick: 64200[0m
+[0;32mI (129134) main: LVGL Tick: 64300[0m
+[0;32mI (129334) main: LVGL Tick: 64400[0m
+[0;32mI (129534) main: LVGL Tick: 64500[0m
+[0;32mI (129734) main: LVGL Tick: 64600[0m
+[0;32mI (129934) main: LVGL Tick: 64700[0m
+[0;32mI (130134) main: LVGL Tick: 64800[0m
+[0;32mI (130334) main: LVGL Tick: 64900[0m
+[1;31mE (130524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (130524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (130524) task_wdt: Tasks currently running:[0m
+[1;31mE (130524) task_wdt: CPU 0: lvgl_task[0m
+[1;31mE (130524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4001A8D1:0x3FFE64F0 0x4002B27B:0x3FFE6500 0x4002AE84:0x3FFE6520 0x400263A4:0x3FFE6560 0x4002648D:0x3FFE6590 0x40087ACA:0x3FFE65B0 0x4002B0CD:0x3FFE65D0
+
+[0;32mI (130564) main: LVGL Tick: 65000[0m
+[0;32mI (130734) main: LVGL Tick: 65100[0m
+[0;32mI (130934) main: LVGL Tick: 65200[0m
+[0;32mI (131134) main: LVGL Tick: 65300[0m
+[0;32mI (131334) main: LVGL Tick: 65400[0m
+[0;32mI (131534) main: LVGL Tick: 65500[0m
+[0;32mI (131734) main: LVGL Tick: 65600[0m
+[0;32mI (131934) main: LVGL Tick: 65700[0m
+[0;32mI (132134) main: LVGL Tick: 65800[0m
+[0;32mI (132334) main: LVGL Tick: 65900[0m
+[0;32mI (132534) main: LVGL Tick: 66000[0m
+[0;32mI (132734) main: LVGL Tick: 66100[0m
+[0;32mI (132934) main: LVGL Tick: 66200[0m
+[0;32mI (133134) main: LVGL Tick: 66300[0m
+[0;32mI (133334) main: LVGL Tick: 66400[0m
+[0;32mI (133534) main: LVGL Tick: 66500[0m
+[0;32mI (133734) main: LVGL Tick: 66600[0m
+[0;32mI (133934) main: LVGL Tick: 66700[0m
+[0;32mI (134134) main: LVGL Tick: 66800[0m
+[0;32mI (134334) main: LVGL Tick: 66900[0m
+[0;32mI (134534) main: LVGL Tick: 67000[0m
+[0;32mI (134734) main: LVGL Tick: 67100[0m
+[0;32mI (134934) main: LVGL Tick: 67200[0m
+[0;32mI (135134) main: LVGL Tick: 67300[0m
+[0;32mI (135334) main: LVGL Tick: 67400[0m
+[1;31mE (135524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (135524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (135524) task_wdt: Tasks currently running:[0m
+[1;31mE (135524) task_wdt: CPU 0: main[0m
+[1;31mE (135524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4001A8D1:0x3FFD7590 0x4002B27B:0x3FFD75A0 0x40025FEC:0x3FFD75C0 0x40028481:0x3FFD75E0 0x400B2C7A:0x3FFD7600 0x400B2DD9:0x3FFD7620 0x400B4BB6:0x3FFD7640 0x400B4C71:0x3FFD7680 0x400AFB2F:0x3FFD76B0 0x400AFDD4:0x3FFD7700 0x400AFE89:0x3FFD7730 0x400AFEC5:0x3FFD7760 0x400AFEFE:0x3FFD77B0 0x400AFF3D:0x3FFD77D0 0x40087C25:0x3FFD7800 0x400C61F7:0x3FFD78B0 0x4002B0CD:0x3FFD78E0
+
+[0;32mI (135584) main: LVGL Tick: 67500[0m
+[0;32mI (135734) main: LVGL Tick: 67600[0m
+[0;32mI (135934) main: LVGL Tick: 67700[0m
+[0;32mI (136134) main: LVGL Tick: 67800[0m
+[0;32mI (136334) main: LVGL Tick: 67900[0m
+[0;32mI (136534) main: LVGL Tick: 68000[0m
+[0;32mI (136734) main: LVGL Tick: 68100[0m
+[0;32mI (136934) main: LVGL Tick: 68200[0m
+[0;32mI (137134) main: LVGL Tick: 68300[0m
+[0;32mI (137334) main: LVGL Tick: 68400[0m
+[0;32mI (137534) main: LVGL Tick: 68500[0m
+[0;32mI (137734) main: LVGL Tick: 68600[0m
+[0;32mI (137934) main: LVGL Tick: 68700[0m
+[0;32mI (138134) main: LVGL Tick: 68800[0m
+[0;32mI (138334) main: LVGL Tick: 68900[0m
+[0;32mI (138534) main: LVGL Tick: 69000[0m
+[0;32mI (138734) main: LVGL Tick: 69100[0m
+[0;32mI (138934) main: LVGL Tick: 69200[0m
+[0;32mI (139134) main: LVGL Tick: 69300[0m
+[0;32mI (139334) main: LVGL Tick: 69400[0m
+[0;32mI (139534) main: LVGL Tick: 69500[0m
+[0;32mI (139734) main: LVGL Tick: 69600[0m
+[0;32mI (139934) main: LVGL Tick: 69700[0m
+[0;32mI (140134) main: LVGL Tick: 69800[0m
+[0;32mI (140334) main: LVGL Tick: 69900[0m
+[1;31mE (140524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (140524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (140524) task_wdt: Tasks currently running:[0m
+[1;31mE (140524) task_wdt: CPU 0: lvgl_task[0m
+[1;31mE (140524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4001A8D1:0x3FFE64F0 0x4002B27B:0x3FFE6500 0x4002AE84:0x3FFE6520 0x400263A4:0x3FFE6560 0x4002648D:0x3FFE6590 0x40087ACA:0x3FFE65B0 0x4002B0CD:0x3FFE65D0
+
+[0;32mI (140564) main: LVGL Tick: 70000[0m
+[0;32mI (140734) main: LVGL Tick: 70100[0m
+[0;32mI (140934) main: LVGL Tick: 70200[0m
+[0;32mI (141134) main: LVGL Tick: 70300[0m
+[0;32mI (141334) main: LVGL Tick: 70400[0m
+[0;32mI (141534) main: LVGL Tick: 70500[0m
+[0;32mI (141734) main: LVGL Tick: 70600[0m
+[0;32mI (141934) main: LVGL Tick: 70700[0m
+[0;32mI (142134) main: LVGL Tick: 70800[0m
+[0;32mI (142334) main: LVGL Tick: 70900[0m
+[0;32mI (142534) main: LVGL Tick: 71000[0m
+[0;32mI (142734) main: LVGL Tick: 71100[0m
+[0;32mI (142934) main: LVGL Tick: 71200[0m
+[0;32mI (143134) main: LVGL Tick: 71300[0m
+[0;32mI (143334) main: LVGL Tick: 71400[0m
+[0;32mI (143534) main: LVGL Tick: 71500[0m
+[0;32mI (143734) main: LVGL Tick: 71600[0m
+[0;32mI (143934) main: LVGL Tick: 71700[0m
+[0;32mI (144134) main: LVGL Tick: 71800[0m
+[0;32mI (144334) main: LVGL Tick: 71900[0m
+[0;32mI (144534) main: LVGL Tick: 72000[0m
+[0;32mI (144734) main: LVGL Tick: 72100[0m
+[0;32mI (144934) main: LVGL Tick: 72200[0m
+[0;32mI (145134) main: LVGL Tick: 72300[0m
+[0;32mI (145334) main: LVGL Tick: 72400[0m
+[1;31mE (145524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (145524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (145524) task_wdt: Tasks currently running:[0m
+[1;31mE (145524) task_wdt: CPU 0: lvgl_task[0m
+[1;31mE (145524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4002AE1A:0x3FFE6520 0x400263A4:0x3FFE6560 0x4002648D:0x3FFE6590 0x40087ACA:0x3FFE65B0 0x4002B0CD:0x3FFE65D0
+
+[0;32mI (145564) main: LVGL Tick: 72500[0m
+[0;32mI (145734) main: LVGL Tick: 72600[0m
+[0;32mI (145934) main: LVGL Tick: 72700[0m
+[0;32mI (146134) main: LVGL Tick: 72800[0m
+[0;32mI (146334) main: LVGL Tick: 72900[0m
+[0;32mI (146534) main: LVGL Tick: 73000[0m
+[0;32mI (146734) main: LVGL Tick: 73100[0m
+[0;32mI (146934) main: LVGL Tick: 73200[0m
+[0;32mI (147134) main: LVGL Tick: 73300[0m
+[0;32mI (147334) main: LVGL Tick: 73400[0m
+[0;32mI (147534) main: LVGL Tick: 73500[0m
+[0;32mI (147734) main: LVGL Tick: 73600[0m
+[0;32mI (147934) main: LVGL Tick: 73700[0m
+[0;32mI (148134) main: LVGL Tick: 73800[0m
+[0;32mI (148334) main: LVGL Tick: 73900[0m
+[0;32mI (148534) main: LVGL Tick: 74000[0m
+[0;32mI (148734) main: LVGL Tick: 74100[0m
+[0;32mI (148934) main: LVGL Tick: 74200[0m
+[0;32mI (149134) main: LVGL Tick: 74300[0m
+[0;32mI (149334) main: LVGL Tick: 74400[0m
+[0;32mI (149534) main: LVGL Tick: 74500[0m
+[0;32mI (149734) main: LVGL Tick: 74600[0m
+[0;32mI (149934) main: LVGL Tick: 74700[0m
+[0;32mI (150134) main: LVGL Tick: 74800[0m
+[0;32mI (150334) main: LVGL Tick: 74900[0m
+[1;31mE (150524) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (150524) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (150524) task_wdt: Tasks currently running:[0m
+[1;31mE (150524) task_wdt: CPU 0: main[0m
+[1;31mE (150524) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400B1FCE:0x3FFC33C0 0x400B23B4:0x3FFC33E0 0x400268A5:0x3FFC3410 0x4001A8D1:0x3FFD7590 0x4002B27B:0x3FFD75A0 0x40025FEC:0x3FFD75C0 0x40028481:0x3FFD75E0 0x400B2C7A:0x3FFD7600 0x400B2DD9:0x3FFD7620 0x400B4BB6:0x3FFD7640 0x400B4C71:0x3FFD7680 0x400AFB2F:0x3FFD76B0 0x400AFDD4:0x3FFD7700 0x400AFE89:0x3FFD7730 0x400AFEC5:0x3FFD7760 0x400AFEFE:0x3FFD77B0 0x400AFF3D:0x3FFD77D0 0x40087C25:0x3FFD7800 0x400C61F7:0x3FFD78B0 0x4002B0CD:0x3FFD78E0
+
+[0;32mI (150584) main: LVGL Tick: 75000[0m
+[0;32mI (150734) main: LVGL Tick: 75100[0m
+[0;32mI (150934) main: LVGL Tick: 75200[0m
+[0;32mI (151134) main: LVGL Tick: 75300[0m
+[0;32mI (151334) main: LVGL Tick: 75400[0m
+[0;32mI (151534) main: LVGL Tick: 75500[0m
+[0;32mI (151734) main: LVGL Tick: 75600[0m
+[0;32mI (151934) main: LVGL Tick: 75700[0m
+[0;32mI (152134) main: LVGL Tick: 75800[0m
+[0;32mI (152334) main: LVGL Tick: 75900[0m
+[0;32mI (152534) main: LVGL Tick: 76000[0m
+[0;32mI (152734) main: LVGL Tick: 76100[0m
+[0;32mI (152934) main: LVGL Tick: 76200[0m
+[0;32mI (153134) main: LVGL Tick: 76300[0m
+[0;32mI (153334) main: LVGL Tick: 76400[0m
+[0;32mI (153534) main: LVGL Tick: 76500[0m
+[0;32mI (153734) main: LVGL Tick: 76600[0m
+[0;32mI (153934) main: LVGL Tick: 76700[0m
+[0;32mI (154134) main: LVGL Tick: 76800[0m
+[0;32mI (154334) main: 

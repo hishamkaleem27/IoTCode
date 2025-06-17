@@ -1,0 +1,1029 @@
+ESP-ROM:esp32s2-rc4-20191025
+Build:Oct 25 2019
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3ffe5110,len:0x1664
+load:0x4004a000,len:0x4
+load:0x4004a004,len:0xb18
+load:0x4004e000,len:0x335c
+entry 0x4004a1c8
+[0;32mI (23) boot: ESP-IDF v5.4.1 2nd stage bootloader[0m
+[0;32mI (24) boot: compile time Jun 12 2025 18:30:20[0m
+[0;32mI (24) boot: chip revision: v0.0[0m
+[0;32mI (24) boot: efuse block revision: v0.2[0m
+[0;32mI (28) boot.esp32s2: SPI Speed      : 80MHz[0m
+[0;32mI (32) boot.esp32s2: SPI Mode       : DIO[0m
+[0;32mI (35) boot.esp32s2: SPI Flash Size : 2MB[0m
+[0;32mI (39) boot: Enabling RNG early entropy source...[0m
+[0;32mI (44) boot: Partition Table:[0m
+[0;32mI (46) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (53) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (59) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (66) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (72) boot: End of partition table[0m
+[0;32mI (75) esp_image: segment 0: paddr=00010020 vaddr=3f000020 size=35e70h (220784) map[0m
+[0;32mI (126) esp_image: segment 1: paddr=00045e98 vaddr=3ff9e010 size=0001ch (    28) load[0m
+[0;32mI (127) esp_image: segment 2: paddr=00045ebc vaddr=3ffc2610 size=01dach (  7596) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00047c70 vaddr=40024000 size=083a8h ( 33704) load[0m
+[0;32mI (146) esp_image: segment 4: paddr=00050020 vaddr=40080020 size=42fd0h (274384) map[0m
+[0;32mI (200) esp_image: segment 5: paddr=00092ff8 vaddr=4002c3a8 size=06260h ( 25184) load[0m
+[0;32mI (213) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (213) boot: Disabling RNG early entropy source...[0m
+[0;32mI (223) cache: Instruction cache 	: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (223) cache: Data cache 		: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (238) cpu_start: Unicore app[0m
+[0;32mI (246) cpu_start: Pro cpu start user code[0m
+[0;32mI (246) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (246) app_init: Application information:[0m
+[0;32mI (246) app_init: Project name:     IoTDeviceCode[0m
+[0;32mI (250) app_init: App version:      980c6e5-dirty[0m
+[0;32mI (255) app_init: Compile time:     Jun 15 2025 00:11:13[0m
+[0;32mI (260) app_init: ELF file SHA256:  8887ddc7d...[0m
+[0;32mI (264) app_init: ESP-IDF:          v5.4.1-dirty[0m
+[0;32mI (268) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (272) efuse_init: Max chip rev:     v1.99 [0m
+[0;32mI (276) efuse_init: Chip rev:         v0.0[0m
+[0;32mI (280) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (286) heap_init: At 3FFD4DE8 len 00027218 (156 KiB): RAM[0m
+[0;32mI (291) heap_init: At 3FFFC000 len 00003A10 (14 KiB): RAM[0m
+[0;32mI (296) heap_init: At 3FF9E02C len 00001FBC (7 KiB): RTCRAM[0m
+[0;32mI (303) spi_flash: detected chip: generic[0m
+[0;32mI (305) spi_flash: flash io: dio[0m
+[0;33mW (308) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (321) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) main: Starting app_main[0m
+[0;32mI (321) display: Initializing display...[0m
+[0;32mI (331) gpio: GPIO[7]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (341) gpio: GPIO[15]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (341) gpio: GPIO[16]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (351) ili9341: LCD panel create success, version: 2.0.0[0m
+[0;32mI (531) main: Creating LVGL label[0m
+[0;32mI (531) main_task: Returned from app_main()[0m
+[0;32mI (731) main: LVGL Tick: 100[0m
+[0;32mI (931) main: LVGL Tick: 200[0m
+[0;32mI (1131) main: LVGL Tick: 300[0m
+[0;32mI (1331) main: LVGL Tick: 400[0m
+[0;32mI (1531) main: LVGL Tick: 500[0m
+[0;32mI (1731) main: LVGL Tick: 600[0m
+[0;32mI (1931) main: LVGL Tick: 700[0m
+[0;32mI (2131) main: LVGL Tick: 800[0m
+[0;32mI (2331) main: LVGL Tick: 900[0m
+[0;32mI (2531) main: LVGL Tick: 1000[0m
+[0;32mI (2731) main: LVGL Tick: 1100[0m
+[0;32mI (2931) main: LVGL Tick: 1200[0m
+[0;32mI (3131) main: LVGL Tick: 1300[0m
+[0;32mI (3331) main: LVGL Tick: 1400[0m
+[0;32mI (3531) main: LVGL Tick: 1500[0m
+ESP-ROM:esp32s2-rc4-20191025
+Build:Oct 25 2019
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3ffe5110,len:0x1664
+load:0x4004a000,len:0x4
+load:0x4004a004,len:0xb18
+load:0x4004e000,len:0x335c
+entry 0x4004a1c8
+[0;32mI (23) boot: ESP-IDF v5.4.1 2nd stage bootloader[0m
+[0;32mI (24) boot: compile time Jun 12 2025 18:30:20[0m
+[0;32mI (24) boot: chip revision: v0.0[0m
+[0;32mI (24) boot: efuse block revision: v0.2[0m
+[0;32mI (28) boot.esp32s2: SPI Speed      : 80MHz[0m
+[0;32mI (32) boot.esp32s2: SPI Mode       : DIO[0m
+[0;32mI (35) boot.esp32s2: SPI Flash Size : 2MB[0m
+[0;32mI (39) boot: Enabling RNG early entropy source...[0m
+[0;32mI (44) boot: Partition Table:[0m
+[0;32mI (46) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (53) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (59) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (66) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (72) boot: End of partition table[0m
+[0;32mI (75) esp_image: segment 0: paddr=00010020 vaddr=3f000020 size=35e70h (220784) map[0m
+[0;32mI (126) esp_image: segment 1: paddr=00045e98 vaddr=3ff9e010 size=0001ch (    28) load[0m
+[0;32mI (127) esp_image: segment 2: paddr=00045ebc vaddr=3ffc2610 size=01dach (  7596) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00047c70 vaddr=40024000 size=083a8h ( 33704) load[0m
+[0;32mI (146) esp_image: segment 4: paddr=00050020 vaddr=40080020 size=42fd0h (274384) map[0m
+[0;32mI (200) esp_image: segment 5: paddr=00092ff8 vaddr=4002c3a8 size=06260h ( 25184) load[0m
+[0;32mI (213) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (213) boot: Disabling RNG early entropy source...[0m
+[0;32mI (223) cache: Instruction cache 	: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (223) cache: Data cache 		: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (238) cpu_start: Unicore app[0m
+[0;32mI (246) cpu_start: Pro cpu start user code[0m
+[0;32mI (246) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (246) app_init: Application information:[0m
+[0;32mI (246) app_init: Project name:     IoTDeviceCode[0m
+[0;32mI (250) app_init: App version:      980c6e5-dirty[0m
+[0;32mI (255) app_init: Compile time:     Jun 15 2025 00:11:13[0m
+[0;32mI (260) app_init: ELF file SHA256:  8887ddc7d...[0m
+[0;32mI (264) app_init: ESP-IDF:          v5.4.1-dirty[0m
+[0;32mI (268) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (272) efuse_init: Max chip rev:     v1.99 [0m
+[0;32mI (276) efuse_init: Chip rev:         v0.0[0m
+[0;32mI (280) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (286) heap_init: At 3FFD4DE8 len 00027218 (156 KiB): RAM[0m
+[0;32mI (291) heap_init: At 3FFFC000 len 00003A10 (14 KiB): RAM[0m
+[0;32mI (296) heap_init: At 3FF9E02C len 00001FBC (7 KiB): RTCRAM[0m
+[0;32mI (303) spi_flash: detected chip: generic[0m
+[0;32mI (305) spi_flash: flash io: dio[0m
+[0;33mW (308) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (321) main_task: Started on CPU0[0m
+[0;32mI (321) main_task: Calling app_main()[0m
+[0;32mI (321) main: Starting app_main[0m
+[0;32mI (321) display: Initializing display...[0m
+[0;32mI (331) gpio: GPIO[7]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (341) gpio: GPIO[15]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (341) gpio: GPIO[16]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (351) ili9341: LCD panel create success, version: 2.0.0[0m
+[0;32mI (531) main: Creating LVGL label[0m
+[0;32mI (531) main_task: Returned from app_main()[0m
+[0;32mI (731) main: LVGL Tick: 100[0m
+[0;32mI (931) main: LVGL Tick: 200[0m
+[0;32mI (1131) main: LVGL Tick: 300[0m
+[0;32mI (1331) main: LVGL Tick: 400[0m
+[0;32mI (1531) main: LVGL Tick: 500[0m
+[0;32mI (1731) main: LVGL Tick: 600[0m
+[0;32mI (1931) main: LVGL Tick: 700[0m
+[0;32mI (2131) main: LVGL Tick: 800[0m
+[0;32mI (2331) main: LVGL Tick: 900[0m
+[0;32mI (2531) main: LVGL Tick: 1000[0m
+[0;32mI (2731) main: LVGL Tick: 1100[0m
+[0;32mI (2931) main: LVGL Tick: 1200[0m
+[0;32mI (3131) main: LVGL Tick: 1300[0m
+[0;32mI (3331) main: LVGL Tick: 1400[0m
+[0;32mI (3531) main: LVGL Tick: 1500[0m
+[0;32mI (3731) main: LVGL Tick: 1600[0m
+[0;32mI (3931) main: LVGL Tick: 1700[0m
+[0;32mI (4131) main: LVGL Tick: 1800[0m
+[0;32mI (4331) main: LVGL Tick: 1900[0m
+[0;32mI (4531) main: LVGL Tick: 2000[0m
+[0;32mI (4731) main: LVGL Tick: 2100[0m
+[0;32mI (4931) main: LVGL Tick: 2200[0m
+[0;32mI (5131) main: LVGL Tick: 2300[0m
+[0;32mI (5331) main: LVGL Tick: 2400[0m
+[0;32mI (5531) main: LVGL Tick: 2500[0m
+[0;32mI (5731) main: LVGL Tick: 2600[0m
+[0;32mI (5931) main: LVGL Tick: 2700[0m
+[0;32mI (6131) main: LVGL Tick: 2800[0m
+[0;32mI (6331) main: LVGL Tick: 2900[0m
+[0;32mI (6531) main: LVGL Tick: 3000[0m
+[0;32mI (6731) main: LVGL Tick: 3100[0m
+[0;32mI (6931) main: LVGL Tick: 3200[0m
+[0;32mI (7131) main: LVGL Tick: 3300[0m
+[0;32mI (7331) main: LVGL Tick: 3400[0m
+[0;32mI (7531) main: LVGL Tick: 3500[0m
+[0;32mI (7731) main: LVGL Tick: 3600[0m
+[0;32mI (7931) main: LVGL Tick: 3700[0m
+[0;32mI (8131) main: LVGL Tick: 3800[0m
+[0;32mI (8331) main: LVGL Tick: 3900[0m
+[0;32mI (8531) main: LVGL Tick: 4000[0m
+[0;32mI (8731) main: LVGL Tick: 4100[0m
+[0;32mI (8931) main: LVGL Tick: 4200[0m
+[0;32mI (9131) main: LVGL Tick: 4300[0m
+[0;32mI (9331) main: LVGL Tick: 4400[0m
+[0;32mI (9531) main: LVGL Tick: 4500[0m
+[0;32mI (9731) main: LVGL Tick: 4600[0m
+[0;32mI (9931) main: LVGL Tick: 4700[0m
+[0;32mI (10131) main: LVGL Tick: 4800[0m
+[0;32mI (10331) main: LVGL Tick: 4900[0m
+[0;32mI (10531) main: LVGL Tick: 5000[0m
+[0;32mI (10731) main: LVGL Tick: 5100[0m
+[0;32mI (10931) main: LVGL Tick: 5200[0m
+[0;32mI (11131) main: LVGL Tick: 5300[0m
+[0;32mI (11331) main: LVGL Tick: 5400[0m
+[0;32mI (11531) main: LVGL Tick: 5500[0m
+[0;32mI (11731) main: LVGL Tick: 5600[0m
+[0;32mI (11931) main: LVGL Tick: 5700[0m
+[0;32mI (12131) main: LVGL Tick: 5800[0m
+[0;32mI (12331) main: LVGL Tick: 5900[0m
+[0;32mI (12531) main: LVGL Tick: 6000[0m
+[0;32mI (12731) main: LVGL Tick: 6100[0m
+[0;32mI (12931) main: LVGL Tick: 6200[0m
+[0;32mI (13131) main: LVGL Tick: 6300[0m
+[0;32mI (13331) main: LVGL Tick: 6400[0m
+[0;32mI (13531) main: LVGL Tick: 6500[0m
+[0;32mI (13731) main: LVGL Tick: 6600[0m
+[0;32mI (13931) main: LVGL Tick: 6700[0m
+[0;32mI (14131) main: LVGL Tick: 6800[0m
+[0;32mI (14331) main: LVGL Tick: 6900[0m
+[0;32mI (14531) main: LVGL Tick: 7000[0m
+[0;32mI (14731) main: LVGL Tick: 7100[0m
+[0;32mI (14931) main: LVGL Tick: 7200[0m
+[0;32mI (15131) main: LVGL Tick: 7300[0m
+[0;32mI (15331) main: LVGL Tick: 7400[0m
+[0;32mI (15531) main: LVGL Tick: 7500[0m
+[0;32mI (15731) main: LVGL Tick: 7600[0m
+[0;32mI (15931) main: LVGL Tick: 7700[0m
+[0;32mI (16131) main: LVGL Tick: 7800[0m
+[0;32mI (16331) main: LVGL Tick: 7900[0m
+[0;32mI (16531) main: LVGL Tick: 8000[0m
+[0;32mI (16731) main: LVGL Tick: 8100[0m
+[0;32mI (16931) main: LVGL Tick: 8200[0m
+[0;32mI (17131) main: LVGL Tick: 8300[0m
+[0;32mI (17331) main: LVGL Tick: 8400[0m
+[0;32mI (17531) main: LVGL Tick: 8500[0m
+[0;32mI (17731) main: LVGL Tick: 8600[0m
+[0;32mI (17931) main: LVGL Tick: 8700[0m
+[0;32mI (18131) main: LVGL Tick: 8800[0m
+[0;32mI (18331) main: LVGL Tick: 8900[0m
+[0;32mI (18531) main: LVGL Tick: 9000[0m
+[0;32mI (18731) main: LVGL Tick: 9100[0m
+[0;32mI (18931) main: LVGL Tick: 9200[0m
+[0;32mI (19131) main: LVGL Tick: 9300[0m
+[0;32mI (19331) main: LVGL Tick: 9400[0m
+[0;32mI (19531) main: LVGL Tick: 9500[0m
+[0;32mI (19731) main: LVGL Tick: 9600[0m
+[0;32mI (19931) main: LVGL Tick: 9700[0m
+[0;32mI (20131) main: LVGL Tick: 9800[0m
+[0;32mI (20331) main: LVGL Tick: 9900[0m
+[0;32mI (20531) main: LVGL Tick: 10000[0m
+[0;32mI (20731) main: LVGL Tick: 10100[0m
+[0;32mI (20931) main: LVGL Tick: 10200[0m
+[0;32mI (21131) main: LVGL Tick: 10300[0m
+[0;32mI (21331) main: LVGL Tick: 10400[0m
+[0;32mI (21531) main: LVGL Tick: 10500[0m
+[0;32mI (21731) main: LVGL Tick: 10600[0m
+[0;32mI (21931) main: LVGL Tick: 10700[0m
+[0;32mI (22131) main: LVGL Tick: 10800[0m
+[0;32mI (22331) main: LVGL Tick: 10900[0m
+[0;32mI (22531) main: LVGL Tick: 11000[0m
+[0;32mI (22731) main: LVGL Tick: 11100[0m
+[0;32mI (22931) main: LVGL Tick: 11200[0m
+[0;32mI (23131) main: LVGL Tick: 11300[0m
+[0;32mI (23331) main: LVGL Tick: 11400[0m
+[0;32mI (23531) main: LVGL Tick: 11500[0m
+[0;32mI (23731) main: LVGL Tick: 11600[0m
+[0;32mI (23931) main: LVGL Tick: 11700[0m
+[0;32mI (24131) main: LVGL Tick: 11800[0m
+[0;32mI (24331) main: LVGL Tick: 11900[0m
+[0;32mI (24531) main: LVGL Tick: 12000[0m
+[0;32mI (24731) main: LVGL Tick: 12100[0m
+[0;32mI (24931) main: LVGL Tick: 12200[0m
+[0;32mI (25131) main: LVGL Tick: 12300[0m
+[0;32mI (25331) main: LVGL Tick: 12400[0m
+[0;32mI (25531) main: LVGL Tick: 12500[0m
+[0;32mI (25731) main: LVGL Tick: 12600[0m
+[0;32mI (25931) main: LVGL Tick: 12700[0m
+[0;32mI (26131) main: LVGL Tick: 12800[0m
+[0;32mI (26331) main: LVGL Tick: 12900[0m
+[0;32mI (26531) main: LVGL Tick: 13000[0m
+[0;32mI (26731) main: LVGL Tick: 13100[0m
+[0;32mI (26931) main: LVGL Tick: 13200[0m
+[0;32mI (27131) main: LVGL Tick: 13300[0m
+[0;32mI (27331) main: LVGL Tick: 13400[0m
+[0;32mI (27531) main: LVGL Tick: 13500[0m
+[0;32mI (27731) main: LVGL Tick: 13600[0m
+[0;32mI (27931) main: LVGL Tick: 13700[0m
+[0;32mI (28131) main: LVGL Tick: 13800[0m
+[0;32mI (28331) main: LVGL Tick: 13900[0m
+[0;32mI (28531) main: LVGL Tick: 14000[0m
+[0;32mI (28731) main: LVGL Tick: 14100[0m
+[0;32mI (28931) main: LVGL Tick: 14200[0m
+[0;32mI (29131) main: LVGL Tick: 14300[0m
+[0;32mI (29331) main: LVGL Tick: 14400[0m
+[0;32mI (29531) main: LVGL Tick: 14500[0m
+[0;32mI (29731) main: LVGL Tick: 14600[0m
+[0;32mI (29931) main: LVGL Tick: 14700[0m
+[0;32mI (30131) main: LVGL Tick: 14800[0m
+[0;32mI (30331) main: LVGL Tick: 14900[0m
+[0;32mI (30531) main: LVGL Tick: 15000[0m
+[0;32mI (30731) main: LVGL Tick: 15100[0m
+[0;32mI (30931) main: LVGL Tick: 15200[0m
+[0;32mI (31131) main: LVGL Tick: 15300[0m
+[0;32mI (31331) main: LVGL Tick: 15400[0m
+[0;32mI (31531) main: LVGL Tick: 15500[0m
+[0;32mI (31731) main: LVGL Tick: 15600[0m
+[0;32mI (31931) main: LVGL Tick: 15700[0m
+[0;32mI (32131) main: LVGL Tick: 15800[0m
+[0;32mI (32331) main: LVGL Tick: 15900[0m
+[0;32mI (32531) main: LVGL Tick: 16000[0m
+[0;32mI (32731) main: LVGL Tick: 16100[0m
+[0;32mI (32931) main: LVGL Tick: 16200[0m
+[0;32mI (33131) main: LVGL Tick: 16300[0m
+[0;32mI (33331) main: LVGL Tick: 16400[0m
+[0;32mI (33531) main: LVGL Tick: 16500[0m
+[0;32mI (33731) main: LVGL Tick: 16600[0m
+[0;32mI (33931) main: LVGL Tick: 16700[0m
+[0;32mI (34131) main: LVGL Tick: 16800[0m
+[0;32mI (34331) main: LVGL Tick: 16900[0m
+[0;32mI (34531) main: LVGL Tick: 17000[0m
+[0;32mI (34731) main: LVGL Tick: 17100[0m
+[0;32mI (34931) main: LVGL Tick: 17200[0m
+[0;32mI (35131) main: LVGL Tick: 17300[0m
+[0;32mI (35331) main: LVGL Tick: 17400[0m
+[0;32mI (35531) main: LVGL Tick: 17500[0m
+[0;32mI (35731) main: LVGL Tick: 17600[0m
+[0;32mI (35931) main: LVGL Tick: 17700[0m
+[0;32mI (36131) main: LVGL Tick: 17800[0m
+[0;32mI (36331) main: LVGL Tick: 17900[0m
+[0;32mI (36531) main: LVGL Tick: 18000[0m
+[0;32mI (36731) main: LVGL Tick: 18100[0m
+[0;32mI (36931) main: LVGL Tick: 18200[0m
+[0;32mI (37131) main: LVGL Tick: 18300[0m
+[0;32mI (37331) main: LVGL Tick: 18400[0m
+[0;32mI (37531) main: LVGL Tick: 18500[0m
+[0;32mI (37731) main: LVGL Tick: 18600[0m
+[0;32mI (37931) main: LVGL Tick: 18700[0m
+[0;32mI (38131) main: LVGL Tick: 18800[0m
+[0;32mI (38331) main: LVGL Tick: 18900[0m
+[0;32mI (38531) main: LVGL Tick: 19000[0m
+[0;32mI (38731) main: LVGL Tick: 19100[0m
+[0;32mI (38931) main: LVGL Tick: 19200[0m
+[0;32mI (39131) main: LVGL Tick: 19300[0m
+[0;32mI (39331) main: LVGL Tick: 19400[0m
+[0;32mI (39531) main: LVGL Tick: 19500[0m
+[0;32mI (39731) main: LVGL Tick: 19600[0m
+[0;32mI (39931) main: LVGL Tick: 19700[0m
+[0;32mI (40131) main: LVGL Tick: 19800[0m
+[0;32mI (40331) main: LVGL Tick: 19900[0m
+[0;32mI (40531) main: LVGL Tick: 20000[0m
+[0;32mI (40731) main: LVGL Tick: 20100[0m
+[0;32mI (40931) main: LVGL Tick: 20200[0m
+[0;32mI (41131) main: LVGL Tick: 20300[0m
+[0;32mI (41331) main: LVGL Tick: 20400[0m
+[0;32mI (41531) main: LVGL Tick: 20500[0m
+[0;32mI (41731) main: LVGL Tick: 20600[0m
+[0;32mI (41931) main: LVGL Tick: 20700[0m
+[0;32mI (42131) main: LVGL Tick: 20800[0m
+[0;32mI (42331) main: LVGL Tick: 20900[0m
+[0;32mI (42531) main: LVGL Tick: 21000[0m
+[0;32mI (42731) main: LVGL Tick: 21100[0m
+[0;32mI (42931) main: LVGL Tick: 21200[0m
+[0;32mI (43131) main: LVGL Tick: 21300[0m
+[0;32mI (43331) main: LVGL Tick: 21400[0m
+[0;32mI (43531) main: LVGL Tick: 21500[0m
+[0;32mI (43731) main: LVGL Tick: 21600[0m
+[0;32mI (43931) main: LVGL Tick: 21700[0m
+[0;32mI (44131) main: LVGL Tick: 21800[0m
+[0;32mI (44331) main: LVGL Tick: 21900[0m
+[0;32mI (44531) main: LVGL Tick: 22000[0m
+[0;32mI (44731) main: LVGL Tick: 22100[0m
+[0;32mI (44931) main: LVGL Tick: 22200[0m
+[0;32mI (45131) main: LVGL Tick: 22300[0m
+[0;32mI (45331) main: LVGL Tick: 22400[0m
+[0;32mI (45531) main: LVGL Tick: 22500[0m
+[0;32mI (45731) main: LVGL Tick: 22600[0m
+[0;32mI (45931) main: LVGL Tick: 22700[0m
+[0;32mI (46131) main: LVGL Tick: 22800[0m
+[0;32mI (46331) main: LVGL Tick: 22900[0m
+[0;32mI (46531) main: LVGL Tick: 23000[0m
+[0;32mI (46731) main: LVGL Tick: 23100[0m
+[0;32mI (46931) main: LVGL Tick: 23200[0m
+[0;32mI (47131) main: LVGL Tick: 23300[0m
+[0;32mI (47331) main: LVGL Tick: 23400[0m
+[0;32mI (47531) main: LVGL Tick: 23500[0m
+[0;32mI (47731) main: LVGL Tick: 23600[0m
+[0;32mI (47931) main: LVGL Tick: 23700[0m
+[0;32mI (48131) main: LVGL Tick: 23800[0m
+[0;32mI (48331) main: LVGL Tick: 23900[0m
+[0;32mI (48531) main: LVGL Tick: 24000[0m
+[0;32mI (48731) main: LVGL Tick: 24100[0m
+[0;32mI (48931) main: LVGL Tick: 24200[0m
+[0;32mI (49131) main: LVGL Tick: 24300[0m
+[0;32mI (49331) main: LVGL Tick: 24400[0m
+[0;32mI (49531) main: LVGL Tick: 24500[0m
+[0;32mI (49731) main: LVGL Tick: 24600[0m
+[0;32mI (49931) main: LVGL Tick: 24700[0m
+[0;32mI (50131) main: LVGL Tick: 24800[0m
+[0;32mI (50331) main: LVGL Tick: 24900[0m
+[0;32mI (50531) main: LVGL Tick: 25000[0m
+[0;32mI (50731) main: LVGL Tick: 25100[0m
+[0;32mI (50931) main: LVGL Tick: 25200[0m
+[0;32mI (51131) main: LVGL Tick: 25300[0m
+[0;32mI (51331) main: LVGL Tick: 25400[0m
+[0;32mI (51531) main: LVGL Tick: 25500[0m
+[0;32mI (51731) main: LVGL Tick: 25600[0m
+[0;32mI (51931) main: LVGL Tick: 25700[0m
+[0;32mI (52131) main: LVGL Tick: 25800[0m
+[0;32mI (52331) main: LVGL Tick: 25900[0m
+[0;32mI (52531) main: LVGL Tick: 26000[0m
+[0;32mI (52731) main: LVGL Tick: 26100[0m
+[0;32mI (52931) main: LVGL Tick: 26200[0m
+[0;32mI (53131) main: LVGL Tick: 26300[0m
+[0;32mI (53331) main: LVGL Tick: 26400[0m
+[0;32mI (53531) main: LVGL Tick: 26500[0m
+[0;32mI (53731) main: LVGL Tick: 26600[0m
+[0;32mI (53931) main: LVGL Tick: 26700[0m
+[0;32mI (54131) main: LVGL Tick: 26800[0m
+[0;32mI (54331) main: LVGL Tick: 26900[0m
+[0;32mI (54531) main: LVGL Tick: 27000[0m
+[0;32mI (54731) main: LVGL Tick: 27100[0m
+[0;32mI (54931) main: LVGL Tick: 27200[0m
+[0;32mI (55131) main: LVGL Tick: 27300[0m
+[0;32mI (55331) main: LVGL Tick: 27400[0m
+[0;32mI (55531) main: LVGL Tick: 27500[0m
+[0;32mI (55731) main: LVGL Tick: 27600[0m
+[0;32mI (55931) main: LVGL Tick: 27700[0m
+[0;32mI (56131) main: LVGL Tick: 27800[0m
+[0;32mI (56331) main: LVGL Tick: 27900[0m
+[0;32mI (56531) main: LVGL Tick: 28000[0m
+[0;32mI (56731) main: LVGL Tick: 28100[0m
+[0;32mI (56931) main: LVGL Tick: 28200[0m
+[0;32mI (57131) main: LVGL Tick: 28300[0m
+[0;32mI (57331) main: LVGL Tick: 28400[0m
+[0;32mI (57531) main: LVGL Tick: 28500[0m
+[0;32mI (57731) main: LVGL Tick: 28600[0m
+[0;32mI (57931) main: LVGL Tick: 28700[0m
+[0;32mI (58131) main: LVGL Tick: 28800[0m
+[0;32mI (58331) main: LVGL Tick: 28900[0m
+[0;32mI (58531) main: LVGL Tick: 29000[0m
+[0;32mI (58731) main: LVGL Tick: 29100[0m
+[0;32mI (58931) main: LVGL Tick: 29200[0m
+[0;32mI (59131) main: LVGL Tick: 29300[0m
+[0;32mI (59331) main: LVGL Tick: 29400[0m
+[0;32mI (59531) main: LVGL Tick: 29500[0m
+[0;32mI (59731) main: LVGL Tick: 29600[0m
+[0;32mI (59931) main: LVGL Tick: 29700[0m
+[0;32mI (60131) main: LVGL Tick: 29800[0m
+[0;32mI (60331) main: LVGL Tick: 29900[0m
+[0;32mI (60531) main: LVGL Tick: 30000[0m
+[0;32mI (60731) main: LVGL Tick: 30100[0m
+[0;32mI (60931) main: LVGL Tick: 30200[0m
+[0;32mI (61131) main: LVGL Tick: 30300[0m
+[0;32mI (61331) main: LVGL Tick: 30400[0m
+[0;32mI (61531) main: LVGL Tick: 30500[0m
+[0;32mI (61731) main: LVGL Tick: 30600[0m
+[0;32mI (61931) main: LVGL Tick: 30700[0m
+[0;32mI (62131) main: LVGL Tick: 30800[0m
+[0;32mI (62331) main: LVGL Tick: 30900[0m
+[0;32mI (62531) main: LVGL Tick: 31000[0m
+[0;32mI (62731) main: LVGL Tick: 31100[0m
+[0;32mI (62931) main: LVGL Tick: 31200[0m
+[0;32mI (63131) main: LVGL Tick: 31300[0m
+[0;32mI (63331) main: LVGL Tick: 31400[0m
+[0;32mI (63531) main: LVGL Tick: 31500[0m
+[0;32mI (63731) main: LVGL Tick: 31600[0m
+[0;32mI (63931) main: LVGL Tick: 31700[0m
+[0;32mI (64131) main: LVGL Tick: 31800[0m
+[0;32mI (64331) main: LVGL Tick: 31900[0m
+[0;32mI (64531) main: LVGL Tick: 32000[0m
+[0;32mI (64731) main: LVGL Tick: 32100[0m
+[0;32mI (64931) main: LVGL Tick: 32200[0m
+[0;32mI (65131) main: LVGL Tick: 32300[0m
+[0;32mI (65331) main: LVGL Tick: 32400[0m
+[0;32mI (65531) main: LVGL Tick: 32500[0m
+[0;32mI (65731) main: LVGL Tick: 32600[0m
+[0;32mI (65931) main: LVGL Tick: 32700[0m
+[0;32mI (66131) main: LVGL Tick: 32800[0m
+[0;32mI (66331) main: LVGL Tick: 32900[0m
+[0;32mI (66531) main: LVGL Tick: 33000[0m
+[0;32mI (66731) main: LVGL Tick: 33100[0m
+[0;32mI (66931) main: LVGL Tick: 33200[0m
+[0;32mI (67131) main: LVGL Tick: 33300[0m
+[0;32mI (67331) main: LVGL Tick: 33400[0m
+[0;32mI (67531) main: LVGL Tick: 33500[0m
+[0;32mI (67731) main: LVGL Tick: 33600[0m
+[0;32mI (67931) main: LVGL Tick: 33700[0m
+[0;32mI (68131) main: LVGL Tick: 33800[0m
+[0;32mI (68331) main: LVGL Tick: 33900[0m
+[0;32mI (68531) main: LVGL Tick: 34000[0m
+[0;32mI (68731) main: LVGL Tick: 34100[0m
+[0;32mI (68931) main: LVGL Tick: 34200[0m
+[0;32mI (69131) main: LVGL Tick: 34300[0m
+[0;32mI (69331) main: LVGL Tick: 34400[0m
+[0;32mI (69531) main: LVGL Tick: 34500[0m
+[0;32mI (69731) main: LVGL Tick: 34600[0m
+[0;32mI (69931) main: LVGL Tick: 34700[0m
+[0;32mI (70131) main: LVGL Tick: 34800[0m
+[0;32mI (70331) main: LVGL Tick: 34900[0m
+[0;32mI (70531) main: LVGL Tick: 35000[0m
+[0;32mI (70731) main: LVGL Tick: 35100[0m
+[0;32mI (70931) main: LVGL Tick: 35200[0m
+[0;32mI (71131) main: LVGL Tick: 35300[0m
+[0;32mI (71331) main: LVGL Tick: 35400[0m
+[0;32mI (71531) main: LVGL Tick: 35500[0m
+[0;32mI (71731) main: LVGL Tick: 35600[0m
+[0;32mI (71931) main: LVGL Tick: 35700[0m
+[0;32mI (72131) main: LVGL Tick: 35800[0m
+[0;32mI (72331) main: LVGL Tick: 35900[0m
+[0;32mI (72531) main: LVGL Tick: 36000[0m
+[0;32mI (72731) main: LVGL Tick: 36100[0m
+[0;32mI (72931) main: LVGL Tick: 36200[0m
+[0;32mI (73131) main: LVGL Tick: 36300[0m
+[0;32mI (73331) main: LVGL Tick: 36400[0m
+[0;32mI (73531) main: LVGL Tick: 36500[0m
+[0;32mI (73731) main: LVGL Tick: 36600[0m
+[0;32mI (73931) main: LVGL Tick: 36700[0m
+[0;32mI (74131) main: LVGL Tick: 36800[0m
+[0;32mI (74331) main: LVGL Tick: 36900[0m
+[0;32mI (74531) main: LVGL Tick: 37000[0m
+[0;32mI (74731) main: LVGL Tick: 37100[0m
+[0;32mI (74931) main: LVGL Tick: 37200[0m
+[0;32mI (75131) main: LVGL Tick: 37300[0m
+[0;32mI (75331) main: LVGL Tick: 37400[0m
+[0;32mI (75531) main: LVGL Tick: 37500[0m
+[0;32mI (75731) main: LVGL Tick: 37600[0m
+[0;32mI (75931) main: LVGL Tick: 37700[0m
+[0;32mI (76131) main: LVGL Tick: 37800[0m
+[0;32mI (76331) main: LVGL Tick: 37900[0m
+[0;32mI (76531) main: LVGL Tick: 38000[0m
+[0;32mI (76731) main: LVGL Tick: 38100[0m
+[0;32mI (76931) main: LVGL Tick: 38200[0m
+[0;32mI (77131) main: LVGL Tick: 38300[0m
+[0;32mI (77331) main: LVGL Tick: 38400[0m
+[0;32mI (77531) main: LVGL Tick: 38500[0m
+[0;32mI (77731) main: LVGL Tick: 38600[0m
+[0;32mI (77931) main: LVGL Tick: 38700[0m
+[0;32mI (78131) main: LVGL Tick: 38800[0m
+[0;32mI (78331) main: LVGL Tick: 38900[0m
+[0;32mI (78531) main: LVGL Tick: 39000[0m
+[0;32mI (78731) main: LVGL Tick: 39100[0m
+[0;32mI (78931) main: LVGL Tick: 39200[0m
+[0;32mI (79131) main: LVGL Tick: 39300[0m
+[0;32mI (79331) main: LVGL Tick: 39400[0m
+[0;32mI (79531) main: LVGL Tick: 39500[0m
+[0;32mI (79731) main: LVGL Tick: 39600[0m
+[0;32mI (79931) main: LVGL Tick: 39700[0m
+[0;32mI (80131) main: LVGL Tick: 39800[0m
+[0;32mI (80331) main: LVGL Tick: 39900[0m
+[0;32mI (80531) main: LVGL Tick: 40000[0m
+[0;32mI (80731) main: LVGL Tick: 40100[0m
+[0;32mI (80931) main: LVGL Tick: 40200[0m
+[0;32mI (81131) main: LVGL Tick: 40300[0m
+[0;32mI (81331) main: LVGL Tick: 40400[0m
+[0;32mI (81531) main: LVGL Tick: 40500[0m
+[0;32mI (81731) main: LVGL Tick: 40600[0m
+[0;32mI (81931) main: LVGL Tick: 40700[0m
+[0;32mI (82131) main: LVGL Tick: 40800[0m
+[0;32mI (82331) main: LVGL Tick: 40900[0m
+[0;32mI (82531) main: LVGL Tick: 41000[0m
+[0;32mI (82731) main: LVGL Tick: 41100[0m
+[0;32mI (82931) main: LVGL Tick: 41200[0m
+[0;32mI (83131) main: LVGL Tick: 41300[0m
+[0;32mI (83331) main: LVGL Tick: 41400[0m
+[0;32mI (83531) main: LVGL Tick: 41500[0m
+[0;32mI (83731) main: LVGL Tick: 41600[0m
+[0;32mI (83931) main: LVGL Tick: 41700[0m
+[0;32mI (84131) main: LVGL Tick: 41800[0m
+[0;32mI (84331) main: LVGL Tick: 41900[0m
+[0;32mI (84531) main: LVGL Tick: 42000[0m
+[0;32mI (84731) main: LVGL Tick: 42100[0m
+[0;32mI (84931) main: LVGL Tick: 42200[0m
+[0;32mI (85131) main: LVGL Tick: 42300[0m
+[0;32mI (85331) main: LVGL Tick: 42400[0m
+[0;32mI (85531) main: LVGL Tick: 42500[0m
+[0;32mI (85731) main: LVGL Tick: 42600[0m
+[0;32mI (85931) main: LVGL Tick: 42700[0m
+[0;32mI (86131) main: LVGL Tick: 42800[0m
+[0;32mI (86331) main: LVGL Tick: 42900[0m
+[0;32mI (86531) main: LVGL Tick: 43000[0m
+[0;32mI (86731) main: LVGL Tick: 43100[0m
+[0;32mI (86931) main: LVGL Tick: 43200[0m
+[0;32mI (87131) main: LVGL Tick: 43300[0m
+[0;32mI (87331) main: LVGL Tick: 43400[0m
+[0;32mI (87531) main: LVGL Tick: 43500[0m
+[0;32mI (87731) main: LVGL Tick: 43600[0m
+[0;32mI (87931) main: LVGL Tick: 43700[0m
+[0;32mI (88131) main: LVGL Tick: 43800[0m
+[0;32mI (88331) main: LVGL Tick: 43900[0m
+[0;32mI (88531) main: LVGL Tick: 44000[0m
+[0;32mI (88731) main: LVGL Tick: 44100[0m
+[0;32mI (88931) main: LVGL Tick: 44200[0m
+[0;32mI (89131) main: LVGL Tick: 44300[0m
+[0;32mI (89331) main: LVGL Tick: 44400[0m
+[0;32mI (89531) main: LVGL Tick: 44500[0m
+[0;32mI (89731) main: LVGL Tick: 44600[0m
+[0;32mI (89931) main: LVGL Tick: 44700[0m
+[0;32mI (90131) main: LVGL Tick: 44800[0m
+[0;32mI (90331) main: LVGL Tick: 44900[0m
+[0;32mI (90531) main: LVGL Tick: 45000[0m
+[0;32mI (90731) main: LVGL Tick: 45100[0m
+[0;32mI (90931) main: LVGL Tick: 45200[0m
+[0;32mI (91131) main: LVGL Tick: 45300[0m
+[0;32mI (91331) main: LVGL Tick: 45400[0m
+[0;32mI (91531) main: LVGL Tick: 45500[0m
+[0;32mI (91731) main: LVGL Tick: 45600[0m
+[0;32mI (91931) main: LVGL Tick: 45700[0m
+[0;32mI (92131) main: LVGL Tick: 45800[0m
+[0;32mI (92331) main: LVGL Tick: 45900[0m
+[0;32mI (92531) main: LVGL Tick: 46000[0m
+[0;32mI (92731) main: LVGL Tick: 46100[0m
+[0;32mI (92931) main: LVGL Tick: 46200[0m
+[0;32mI (93131) main: LVGL Tick: 46300[0m
+[0;32mI (93331) main: LVGL Tick: 46400[0m
+[0;32mI (93531) main: LVGL Tick: 46500[0m
+[0;32mI (93731) main: LVGL Tick: 46600[0m
+[0;32mI (93931) main: LVGL Tick: 46700[0m
+[0;32mI (94131) main: LVGL Tick: 46800[0m
+[0;32mI (94331) main: LVGL Tick: 46900[0m
+[0;32mI (94531) main: LVGL Tick: 47000[0m
+[0;32mI (94731) main: LVGL Tick: 47100[0m
+[0;32mI (94931) main: LVGL Tick: 47200[0m
+[0;32mI (95131) main: LVGL Tick: 47300[0m
+[0;32mI (95331) main: LVGL Tick: 47400[0m
+[0;32mI (95531) main: LVGL Tick: 47500[0m
+[0;32mI (95731) main: LVGL Tick: 47600[0m
+[0;32mI (95931) main: LVGL Tick: 47700[0m
+[0;32mI (96131) main: LVGL Tick: 47800[0m
+[0;32mI (96331) main: LVGL Tick: 47900[0m
+[0;32mI (96531) main: LVGL Tick: 48000[0m
+[0;32mI (96731) main: LVGL Tick: 48100[0m
+[0;32mI (96931) main: LVGL Tick: 48200[0m
+[0;32mI (97131) main: LVGL Tick: 48300[0m
+[0;32mI (97331) main: LVGL Tick: 48400[0m
+[0;32mI (97531) main: LVGL Tick: 48500[0m
+[0;32mI (97731) main: LVGL Tick: 48600[0m
+[0;32mI (97931) main: LVGL Tick: 48700[0m
+[0;32mI (98131) main: LVGL Tick: 48800[0m
+[0;32mI (98331) main: LVGL Tick: 48900[0m
+[0;32mI (98531) main: LVGL Tick: 49000[0m
+[0;32mI (98731) main: LVGL Tick: 49100[0m
+[0;32mI (98931) main: LVGL Tick: 49200[0m
+[0;32mI (99131) main: LVGL Tick: 49300[0m
+[0;32mI (99331) main: LVGL Tick: 49400[0m
+[0;32mI (99531) main: LVGL Tick: 49500[0m
+[0;32mI (99731) main: LVGL Tick: 49600[0m
+[0;32mI (99931) main: LVGL Tick: 49700[0m
+[0;32mI (100131) main: LVGL Tick: 49800[0m
+[0;32mI (100331) main: LVGL Tick: 49900[0m
+[0;32mI (100531) main: LVGL Tick: 50000[0m
+[0;32mI (100731) main: LVGL Tick: 50100[0m
+[0;32mI (100931) main: LVGL Tick: 50200[0m
+[0;32mI (101131) main: LVGL Tick: 50300[0m
+[0;32mI (101331) main: LVGL Tick: 50400[0m
+[0;32mI (101531) main: LVGL Tick: 50500[0m
+[0;32mI (101731) main: LVGL Tick: 50600[0m
+[0;32mI (101931) main: LVGL Tick: 50700[0m
+[0;32mI (102131) main: LVGL Tick: 50800[0m
+[0;32mI (102331) main: LVGL Tick: 50900[0m
+[0;32mI (102531) main: LVGL Tick: 51000[0m
+[0;32mI (102731) main: LVGL Tick: 51100[0m
+[0;32mI (102931) main: LVGL Tick: 51200[0m
+[0;32mI (103131) main: LVGL Tick: 51300[0m
+[0;32mI (103331) main: LVGL Tick: 51400[0m
+[0;32mI (103531) main: LVGL Tick: 51500[0m
+[0;32mI (103731) main: LVGL Tick: 51600[0m
+[0;32mI (103931) main: LVGL Tick: 51700[0m
+[0;32mI (104131) main: LVGL Tick: 51800[0m
+[0;32mI (104331) main: LVGL Tick: 51900[0m
+[0;32mI (104531) main: LVGL Tick: 52000[0m
+[0;32mI (104731) main: LVGL Tick: 52100[0m
+[0;32mI (104931) main: LVGL Tick: 52200[0m
+[0;32mI (105131) main: LVGL Tick: 52300[0m
+[0;32mI (105331) main: LVGL Tick: 52400[0m
+[0;32mI (105531) main: LVGL Tick: 52500[0m
+[0;32mI (105731) main: LVGL Tick: 52600[0m
+[0;32mI (105931) main: LVGL Tick: 52700[0m
+[0;32mI (106131) main: LVGL Tick: 52800[0m
+[0;32mI (106331) main: LVGL Tick: 52900[0m
+[0;32mI (106531) main: LVGL Tick: 53000[0m
+[0;32mI (106731) main: LVGL Tick: 53100[0m
+[0;32mI (106931) main: LVGL Tick: 53200[0m
+[0;32mI (107131) main: LVGL Tick: 53300[0m
+[0;32mI (107331) main: LVGL Tick: 53400[0m
+[0;32mI (107531) main: LVGL Tick: 53500[0m
+[0;32mI (107731) main: LVGL Tick: 53600[0m
+[0;32mI (107931) main: LVGL Tick: 53700[0m
+[0;32mI (108131) main: LVGL Tick: 53800[0m
+[0;32mI (108331) main: LVGL Tick: 53900[0m
+[0;32mI (108531) main: LVGL Tick: 54000[0m
+[0;32mI (108731) main: LVGL Tick: 54100[0m
+[0;32mI (108931) main: LVGL Tick: 54200[0m
+[0;32mI (109131) main: LVGL Tick: 54300[0m
+[0;32mI (109331) main: LVGL Tick: 54400[0m
+[0;32mI (109531) main: LVGL Tick: 54500[0m
+[0;32mI (109731) main: LVGL Tick: 54600[0m
+[0;32mI (109931) main: LVGL Tick: 54700[0m
+[0;32mI (110131) main: LVGL Tick: 54800[0m
+[0;32mI (110331) main: LVGL Tick: 54900[0m
+[0;32mI (110531) main: LVGL Tick: 55000[0m
+[0;32mI (110731) main: LVGL Tick: 55100[0m
+[0;32mI (110931) main: LVGL Tick: 55200[0m
+[0;32mI (111131) main: LVGL Tick: 55300[0m
+[0;32mI (111331) main: LVGL Tick: 55400[0m
+[0;32mI (111531) main: LVGL Tick: 55500[0m
+[0;32mI (111731) main: LVGL Tick: 55600[0m
+[0;32mI (111931) main: LVGL Tick: 55700[0m
+[0;32mI (112131) main: LVGL Tick: 55800[0m
+[0;32mI (112331) main: LVGL Tick: 55900[0m
+[0;32mI (112531) main: LVGL Tick: 56000[0m
+[0;32mI (112731) main: LVGL Tick: 56100[0m
+[0;32mI (112931) main: LVGL Tick: 56200[0m
+[0;32mI (113131) main: LVGL Tick: 56300[0m
+[0;32mI (113331) main: LVGL Tick: 56400[0m
+[0;32mI (113531) main: LVGL Tick: 56500[0m
+[0;32mI (113731) main: LVGL Tick: 56600[0m
+[0;32mI (113931) main: LVGL Tick: 56700[0m
+[0;32mI (114131) main: LVGL Tick: 56800[0m
+[0;32mI (114331) main: LVGL Tick: 56900[0m
+[0;32mI (114531) main: LVGL Tick: 57000[0m
+[0;32mI (114731) main: LVGL Tick: 57100[0m
+[0;32mI (114931) main: LVGL Tick: 57200[0m
+[0;32mI (115131) main: LVGL Tick: 57300[0m
+[0;32mI (115331) main: LVGL Tick: 57400[0m
+[0;32mI (115531) main: LVGL Tick: 57500[0m
+[0;32mI (115731) main: LVGL Tick: 57600[0m
+[0;32mI (115931) main: LVGL Tick: 57700[0m
+[0;32mI (116131) main: LVGL Tick: 57800[0m
+[0;32mI (116331) main: LVGL Tick: 57900[0m
+[0;32mI (116531) main: LVGL Tick: 58000[0m
+[0;32mI (116731) main: LVGL Tick: 58100[0m
+[0;32mI (116931) main: LVGL Tick: 58200[0m
+[0;32mI (117131) main: LVGL Tick: 58300[0m
+[0;32mI (117331) main: LVGL Tick: 58400[0m
+[0;32mI (117531) main: LVGL Tick: 58500[0m
+[0;32mI (117731) main: LVGL Tick: 58600[0m
+[0;32mI (117931) main: LVGL Tick: 58700[0m
+[0;32mI (118131) main: LVGL Tick: 58800[0m
+[0;32mI (118331) main: LVGL Tick: 58900[0m
+[0;32mI (118531) main: LVGL Tick: 59000[0m
+[0;32mI (118731) main: LVGL Tick: 59100[0m
+[0;32mI (118931) main: LVGL Tick: 59200[0m
+[0;32mI (119131) main: LVGL Tick: 59300[0m
+[0;32mI (119331) main: LVGL Tick: 59400[0m
+[0;32mI (119531) main: LVGL Tick: 59500[0m
+[0;32mI (119731) main: LVGL Tick: 59600[0m
+[0;32mI (119931) main: LVGL Tick: 59700[0m
+[0;32mI (120131) main: LVGL Tick: 59800[0m
+[0;32mI (120331) main: LVGL Tick: 59900[0m
+[0;32mI (120531) main: LVGL Tick: 60000[0m
+[0;32mI (120731) main: LVGL Tick: 60100[0m
+[0;32mI (120931) main: LVGL Tick: 60200[0m
+[0;32mI (121131) main: LVGL Tick: 60300[0m
+[0;32mI (121331) main: LVGL Tick: 60400[0m
+[0;32mI (121531) main: LVGL Tick: 60500[0m
+[0;32mI (121731) main: LVGL Tick: 60600[0m
+[0;32mI (121931) main: LVGL Tick: 60700[0m
+[0;32mI (122131) main: LVGL Tick: 60800[0m
+[0;32mI (122331) main: LVGL Tick: 60900[0m
+[0;32mI (122531) main: LVGL Tick: 61000[0m
+[0;32mI (122731) main: LVGL Tick: 61100[0m
+[0;32mI (122931) main: LVGL Tick: 61200[0m
+[0;32mI (123131) main: LVGL Tick: 61300[0m
+[0;32mI (123331) main: LVGL Tick: 61400[0m
+[0;32mI (123531) main: LVGL Tick: 61500[0m
+[0;32mI (123731) main: LVGL Tick: 61600[0m
+[0;32mI (123931) main: LVGL Tick: 61700[0m
+[0;32mI (124131) main: LVGL Tick: 61800[0m
+[0;32mI (124331) main: LVGL Tick: 61900[0m
+[0;32mI (124531) main: LVGL Tick: 62000[0m
+[0;32mI (124731) main: LVGL Tick: 62100[0m
+[0;32mI (124931) main: LVGL Tick: 62200[0m
+[0;32mI (125131) main: LVGL Tick: 62300[0m
+[0;32mI (125331) main: LVGL Tick: 62400[0m
+[0;32mI (125531) main: LVGL Tick: 62500[0m
+[0;32mI (125731) main: LVGL Tick: 62600[0m
+[0;32mI (125931) main: LVGL Tick: 62700[0m
+[0;32mI (126131) main: LVGL Tick: 62800[0m
+[0;32mI (126331) main: LVGL Tick: 62900[0m
+[0;32mI (126531) main: LVGL Tick: 63000[0m
+[0;32mI (126731) main: LVGL Tick: 63100[0m
+[0;32mI (126931) main: LVGL Tick: 63200[0m
+[0;32mI (127131) main: LVGL Tick: 63300[0m
+[0;32mI (127331) main: LVGL Tick: 63400[0m
+[0;32mI (127531) main: LVGL Tick: 63500[0m
+[0;32mI (127731) main: LVGL Tick: 63600[0m
+[0;32mI (127931) main: LVGL Tick: 63700[0m
+[0;32mI (128131) main: LVGL Tick: 63800[0m
+[0;32mI (128331) main: LVGL Tick: 63900[0m
+[0;32mI (128531) main: LVGL Tick: 64000[0m
+[0;32mI (128731) main: LVGL Tick: 64100[0m
+[0;32mI (128931) main: LVGL Tick: 64200[0m
+[0;32mI (129131) main: LVGL Tick: 64300[0m
+[0;32mI (129331) main: LVGL Tick: 64400[0m
+[0;32mI (129531) main: LVGL Tick: 64500[0m
+[0;32mI (129731) main: LVGL Tick: 64600[0m
+[0;32mI (129931) main: LVGL Tick: 64700[0m
+[0;32mI (130131) main: LVGL Tick: 64800[0m
+[0;32mI (130331) main: LVGL Tick: 64900[0m
+[0;32mI (130531) main: LVGL Tick: 65000[0m
+[0;32mI (130731) main: LVGL Tick: 65100[0m
+[0;32mI (130931) main: LVGL Tick: 65200[0m
+[0;32mI (131131) main: LVGL Tick: 65300[0m
+[0;32mI (131331) main: LVGL Tick: 65400[0m
+[0;32mI (131531) main: LVGL Tick: 65500[0m
+[0;32mI (131731) main: LVGL Tick: 65600[0m
+[0;32mI (131931) main: LVGL Tick: 65700[0m
+[0;32mI (132131) main: LVGL Tick: 65800[0m
+[0;32mI (132331) main: LVGL Tick: 65900[0m
+[0;32mI (132531) main: LVGL Tick: 66000[0m
+[0;32mI (132731) main: LVGL Tick: 66100[0m
+[0;32mI (132931) main: LVGL Tick: 66200[0m
+[0;32mI (133131) main: LVGL Tick: 66300[0m
+[0;32mI (133331) main: LVGL Tick: 66400[0m
+[0;32mI (133531) main: LVGL Tick: 66500[0m
+[0;32mI (133731) main: LVGL Tick: 66600[0m
+[0;32mI (133931) main: LVGL Tick: 66700[0m
+[0;32mI (134131) main: LVGL Tick: 66800[0m
+[0;32mI (134331) main: LVGL Tick: 66900[0m
+[0;32mI (134531) main: LVGL Tick: 67000[0m
+[0;32mI (134731) main: LVGL Tick: 67100[0m
+[0;32mI (134931) main: LVGL Tick: 67200[0m
+[0;32mI (135131) main: LVGL Tick: 67300[0m
+[0;32mI (135331) main: LVGL Tick: 67400[0m
+[0;32mI (135531) main: LVGL Tick: 67500[0m
+[0;32mI (135731) main: LVGL Tick: 67600[0m
+[0;32mI (135931) main: LVGL Tick: 67700[0m
+[0;32mI (136131) main: LVGL Tick: 67800[0m
+[0;32mI (136331) main: LVGL Tick: 67900[0m
+[0;32mI (136531) main: LVGL Tick: 68000[0m
+[0;32mI (136731) main: LVGL Tick: 68100[0m
+[0;32mI (136931) main: LVGL Tick: 68200[0m
+[0;32mI (137131) main: LVGL Tick: 68300[0m
+[0;32mI (137331) main: LVGL Tick: 68400[0m
+[0;32mI (137531) main: LVGL Tick: 68500[0m
+[0;32mI (137731) main: LVGL Tick: 68600[0m
+[0;32mI (137931) main: LVGL Tick: 68700[0m
+[0;32mI (138131) main: LVGL Tick: 68800[0m
+[0;32mI (138331) main: LVGL Tick: 68900[0m
+[0;32mI (138531) main: LVGL Tick: 69000[0m
+[0;32mI (138731) main: LVGL Tick: 69100[0m
+[0;32mI (138931) main: LVGL Tick: 69200[0m
+[0;32mI (139131) main: LVGL Tick: 69300[0m
+[0;32mI (139331) main: LVGL Tick: 69400[0m
+[0;32mI (139531) main: LVGL Tick: 69500[0m
+[0;32mI (139731) main: LVGL Tick: 69600[0m
+[0;32mI (139931) main: LVGL Tick: 69700[0m
+[0;32mI (140131) main: LVGL Tick: 69800[0m
+[0;32mI (140331) main: LVGL Tick: 69900[0m
+[0;32mI (140531) main: LVGL Tick: 70000[0m
+[0;32mI (140731) main: LVGL Tick: 70100[0m
+[0;32mI (140931) main: LVGL Tick: 70200[0m
+[0;32mI (141131) main: LVGL Tick: 70300[0m
+[0;32mI (141331) main: LVGL Tick: 70400[0m
+[0;32mI (141531) main: LVGL Tick: 70500[0m
+[0;32mI (141731) main: LVGL Tick: 70600[0m
+[0;32mI (141931) main: LVGL Tick: 70700[0m
+[0;32mI (142131) main: LVGL Tick: 70800[0m
+[0;32mI (142331) main: LVGL Tick: 70900[0m
+[0;32mI (142531) main: LVGL Tick: 71000[0m
+[0;32mI (142731) main: LVGL Tick: 71100[0m
+[0;32mI (142931) main: LVGL Tick: 71200[0m
+[0;32mI (143131) main: LVGL Tick: 71300[0m
+[0;32mI (143331) main: LVGL Tick: 71400[0m
+[0;32mI (143531) main: LVGL Tick: 71500[0m
+[0;32mI (143731) main: LVGL Tick: 71600[0m
+[0;32mI (143931) main: LVGL Tick: 71700[0m
+[0;32mI (144131) main: LVGL Tick: 71800[0m
+[0;32mI (144331) main: LVGL Tick: 71900[0m
+[0;32mI (144531) main: LVGL Tick: 72000[0m
+[0;32mI (144731) main: LVGL Tick: 72100[0m
+[0;32mI (144931) main: LVGL Tick: 72200[0m
+[0;32mI (145131) main: LVGL Tick: 72300[0m
+[0;32mI (145331) main: LVGL Tick: 72400[0m
+[0;32mI (145531) main: LVGL Tick: 72500[0m
+[0;32mI (145731) main: LVGL Tick: 72600[0m
+[0;32mI (145931) main: LVGL Tick: 72700[0m
+[0;32mI (146131) main: LVGL Tick: 72800[0m
+[0;32mI (146331) main: LVGL Tick: 72900[0m
+[0;32mI (146531) main: LVGL Tick: 73000[0m
+[0;32mI (146731) main: LVGL Tick: 73100[0m
+[0;32mI (146931) main: LVGL Tick: 73200[0m
+[0;32mI (147131) main: LVGL Tick: 73300[0m
+[0;32mI (147331) main: LVGL Tick: 73400[0m
+[0;32mI (147531) main: LVGL Tick: 73500[0m
+[0;32mI (147731) main: LVGL Tick: 73600[0m
+[0;32mI (147931) main: LVGL Tick: 73700[0m
+[0;32mI (148131) main: LVGL Tick: 73800[0m
+[0;32mI (148331) main: LVGL Tick: 73900[0m
+[0;32mI (148531) main: LVGL Tick: 74000[0m
+[0;32mI (148731) main: LVGL Tick: 74100[0m
+[0;32mI (148931) main: LVGL Tick: 74200[0m
+[0;32mI (149131) main: LVGL Tick: 74300[0m
+[0;32mI (149331) main: LVGL Tick: 74400[0m
+[0;32mI (149531) main: LVGL Tick: 74500[0m
+[0;32mI (149731) main: LVGL Tick: 74600[0m
+[0;32mI (149931) main: LVGL Tick: 74700[0m
+[0;32mI (150131) main: LVGL Tick: 74800[0m
+[0;32mI (150331) main: LVGL Tick: 74900[0m
+[0;32mI (150531) main: LVGL Tick: 75000[0m
+[0;32mI (150731) main: LVGL Tick: 75100[0m
+[0;32mI (150931) main: LVGL Tick: 75200[0m
+[0;32mI (151131) main: LVGL Tick: 75300[0m
+[0;32mI (151331) main: LVGL Tick: 75400[0m
+[0;32mI (151531) main: LVGL Tick: 75500[0m
+[0;32mI (151731) main: LVGL Tick: 75600[0m
+[0;32mI (151931) main: LVGL Tick: 75700[0m
+[0;32mI (152131) main: LVGL Tick: 75800[0m
+[0;32mI (152331) main: LVGL Tick: 75900[0m
+[0;32mI (152531) main: LVGL Tick: 76000[0m
+[0;32mI (152731) main: LVGL Tick: 76100[0m
+[0;32mI (152931) main: LVGL Tick: 76200[0m
+[0;32mI (153131) main: LVGL Tick: 76300[0m
+[0;32mI (153331) main: LVGL Tick: 76400[0m
+[0;32mI (153531) main: LVGL Tick: 76500[0m
+[0;32mI (153731) main: LVGL Tick: 76600[0m
+[0;32mI (153931) main: LVGL Tick: 76700[0m
+[0;32mI (154131) main: LVGL Tick: 76800[0m
+[0;32mI (154331) main: LVGL Tick: 76900[0m
+[0;32mI (154531) main: LVGL Tick: 77000[0m
+[0;32mI (154731) main: LVGL Tick: 77100[0m
+[0;32mI (154931) main: LVGL Tick: 77200[0m
+[0;32mI (155131) main: LVGL Tick: 77300[0m
+[0;32mI (155331) main: LVGL Tick: 77400[0m
+[0;32mI (155531) main: LVGL Tick: 77500[0m
+[0;32mI (155731) main: LVGL Tick: 77600[0m
+[0;32mI (155931) main: LVGL Tick: 77700[0m
+[0;32mI (156131) main: LVGL Tick: 77800[0m
+[0;32mI (156331) main: LVGL Tick: 77900[0m
+[0;32mI (156531) main: LVGL Tick: 78000[0m
+[0;32mI (156731) main: LVGL Tick: 78100[0m
+[0;32mI (156931) main: LVGL Tick: 78200[0m
+[0;32mI (157131) main: LVGL Tick: 78300[0m
+[0;32mI (157331) main: LVGL Tick: 78400[0m
+[0;32mI (157531) main: LVGL Tick: 78500[0m
+[0;32mI (157731) main: LVGL Tick: 78600[0m
+[0;32mI (157931) main: LVGL Tick: 78700[0m
+[0;32mI (158131) main: LVGL Tick: 78800[0m
+[0;32mI (158331) main: LVGL Tick: 78900[0m
+[0;32mI (158531) main: LVGL Tick: 79000[0m
+[0;32mI (158731) main: LVGL Tick: 79100[0m
+[0;32mI (158931) main: LVGL Tick: 79200[0m
+[0;32mI (159131) main: LVGL Tick: 79300[0m
+[0;32mI (159331) main: LVGL Tick: 79400[0m
+[0;32mI (159531) main: LVGL Tick: 79500[0m
+[0;32mI (159731) main: LVGL Tick: 79600[0m
+[0;32mI (159931) main: LVGL Tick: 79700[0m
+[0;32mI (160131) main: LVGL Tick: 79800[0m
+[0;32mI (160331) main: LVGL Tick: 79900[0m
+[0;32mI (160531) main: LVGL Tick: 80000[0m
+[0;32mI (160731) main: LVGL Tick: 80100[0m
+[0;32mI (160931) main: LVGL Tick: 80200[0m
+[0;32mI (161131) main: LVGL Tick: 80300[0m
+[0;32mI (161331) main: LVGL Tick: 80400[0m
+[0;32mI (161531) main: LVGL Tick: 80500[0m
+[0;32mI (161731) main: LVGL Tick: 80600[0m
+[0;32mI (161931) main: LVGL Tick: 80700[0m
+[0;32mI (162131) main: LVGL Tick: 80800[0m
+[0;32mI (162331) main: LVGL Tick: 80900[0m
+[0;32mI (162531) main: LVGL Tick: 81000[0m
+[0;32mI (162731) main: LVGL Tick: 81100[0m
+[0;32mI (162931) main: LVGL Tick: 81200[0m
+[0;32mI (163131) main: LVGL Tick: 81300[0m
+[0;32mI (163331) main: LVGL Tick: 81400[0m
+[0;32mI (163531) main: LVGL Tick: 81500[0m
+[0;32mI (163731) main: LVGL Tick: 81600[0m
+[0;32mI (163931) main: LVGL Tick: 81700[0m
+[0;32mI (164131) main: LVGL Tick: 81800[0m
+[0;32mI (164331) main: LVGL Tick: 81900[0m
+[0;32mI (164531) main: LVGL Tick: 82000[0m
+[0;32mI (164731) main: LVGL Tick: 82100[0m
+[0;32mI (164931) main: LVGL Tick: 82200[0m
+[0;32mI (165131) main: LVGL Tick: 82300[0m
+[0;32mI (165331) main: LVGL Tick: 82400[0m
+[0;32mI (165531) main: LVGL Tick: 82500[0m
+[0;32mI (165731) main: LVGL Tick: 82600[0m
+[0;32mI (165931) main: LVGL Tick: 82700[0m
+[0;32mI (166131) main: LVGL Tick: 82800[0m
+[0;32mI (166331) main: LVGL Tick: 82900[0m
+[0;32mI (166531) main: LVGL Tick: 83000[0m
+[0;32mI (166731) main: LVGL Tick: 83100[0m
+[0;32mI (166931) main: LVGL Tick: 83200[0m
+[0;32mI (167131) main: LVGL Tick: 83300[0m
+[0;32mI (167331) main: LVGL Tick: 83400[0m
+[0;32mI (167531) main: LVGL Tick: 83500[0m
+[0;32mI (167731) main: LVGL Tick: 83600[0m
+[0;32mI (167931) main: LVGL Tick: 83700[0m
+[0;32mI (168131) main: LVGL Tick: 83800[0m
+[0;32mI (168331) main: LVGL Tick: 83900[0m
+[0;32mI (168531) main: LVGL Tick: 84000[0m
+[0;32mI (168731) main: LVGL Tick: 84100[0m
+[0;32mI (168931) main: LVGL Tick: 84200[0m
+[0;32mI (169131) main: LVGL Tick: 84300[0m
+[0;32mI (169331) main: LVGL Tick: 84400[0m
+[0;32mI (169531) main: LVGL Tick: 84500[0m
+[0;32mI (169731) main: LVGL Tick: 84600[0m
+[0;32mI (169931) main: LVGL Tick: 84700[0m
+[0;32mI (170131) main: LVGL Tick: 84800[0m
+[0;32mI (170331) main: LVGL Tick: 84900[0m
+[0;32mI (170531) main: LVGL Tick: 85000[0m
+[0;32mI (170731) main: LVGL Tick: 85100[0m
+ESP-ROM:esp32s2-rc4-20191025
+Build:Oct 25 2019
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3ffe5110,len:0x1664
+load:0x4004a000,len:0x4
+load:0x4004a004,len:0xb18
+load:0x4004e000,len:0x335c
+entry 0x4004a1c8
+[0;32mI (23) boot: ESP-IDF v5.4.1 2nd stage bootloader[0m
+[0;32mI (24) boot: compile time Jun 12 2025 18:30:20[0m
+[0;32mI (24) boot: chip revision: v0.0[0m
+[0;32mI (24) boot: efuse block revision: v0.2[0m
+[0;32mI (28) boot.esp32s2: SPI Speed      : 80MHz[0m
+[0;32mI (32) boot.esp32s2: SPI Mode       : DIO[0m
+[0;32mI (35) boot.esp32s2: SPI Flash Size : 2MB[0m
+[0;32mI (39) boot: Enabling RNG early entropy source...[0m
+[0;32mI (44) boot: Partition Table:[0m
+[0;32mI (46) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (53) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (59) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (66) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (72) boot: End of partition table[0m
+[0;32mI (75) esp_image: segment 0: paddr=00010020 vaddr=3f000020 size=35e70h (220784) map[0m
+[0;32mI (126) esp_image: segment 1: paddr=00045e98 vaddr=3ff9e010 size=0001ch (    28) load[0m
+[0;32mI (127) esp_image: segment 2: paddr=00045ebc vaddr=3ffc2610 size=01dach (  7596) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00047c70 vaddr=40024000 size=083a8h ( 33704) load[0m
+[0;32mI (146) esp_image: segment 4: paddr=00050020 vaddr=40080020 size=42fd0h (274384) map[0m
+[0;32mI (200) esp_image: segment 5: paddr=00092ff8 vaddr=4002c3a8 size=06260h ( 25184) load[0m
+[0;32mI (213) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (213) boot: Disabling RNG early entropy source...[0m
+[0;32mI (223) cache: Instruction cache 	: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (223) cache: Data cache 		: size 8KB, 4Ways, cache line size 32Byte[0m
+[0;32mI (238) cpu_start: Unicore app[0m
+[0;32mI (246) cpu_start: Pro cpu start user code[0m
+[0;32mI (246)
